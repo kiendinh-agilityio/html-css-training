@@ -1,0 +1,89 @@
+.btn {
+  background: var(--bg-button);
+  border: 2px solid var(--bg-button);
+  border-radius: var(--border-radius-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-bold);
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: var(--border-radius-base);
+  border-bottom-right-radius: var(--border-radius-base);
+  padding: 17px 37px;
+  background: var(--bg-primary);
+  color: var(--color-text);
+  border: 2px solid var(--bg-secondary);
+}
+
+.btn-group > .btn:not(:first-child) {
+  border-top-left-radius: var(--border-radius-base);
+  border-bottom-left-radius: var(--border-radius-base);
+  margin-left: 15px;
+  padding: 17px 37px;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):hover {
+  background: var(--bg-button);
+  border: 2px solid var(--bg-button);
+  color: var(--color-primary);
+}
+
+.btn-group > .btn:not(:first-child):hover {
+  background: var(--bg-primary);
+  color: var(--color-text);
+  border: 2px solid var(--bg-secondary);
+}
+
+.btn-hero,
+.btn-about {
+  padding: 17px 69px;
+}
+
+.btn-about {
+  margin-top: 34px;
+}
+
+.btn-card {
+  padding: 15px 81px;
+}
+
+.btn-form {
+  width: 292px;
+  padding: 15px 83px;
+  margin: 30px auto;
+}
+
+.btn-footer {
+  padding: 19px 68px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btn {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+  }
+
+  .btn-hero {
+    margin: 66px 40px 0 0;
+    padding: 17px 43px;
+  }
+
+  .btn-card {
+    padding: 16px 39px;
+    margin-top: 42px;
+  }
+
+  .btn-form {
+    width: 214px;
+    padding: 16px 53px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .btn-group > .btn:not(:first-child) {
+    margin-left: 38px;
+  }
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  /* background-image: url("/src/assets/images/mobile/background.webp"); */
+  background-image: url("/src/assets/images/mobile/hydra.webp");
+  background-color: #302c42;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.container-fluid {
+  padding-left: var(--container-padding-sm);
+  padding-right: var(--container-padding-sm);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background-image: url("/src/assets/images/desktop/hydra.webp");
+    background-size: cover;
+    background-position: initial;
+  }
+
+  .container-fluid {
+    padding-left: var(--container-padding-md);
+    padding-right: var(--container-padding-md);
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container-fluid {
+    padding-left: var(--container-padding-lg);
+    padding-right: var(--container-padding-lg);
+  }
+}
