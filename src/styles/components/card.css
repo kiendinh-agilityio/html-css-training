@@ -21,7 +21,7 @@
 
 .card-description {
   font-size: var(--font-size-sm);
-  line-height: var(--line-height-sm);
+  line-height: var(--line-height-normal);
   padding: 0 33px;
   margin-top: 22px;
 }

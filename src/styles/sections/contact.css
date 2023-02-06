@@ -14,7 +14,9 @@
 }
 
 .contact-heading-border {
-  border-bottom: 1px solid var(--color-border-contact-heading);
+  border-bottom: 1px solid transparent;
+  border-image: var(--color-border-right);
+  border-image-slice: 1;
   padding-bottom: 20px;
   margin: 0 auto;
 }

@@ -24,8 +24,8 @@
 
 .copyright {
   font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  padding: 0 57px 40px;
+  line-height: var(--line-height-2xl);
+  padding: 0 58px 40px;
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -54,7 +54,7 @@
   .footer-hr-right {
     border-right: 6px solid transparent;
     border-image-slice: 1;
-    border-image: linear-gradient(to bottom, #343045, #c0b7e8, #343045) 1 100%;
+    border-image: var(--color-border-right);
     padding-right: 30px;
   }
 }

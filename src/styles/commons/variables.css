@@ -12,7 +12,8 @@
   --color-box-shadow: rgba(192, 183, 232, 0.01);
   --color-box-shadow-card-img: rgba(14, 14, 14, 0.32);
   --color-border-card-heading: rgba(192, 183, 232, 0.33);
-  --color-border-contact-heading: #c0b7e8;
+  --color-border-right: linear-gradient(to left, #343045, #c0b7e8, #343045) 1
+    100%;
   --color-border-input: #fff;
   --color-box-shadow-contact: rgba(0, 0, 0, 0.25);
   --color-footer-hr: #c0b7e8;
@@ -50,8 +51,9 @@
 
   /* line height */
   --line-height-sm: 15px;
-  --line-height-base: 17px;
-  --line-height-normal: 20px;
+  --line-height-base: 18px;
+  --line-height-md: 21px;
+  --line-height-normal: 25px;
   --line-height-lg: 29px;
   --line-height-xl: 31px;
   --line-height-2xl: 39px;
