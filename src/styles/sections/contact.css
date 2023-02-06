@@ -1,0 +1,93 @@
+.contact {
+  width: 100%;
+  padding: 45px 22px 65px;
+  border: 1px solid #211e2e;
+  background: var(--bg-contact-form);
+  border-radius: var(--border-radius-base);
+  box-shadow: 0px 4px 4px var(--color-box-shadow-contact);
+  margin-bottom: 80px;
+}
+
+.contact-heading {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+.contact-heading-border {
+  border-bottom: 1px solid var(--color-border-contact-heading);
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.contact-sub-heading {
+  margin-top: 19px;
+  margin-bottom: 36px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.form-control {
+  width: 100%;
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  border: 2px solid var(--color-border-input);
+  border-radius: var(--border-radius-base);
+  background: var(--bg-contact-form);
+  margin-bottom: 22px;
+  padding: 26px 28px;
+}
+
+.form-control:focus {
+  color: var(--color-text);
+  outline: none;
+  border-color: var(--color-border-input);
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: var(--color-text);
+}
+
+.textarea {
+  resize: none;
+  min-height: 219px;
+  padding-top: 16px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .contact {
+    padding: 45px 75px;
+    border-radius: var(--border-radius-lg);
+  }
+
+  .contact-heading {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-3xl);
+  }
+
+  .contact-heading-border {
+    width: 414px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .contact-form {
+    padding: 32px 28px;
+  }
+
+  .form-control {
+    margin-bottom: 39px;
+  }
+
+  .form-group {
+    gap: 10px;
+  }
+
+  .form-control {
+    padding: 33px 35px;
+  }
+}

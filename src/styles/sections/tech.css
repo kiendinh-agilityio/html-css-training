@@ -1,0 +1,80 @@
+.tech-content {
+  width: 100%;
+  min-height: 164px;
+  background-image: url("/src/assets/images/mobile/tech.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tech-heading {
+  font-size: var(--font-size-normal);
+  line-height: var(--line-height-normal);
+  margin-bottom: 14px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 400px) {
+  .tech-content {
+    height: 163px;
+    background-size: contain;
+    background-image: url("/src/assets/images/mobile/tech-portrait-phones.webp");
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .tech-content {
+    width: 100%;
+    background-image: url("/src/assets/images/mobile/tech-landscape-phones.webp");
+  }
+}
+
+/* Large devices (desktop, 992px and up) */
+@media (min-width: 992px) {
+  .tech-content {
+    height: 220px;
+    background-image: url("/src/assets/images/desktop/tech.webp");
+    background-size: cover;
+  }
+
+  .tech-list {
+    gap: 6px;
+  }
+
+  .tech-heading,
+  .tech-description {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-3xl);
+  }
+
+  .carousel-control-bottom {
+    bottom: -55px;
+  }
+}
+
+/* Extra large device (large desktop, 1200px and up) */
+@media (min-width: 1200px) {
+  .tech-content {
+    height: 248px;
+  }
+}
+
+/* Extra large device (large desktop, 1300px and up) */
+@media (min-width: 1300px) {
+  .tech-content {
+    height: 260px;
+  }
+
+  .tech-list {
+    padding: 60px 80px;
+    gap: 80px;
+  }
+}
+
+/* Extra large device (large desktop, 1440px and up) */
+@media (min-width: 1440px) {
+  .tech-content {
+    height: 303px;
+  }
+}

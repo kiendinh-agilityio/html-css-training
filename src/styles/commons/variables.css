@@ -1,0 +1,96 @@
+:root {
+  /* color */
+  --color-primary: #343045;
+  --color-text: #fff;
+  --color-hover: #c0b7e8;
+  --color-text-highlight: linear-gradient(
+    91.57deg,
+    #c0b7e8 -1.02%,
+    #8176af 36.25%
+  );
+  --color-border-hero-contact: #211e2e;
+  --color-box-shadow: rgba(192, 183, 232, 0.01);
+  --color-box-shadow-card-img: rgba(14, 14, 14, 0.32);
+  --color-border-card-heading: rgba(192, 183, 232, 0.33);
+  --color-border-contact-heading: #c0b7e8;
+  --color-border-input: #fff;
+  --color-box-shadow-contact: rgba(0, 0, 0, 0.25);
+  --color-footer-hr: #c0b7e8;
+
+  --bg-primary: #302c42;
+  --bg-secondary: #fff;
+  --bg-button: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  --bg-hero-contact: radial-gradient(
+    50% 2900.76% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  --bg-contact-form: radial-gradient(
+    50% 50% at 50% 50%,
+    #403a5f 0%,
+    #211e2e 100%
+  );
+
+  /* font family */
+  --font-family-primary: "Montserrat";
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* font size */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-normal: 16px;
+  --font-size-lg: 24px;
+  --font-size-xl: 26px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 46px;
+
+  /* line height */
+  --line-height-sm: 15px;
+  --line-height-base: 17px;
+  --line-height-normal: 20px;
+  --line-height-lg: 29px;
+  --line-height-xl: 31px;
+  --line-height-2xl: 39px;
+  --line-height-3xl: 43px;
+  --line-height-4xl: 48px;
+  --line-height-5xl: 56px;
+
+  /* container */
+  --container-padding-sm: 20px;
+  --container-padding-md: 40px;
+  --container-padding-lg: 84px;
+
+  /* border radius */
+  --border-radius-base: 40px;
+  --border-radius-sm: 60px;
+  --border-radius-md: 90px;
+  --border-radius-lg: 100px;
+  --border-radius-hero-img: 100px 100px 100px 240px;
+
+  /* width */
+  --width-header-logo-md: calc(
+    300 * 100% / 1272
+  ); /* width of header logo and margin left*/
+  --width-header-logo-lg: calc(
+    397 * 100% / 1272
+  ); /* width of header logo + margin left */
+  --width-hero-detail-lg: calc(
+    100% - 320px
+  ); /* 100% - width of hero image + margin = width hero detail on screen 992 */
+  --width-hero-detail-xl: calc(
+    100% - 654px
+  ); /* 100% - width of hero image + margin = width hero detail on screen 1200 */
+  --width-hero-detail-2xl: calc(
+    100% - 770px
+  ); /* 100% - width of hero image + margin = width hero detail on screen 1400 */
+  --width-description: calc(
+    100% - 450px
+  ); /* 100% - width of about detail + margin = width description on screen 992 */
+  --width-description-xl: calc(
+    100% - 620px
+  ); /* 100% - width of about detail + margin = width description on screen 1400 */
+}

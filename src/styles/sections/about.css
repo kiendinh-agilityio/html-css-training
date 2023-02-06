@@ -1,0 +1,27 @@
+.about {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.about-detail {
+  margin-bottom: 38px;
+}
+
+.about-info {
+  margin-top: 51px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .about-introduction {
+    margin-bottom: 72px;
+  }
+
+  .about-detail {
+    margin-bottom: 0;
+  }
+
+  .about-info {
+    margin-top: 0;
+  }
+}
