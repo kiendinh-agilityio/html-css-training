@@ -12,8 +12,7 @@
   --color-box-shadow: rgba(192, 183, 232, 0.01);
   --color-box-shadow-card-img: rgba(14, 14, 14, 0.32);
   --color-border-card-heading: rgba(192, 183, 232, 0.33);
-  --color-border-right: linear-gradient(to left, #343045, #c0b7e8, #343045) 1
-    100%;
+  --color-hr-right: linear-gradient(to left, #343045, #c0b7e8, #343045) 1 100%;
   --color-border-input: #fff;
   --color-box-shadow-contact: rgba(0, 0, 0, 0.25);
   --color-footer-hr: #c0b7e8;
@@ -90,7 +89,7 @@
     100% - 770px
   ); /* 100% - width of hero image + margin = width hero detail on screen 1400 */
   --width-description: calc(
-    100% - 450px
+    100% - 500px
   ); /* 100% - width of about detail + margin = width description on screen 992 */
   --width-description-xl: calc(
     100% - 620px

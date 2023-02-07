@@ -4,11 +4,11 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   color: var(--color-text);
-  /* background-image: url("/src/assets/images/mobile/background.webp"); */
   background-image: url("/src/assets/images/mobile/hydra.webp");
   background-color: #302c42;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
 }
 
 .container-fluid {

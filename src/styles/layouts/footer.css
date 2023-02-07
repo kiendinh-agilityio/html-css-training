@@ -18,7 +18,7 @@
   width: 289px;
   margin: 60px auto 38px;
   border-bottom: 1px solid transparent;
-  border-image: linear-gradient(to left, #343045, #c0b7e8, #343045) 1 100%;
+  border-image: var(--color-hr-right);
   border-image-slice: 1;
 }
 
@@ -54,7 +54,7 @@
   .footer-hr-right {
     border-right: 6px solid transparent;
     border-image-slice: 1;
-    border-image: var(--color-border-right);
+    border-image: linear-gradient(to bottom, #343045, #c0b7e8, #343045) 1 100%;
     padding-right: 30px;
   }
 }
