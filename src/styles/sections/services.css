@@ -9,6 +9,10 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .services {
+    margin-bottom: 114px;
+  }
+
   .services-list {
     margin-top: 60px;
     padding: 0;

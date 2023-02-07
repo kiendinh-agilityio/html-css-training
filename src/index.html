@@ -8,8 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" defer/>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,14 +25,15 @@
             <picture>
               <source
                 media="(min-width: 992px)"
-                width="192"
-                height="102"
-                srcset="./assets/images/desktop/header-logo.svg"
+                width="193"
+                height="103"
+                srcset="./assets/images/desktop/header-logo.webp"
+                loading="lazy"
               />
               <img
-                src="./assets/images/mobile/header-logo.svg"
-                width="117"
-                height="59"
+                src="./assets/images/mobile/header-logo.webp"
+                width="126"
+                height="60"
                 class="img-fluid"
                 alt="Hydra"
               />
@@ -219,6 +219,7 @@
               srcset="./assets/images/desktop/about.webp"
               width="524"
               height="557"
+              loading="lazy"
             />
             <img
               src="./assets/images/mobile/about.webp"
@@ -286,7 +287,7 @@
           <div class="card align-items-center services-card">
             <img
               class="card-img-top rounded-circle"
-              src="./assets/images/simulation.svg"
+              src="./assets/images/simulation.webp"
               alt="Simulation"
               width="192"
               height="192"
@@ -301,7 +302,7 @@
           <div class="d-none d-lg-flex align-items-center card services-card">
             <img
               class="card-img-top rounded-circle"
-              src="./assets/images/education.svg"
+              src="./assets/images/education.webp"
               alt="Education"
               width="192"
               height="192"
@@ -317,7 +318,7 @@
           <div class="d-none d-lg-flex align-items-center card services-card">
             <img
               class="card-img-top rounded-circle"
-              src="./assets/images/self-care.svg"
+              src="./assets/images/self-care.webp"
               alt="Self care"
               width="192"
               height="192"
@@ -333,7 +334,7 @@
           <div class="d-none d-lg-flex align-items-center card services-card">
             <img
               class="card-img-top rounded-circle"
-              src="./assets/images/outdoor.svg"
+              src="./assets/images/outdoor.webp"
               alt="Outdoor"
               width="192"
               height="192"

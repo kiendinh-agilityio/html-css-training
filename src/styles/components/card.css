@@ -9,7 +9,6 @@
 .card-img-top {
   width: 190px;
   height: 190px;
-  box-shadow: 0 0 10px 10px var(--color-box-shadow-card-img);
 }
 
 .card-heading {

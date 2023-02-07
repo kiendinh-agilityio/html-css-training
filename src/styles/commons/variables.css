@@ -12,7 +12,8 @@
   --color-box-shadow: rgba(192, 183, 232, 0.01);
   --color-box-shadow-card-img: rgba(14, 14, 14, 0.32);
   --color-border-card-heading: rgba(192, 183, 232, 0.33);
-  --color-hr-right: linear-gradient(to left, #343045, #c0b7e8, #343045) 1 100%;
+  --color-hr-bottom: linear-gradient(to left, #343045, #c0b7e8, #343045) 1 100%;
+  --color-hr-right: linear-gradient(to bottom, #343045, #c0b7e8, #343045) 1 100%;
   --color-border-input: #fff;
   --color-box-shadow-contact: rgba(0, 0, 0, 0.25);
   --color-footer-hr: #c0b7e8;
