@@ -9,7 +9,6 @@
   background: var(--color-text-highlight);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
 }
 
 .heading {
