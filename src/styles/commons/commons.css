@@ -87,6 +87,11 @@
   display: inline-block;
 }
 
+.width-text-highligh-lg {
+  min-width: 320px;
+  min-height: 39px;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .text-highlight {
