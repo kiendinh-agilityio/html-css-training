@@ -5,7 +5,7 @@
 .hero-title {
   font-size: var(--font-size-lg);
   line-height: var(--line-height-lg);
-  width: 298px;
+  max-width: 298px;
   margin-top: 30px;
   margin-bottom: 36px;
 }
@@ -30,7 +30,7 @@
   .hero-title {
     font-size: var(--font-size-4xl);
     line-height: var(--line-height-4xl);
-    width: 456px;
+    min-width: 456px;
   }
 
   .hero-detail {

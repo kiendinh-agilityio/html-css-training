@@ -33,7 +33,9 @@
   );
 
   /* font family */
-  --font-family-primary: "Montserrat";
+  --font-family-primary-regular: "Montserrat Regular";
+  --font-family-primary-light: "Montserrat Light";
+  --font-family-primary-bold: "Montserrat Bold";
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-bold: 700;

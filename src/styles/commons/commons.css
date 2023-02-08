@@ -21,6 +21,7 @@
 }
 
 .heading-item {
+  font-family: var(--font-family-primary-bold);
   font-size: var(--font-size-lg);
   line-height: var(--line-height-lg);
 }
@@ -63,6 +64,18 @@
 
 .gap-16 {
   gap: 16px;
+}
+
+.font-family-primary-bold {
+  font-family: var(--font-family-primary-bold);
+}
+
+.font-family-primary-light {
+  font-family: var(--font-family-primary-light);
+}
+
+.width-text-highlight {
+  min-width: 343px;
 }
 
 /* Large devices (desktops, 992px and up) */
