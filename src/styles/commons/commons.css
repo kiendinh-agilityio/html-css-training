@@ -123,16 +123,17 @@
   .mg-bottom-25 {
     margin-bottom: 25px;
   }
-}
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
   .width-description {
     width: var(--width-description);
   }
 
   .width-arrow {
     width: 150px;
+  }
+
+  .width-text-highligh-lg {
+    min-width: 560px;
   }
 }
 
