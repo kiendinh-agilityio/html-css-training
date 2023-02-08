@@ -33,6 +33,11 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .navbar {
+    min-width: 912px;
+    min-height: 207px;
+  }
+
   .hero-title {
     font-size: var(--font-size-4xl);
     line-height: var(--line-height-4xl);
