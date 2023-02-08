@@ -3,6 +3,7 @@
 }
 
 .text-highlight {
+  min-height: 39px;
   font-size: var(--font-size-2xl);
   line-height: var(--line-height-2xl);
   background: var(--color-text-highlight);
@@ -75,7 +76,11 @@
 }
 
 .width-text-highlight {
-  min-width: 343px;
+  min-width: 75px;
+}
+
+.width-sub-text-highlight {
+  min-width: 237px;
 }
 
 /* Large devices (desktops, 992px and up) */
