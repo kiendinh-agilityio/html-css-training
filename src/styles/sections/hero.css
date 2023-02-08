@@ -26,6 +26,11 @@
   gap: 10px;
 }
 
+.navbar {
+  min-width: 350px;
+  min-height: 115px;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .hero-title {
