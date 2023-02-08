@@ -83,6 +83,10 @@
   min-width: 237px;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .text-highlight {
