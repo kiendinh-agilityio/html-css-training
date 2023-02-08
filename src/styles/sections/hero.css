@@ -3,12 +3,12 @@
 }
 
 .hero-title {
-  /* font-size: var(--font-size-lg);
-  line-height: var(--line-height-lg); */
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
   min-width: 350px;
   min-height: 78px;
-  /* margin-top: 30px;
-  margin-bottom: 36px; */
+  margin-top: 30px;
+  margin-bottom: 36px;
 }
 
 .hero-contact-list {
