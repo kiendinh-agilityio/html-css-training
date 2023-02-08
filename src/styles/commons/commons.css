@@ -83,6 +83,10 @@
   min-width: 237px;
 }
 
+.d-initial {
+  display: initial;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .text-highlight {
