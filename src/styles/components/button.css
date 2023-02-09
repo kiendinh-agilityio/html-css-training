@@ -25,18 +25,6 @@
   padding: 17px 37px;
 }
 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle):hover {
-  background: var(--bg-button);
-  border: 2px solid var(--bg-button);
-  color: var(--color-primary);
-}
-
-.btn-group > .btn:not(:first-child):hover {
-  background: var(--bg-primary);
-  color: var(--color-text);
-  border: 2px solid var(--bg-secondary);
-}
-
 .btn-hero {
   min-width: 292px;
   padding: 17px 69px;
