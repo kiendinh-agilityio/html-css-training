@@ -73,7 +73,7 @@
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .btn-group > .btn:not(:first-child) {
     margin-left: 38px;

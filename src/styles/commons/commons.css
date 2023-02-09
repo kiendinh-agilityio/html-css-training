@@ -87,7 +87,7 @@
   display: inline-block;
 }
 
-.width-text-highligh-lg {
+.width-text-highlight-lg {
   min-width: 320px;
   min-height: 39px;
 }
@@ -137,12 +137,12 @@
     width: 150px;
   }
 
-  .width-text-highligh-lg {
+  .width-text-highlight-lg {
     min-width: 560px;
   }
 }
 
-/* Large devices (large desktops, 1400px and up) */
+/* Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .width-description {
     width: var(--width-description-xl);

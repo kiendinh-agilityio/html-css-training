@@ -59,7 +59,7 @@
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .hero-detail {
     width: var(--width-hero-detail-xl);
@@ -70,7 +70,7 @@
   }
 }
 
-/* Large devices (large desktops, 1400px and up) */
+/* Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .hero-detail {
     width: var(--width-hero-detail-2xl);

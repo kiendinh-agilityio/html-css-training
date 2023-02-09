@@ -13,7 +13,7 @@
   line-height: var(--line-height-lg);
 }
 
-.contact-heading-border {
+.hr-border-bottom {
   border-bottom: 1px solid transparent;
   border-image: var(--color-hr-bottom);
   border-image-slice: 1;
@@ -71,7 +71,7 @@
     line-height: var(--line-height-3xl);
   }
 
-  .contact-heading-border {
+  .hr-border-bottom {
     width: 414px;
     padding-top: 40px;
     padding-bottom: 30px;
