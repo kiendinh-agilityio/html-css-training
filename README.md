@@ -52,7 +52,7 @@ cd html-css-training
 ```
 
 ```sh
-git checkout feature/practice-page-speed
+git checkout feature/implement-big-practice
 ```
 
 ```sh
