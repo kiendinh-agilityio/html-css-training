@@ -1,0 +1,28 @@
+body {
+  font-family: var(--font-family-primary-regular);
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--bg-primary);
+}
+
+.container-fluid {
+  padding-left: var(--container-padding-sm);
+  padding-right: var(--container-padding-sm);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-left: var(--container-padding-md);
+    padding-right: var(--container-padding-md);
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-left: var(--container-padding-lg);
+    padding-right: var(--container-padding-lg);
+  }
+}
