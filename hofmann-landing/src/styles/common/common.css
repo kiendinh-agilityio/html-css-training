@@ -33,6 +33,20 @@
   margin: 0 auto;
 }
 
+.font-primary-bold {
+  font-family: var(--font-family-primary-bold);
+}
+
+.font-secondary-regular {
+  font-family: var(--font-family-secondary-regular);
+}
+
+.hr-bottom {
+  border-bottom: 2px solid var(--color-hr-bottom);
+  margin: 2px 0 20px;
+  max-width: 200px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .heading {
