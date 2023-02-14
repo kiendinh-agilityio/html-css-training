@@ -3,6 +3,8 @@
   --color-primary: #fff;
   --color-secondary: #ebcb80;
   --color-text: #fff;
+  --color-text-primary: #4b4b4b;
+  --color-heading: #4b4b4b;
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
@@ -35,6 +37,8 @@
   --line-height-3xl: 44px;
   --line-height-4xl: 48px;
   --line-height-5xl: 54px;
+
+  --line-height-lg-heading: 30px;
 
   /* container */
   --container-padding-sm: 15px;
