@@ -1,0 +1,52 @@
+.version {
+  margin-top: 37px;
+  width: 100%;
+  min-height: 312px;
+  background-image: url("/hofmann-landing/src/assets/images/mobile/version.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.version-content {
+  padding: 36px;
+}
+
+.version-description {
+  margin: 8px 0 20px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .version {
+    min-height: 314px;
+    background-image: url("/hofmann-landing/src/assets/images/tablet/version.webp");
+    background-position: center;
+  }
+
+  .version-description {
+    margin: 26px 0 29px;
+    max-width: 471px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .version {
+    height: 588px;
+    background-image: url("/hofmann-landing/src/assets/images/desktop/version.webp");
+  }
+
+  .version-content {
+    padding: 100px;
+  }
+
+  .version-heading {
+    padding: 60px 0 0;
+  }
+
+  .version-description {
+    margin: 23px 0 42px;
+    max-width: 555px;
+  }
+}

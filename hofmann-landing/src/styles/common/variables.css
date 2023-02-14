@@ -27,6 +27,7 @@
   --font-size-5xl: 64px;
 
   /* line height */
+  --line-height-tiny: 13px;
   --line-height-sm: 15px;
   --line-height-base: 16px;
   --line-height-md: 22px;
@@ -38,6 +39,7 @@
   --line-height-4xl: 48px;
   --line-height-5xl: 54px;
 
+  --line-height-lg-btn: 19px;
   --line-height-lg-heading: 30px;
 
   /* container */
@@ -46,4 +48,5 @@
   --container-padding-lg: 72px;
 
   /* border radius */
+  --border-radius-base: 50px;
 }
