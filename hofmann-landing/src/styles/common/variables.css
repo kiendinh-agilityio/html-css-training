@@ -32,6 +32,7 @@
   --font-size-4xl: 44px;
   --font-size-5xl: 64px;
 
+  --font-size-confession-name: 24px;
   --font-size-index-number-lg: 24px;
 
   /* line height */
@@ -51,6 +52,7 @@
   --line-height-heading-card: 27px;
   --line-height-index-number-lg: 29px;
   --line-height-lg-heading: 30px;
+  --line-height-lg-confession-name: 42px;
 
   /* container */
   --container-padding-sm: 15px;

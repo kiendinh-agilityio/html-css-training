@@ -1,0 +1,18 @@
+.dot {
+  width: 8px;
+  height: 8px;
+  border: 1.1px solid var(--color-primary);
+}
+
+.dot-active {
+  background: var(--color-primary);
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--color-primary);
+  }
+}
