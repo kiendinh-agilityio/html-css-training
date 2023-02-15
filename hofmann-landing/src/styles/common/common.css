@@ -47,6 +47,10 @@
   max-width: 200px;
 }
 
+.color-text-primary {
+  color: var(--color-text-primary);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .heading {

@@ -547,53 +547,61 @@
 
     <!-- Pricing section start -->
     <section class="pricing">
-      <div class="container-fluid">
-        <h2>Choose Your Plan</h2>
-        <div class="pricing-list">
-          <div class="card pricing-item">
+      <div
+        class="container-fluid d-flex flex-column justify-content-center text-center"
+      >
+        <h2 class="heading pricing-heading">Choose Your Plan</h2>
+        <div
+          class="d-flex flex-column align-items-center position-relative flex-md-row justify-content-center pricing-list"
+        >
+          <div class="card pricing-item pricing-silver">
             <div class="card-header">
               <p>SILVER</p>
-              <p><sup>$</sup>49</p>
+              <p class="price"><sup class="index-number">$</sup>49</p>
               <p>YEAR</p>
             </div>
-            <div class="card-body">
+            <div class="card-body pricing-card-body">
               <p>Personal Account</p>
               <p>25 GB Discspace</p>
               <p>50 Uploads per day</p>
             </div>
-            <button>PURCHASE</button>
+            <button class="btn btn-purchase mg-auto">PURCHASE</button>
           </div>
-          <div class="card pricing-item">
+          <div class="card pricing-item pricing-gold color-text-primary">
             <div class="card-header">
               <p>GOLD</p>
-              <p><sup>$</sup>99</p>
+              <p class="price"><sup class="index-number">$</sup>99</p>
               <p>YEAR</p>
             </div>
-            <div class="card-body">
+            <div class="card-body pricing-card-body">
               <p>Personal Account</p>
               <p>50 GB Discspace</p>
               <p>500 Uploads per day</p>
             </div>
-            <button>PURCHASE</button>
+            <button class="btn btn-purchase btn-active mg-auto">
+              PURCHASE
+            </button>
           </div>
-          <div class="card pricing-item">
+          <div class="card pricing-item pricing-platinum">
             <div class="card-header">
               <p>PLATINUM</p>
-              <p><sup>$</sup>299</p>
+              <p class="price"><sup class="index-number">$</sup>299</p>
               <p>YEAR</p>
             </div>
-            <div class="card-body">
+            <div class="card-body pricing-card-body">
               <p>Team Account</p>
               <p>500 GB Discspace</p>
               <p>Unlimited Uploads per day</p>
             </div>
-            <button>PURCHASE</button>
+            <button class="btn btn-purchase mg-auto">PURCHASE</button>
           </div>
         </div>
-        <div class="pricing-select">
+        <div
+          class="d-flex justify-content-center align-items-center d-md-none pricing-select"
+        >
           <a href="#" aria-label="Silver">SILVER</a>
-          <a href="#" aria-label="Silver">Gold</a>
-          <a href="#" aria-label="Silver">PLATINUM</a>
+          <a class="pricing-active" href="#" aria-label="Gold">GOLD</a>
+          <a href="#" aria-label="Platinum">PLATINUM</a>
         </div>
       </div>
     </section>

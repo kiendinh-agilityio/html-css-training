@@ -10,6 +10,10 @@
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
+  --bg-pricing: #f6f6f6;
+  --bg-btn-card: #4b4b4b;
+  --bg-card-primary: #4b4b4b;
+  --bg-card-secondary: #7d7d7d;
 
   /* font family */
   --font-family-primary-regular: "Montserrat Regular";
@@ -28,6 +32,8 @@
   --font-size-4xl: 44px;
   --font-size-5xl: 64px;
 
+  --font-size-index-number-lg: 24px;
+
   /* line height */
   --line-height-tiny: 13px;
   --line-height-sm: 15px;
@@ -42,6 +48,8 @@
   --line-height-5xl: 54px;
 
   --line-height-lg-btn: 19px;
+  --line-height-heading-card: 27px;
+  --line-height-index-number-lg: 29px;
   --line-height-lg-heading: 30px;
 
   /* container */
@@ -50,5 +58,7 @@
   --container-padding-lg: 72px;
 
   /* border radius */
+  --border-radius-md: 8px;
+  --border-radius-lg: 48px;
   --border-radius-base: 50px;
 }
