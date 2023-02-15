@@ -16,6 +16,7 @@
   --bg-btn-card: #4b4b4b;
   --bg-card-primary: #4b4b4b;
   --bg-card-secondary: #7d7d7d;
+  --bg-footer: #4b4b4b;
 
   /* font family */
   --font-family-primary-regular: "Montserrat Regular";
@@ -36,6 +37,7 @@
 
   --font-size-confession-name: 24px;
   --font-size-index-number-lg: 24px;
+  --font-size-footer-logo: 24px;
 
   /* line height */
   --line-height-tiny: 13px;
@@ -51,6 +53,7 @@
   --line-height-5xl: 54px;
 
   --line-height-lg-btn: 19px;
+  --line-height-lg-placeholder: 27px;
   --line-height-heading-card: 27px;
   --line-height-contact: 27px;
   --line-height-index-number-lg: 29px;
@@ -63,6 +66,7 @@
   --container-padding-lg: 72px;
 
   /* border radius */
+  --border-radius-tiny: 2px;
   --border-radius-md: 8px;
   --border-radius-lg: 48px;
   --border-radius-base: 50px;
