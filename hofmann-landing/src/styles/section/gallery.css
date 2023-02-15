@@ -1,0 +1,51 @@
+.gallery {
+  padding: 29px 0 50px;
+}
+
+.gallery-list {
+  margin: 20px 0 33px;
+}
+
+.gallery-item {
+  height: 145px;
+}
+
+.pagination {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  gap: 31px;
+  cursor: pointer;
+}
+
+.pagination-active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 32px;
+  height: 32px;
+  color: var(--color-secondary);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .gallery-item {
+    height: 240px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .gallery {
+    padding: 66px 0 70px;
+  }
+
+  .gallery-list {
+    margin: 54px 0 60px;
+  }
+
+  .gallery-item {
+    height: 380px;
+  }
+
+  .pagination {
+    font-size: var(--font-size-normal);
+  }
+}

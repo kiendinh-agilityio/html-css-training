@@ -609,162 +609,186 @@
 
     <!-- Gallery section start -->
     <section class="gallery">
-      <div class="container-fluid">
-        <h2>Portfolio</h2>
-        <div>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="380"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-one.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="240"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-one.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-one.webp"
-              width="145"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="380"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-two.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="240"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-two.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-two.webp"
-              width="145"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="760"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-three.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="480"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-three.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-three.webp"
-              width="290"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <div>
-            <p>Blue Mountains</p>
-            <p>17 Apr 2016</p>
-            <p>
-              Planning a vacation to Europe? No doubt you have certain
-              expectations about your upcoming journey.
-            </p>
-          </div>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="380"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-four.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="240"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-four.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-four.webp"
-              width="145"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="380"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-five.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="240"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-five.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-five.webp"
-              width="145"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              width="760"
-              height="380"
-              srcset="./assets/images/desktop/gallery-img-six.webp"
-              loading="lazy"
-            />
-            <source
-              media="(min-width: 768px)"
-              width="480"
-              height="240"
-              srcset="./assets/images/tablet/gallery-img-six.webp"
-              loading="lazy"
-            />
-            <img
-              src="./assets/images/mobile/gallery-img-six.webp"
-              width="290"
-              height="145"
-              class="img-fluid"
-              alt="Gallery img"
-            />
-          </picture>
-          <div>
-            <p>Scenery Photos</p>
-            <p>BY EVGENY METILAN</p>
-            <p>Wild Nature</p>
-          </div>
-        </div>
-        <ul class="pagination">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading">Portfolio</h2>
+        <ul class="d-flex flex-wrap justify-content-center gallery-list">
+          <li class="order-md-1 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="380"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-one.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="240"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-one.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-one.webp"
+                width="145"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-4 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="380"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-two.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="240"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-two.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-two.webp"
+                width="145"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-2 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="760"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-three.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="480"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-three.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-three.webp"
+                width="290"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-7 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="380"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-four.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="240"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-four.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-four.webp"
+                width="145"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-5 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="380"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-five.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="240"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-five.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-five.webp"
+                width="145"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-3 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="760"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-six.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="480"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-six.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-six.webp"
+                width="290"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+          <li class="order-md-6 gallery-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="380"
+                height="380"
+                srcset="./assets/images/desktop/gallery-img-seven.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="240"
+                height="240"
+                srcset="./assets/images/tablet/gallery-img-seven.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/gallery-img-seven.webp"
+                width="290"
+                height="145"
+                class="img-fluid"
+                alt="Gallery img"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul class="justify-content-center align-items-center pagination">
           <li>
             <a href="#" aria-label="Carousel prev">
               <img src="./assets/images/prev.svg" alt="Prev" />
@@ -773,8 +797,12 @@
           <li>1</li>
           <li>2</li>
           <li>3</li>
-          <li>4</li>
-          <li>5</li>
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle pagination-active"
+          >
+            4
+          </li>
+          <li class="d-none d-md-block">5</li>
           <li>
             <a href="#" aria-label="Carousel next">
               <img src="./assets/images/next.svg" alt="Next" />
