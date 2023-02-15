@@ -850,62 +850,80 @@
 
     <!-- Contact section start -->
     <section class="contact">
-      <div class="container-fluid">
-        <h2>Stay In Touch</h2>
-        <div class="contact-content">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading">Stay In Touch</h2>
+        <div
+          class="d-flex flex-column flex-md-row justify-content-md-between align-items-lg-center contact-content"
+        >
           <img
+            class="d-none d-lg-block"
             src="./assets/images/desktop/contact-img.webp"
             width="315"
             height="351"
             alt="Iphone"
           />
-          <form class="contact-form">
-            <div>
-              <input type="text" placeholder="Name*" />
-              <input type="email" placeholder="Email*" />
+          <form class="d-flex flex-column contact-form">
+            <div class="d-flex flex-row form-group">
+              <input class="form-control" type="text" placeholder="Name*" />
+              <input class="form-control" type="email" placeholder="Email*" />
             </div>
-            <textarea placeholder="Message*"></textarea>
-            <button>SUBMIT</button>
+            <textarea
+              class="contact-textarea"
+              placeholder="Message*"
+            ></textarea>
+            <button class="btn mg-auto">SUBMIT</button>
           </form>
           <div class="contact-information">
-            <address>
-              <div>
-                <img
-                  src="./assets/images/location.svg"
-                  width="11"
-                  height="17"
-                  alt="Location"
-                />
-                <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+            <address class="d-flex flex-column text-lg-left contact-form-info">
+              <div class="d-flex flex-row contact-form-info-item">
+                <div class="d-flex align-items-center contact-form-info-icon">
+                  <img
+                    src="./assets/images/location.svg"
+                    width="11"
+                    height="17"
+                    alt="Location"
+                  />
+                </div>
+                <p class="description location">
+                  2300 W Arbutus Dr Citrus Springs, FL 34434, USA
+                </p>
               </div>
-              <div>
-                <img
-                  src="./assets/images/mail.svg"
-                  width="17"
-                  height="10"
-                  alt="Mail"
-                />
+              <div class="d-flex flex-row contact-form-info-item">
+                <div class="d-flex align-items-center contact-form-info-icon">
+                  <img
+                    src="./assets/images/mail.svg"
+                    width="17"
+                    height="10"
+                    alt="Mail"
+                  />
+                </div>
                 <a
+                  class="description"
                   href="mailto: contact@hofmannui.net"
                   aria-label="Link to email: contact@hofmannui.net"
                   >contact@hofmannui.net</a
                 >
               </div>
-              <div>
-                <img
-                  src="./assets/images/phone.svg"
-                  width="12"
-                  height="17"
-                  alt="Phone"
-                />
+              <div class="d-flex flex-row contact-form-info-item">
+                <div class="d-flex align-items-center contact-form-info-icon">
+                  <img
+                    src="./assets/images/phone.svg"
+                    width="12"
+                    height="17"
+                    alt="Phone"
+                  />
+                </div>
                 <a
+                  class="description"
                   href="tel:7938917938, 9527756021"
                   aria-label="Link to phone: 7938917938, 9527756021"
                   >793-891-7938, 952-775-6021</a
                 >
               </div>
             </address>
-            <div>
+            <div
+              class="d-flex justify-content-between justify-content-md-start contact-social-list"
+            >
               <a href="#" aria-label="Pinterest">
                 <img
                   src="./assets/images/contact/pinterest.svg"
@@ -953,21 +971,21 @@
       <picture class="contact-map">
         <source
           media="(min-width: 992px)"
-          width="1440"
+          width="100%"
           height="400"
           srcset="./assets/images/desktop/map.webp"
           loading="lazy"
         />
         <source
           media="(min-width: 768px)"
-          width="768"
+          width="100%"
           height="216"
           srcset="./assets/images/tablet/map.webp"
           loading="lazy"
         />
         <img
           src="./assets/images/mobile/map.webp"
-          width="320"
+          width="100%"
           height="268"
           class="img-fluid"
           alt="Map"
