@@ -84,4 +84,8 @@
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
   }
+
+  .z-index-1 {
+    z-index: -1;
+  }
 }

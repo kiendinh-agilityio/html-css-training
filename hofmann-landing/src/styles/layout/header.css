@@ -3,7 +3,7 @@
   min-height: 540px;
   background-image: url("/hofmann-landing/src/assets/images/mobile/background.webp");
   background-image: image-set(
-    url("/hofmann-landing/src/assets/images/mobile/background.jpg") 2x
+    url("/hofmann-landing/src/assets/images/mobile/background.jpg")
   ); /* Safari */
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,7 +60,7 @@
   .header {
     background-image: url("/hofmann-landing/src/assets/images/tablet/background.webp");
     background-image: image-set(
-      url("/hofmann-landing/src/assets/images/tablet/background.jpg") 2x
+      url("/hofmann-landing/src/assets/images/tablet/background.jpg")
     ); /* Safari */
     background-size: cover;
     background-position: initial;
@@ -85,7 +85,7 @@
     height: 768px;
     background-image: url("/hofmann-landing/src/assets/images/desktop/background.webp");
     background-image: image-set(
-      url("/hofmann-landing/src/assets/images/desktop/background.jpg") 2x
+      url("/hofmann-landing/src/assets/images/desktop/background.jpg")
     ); /* Safari */
   }
 

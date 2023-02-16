@@ -30,7 +30,6 @@
 }
 
 .form-control:focus {
-  color: var(--color-text-primary);
   outline: none;
   border-color: var(--color-text-primary);
   box-shadow: none;
