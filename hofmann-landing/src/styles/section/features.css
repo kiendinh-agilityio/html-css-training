@@ -21,6 +21,16 @@
   margin-left: 14px;
 }
 
+.features-heading {
+  min-width: 124px;
+  min-height: 40px;
+}
+
+.features-sub-heading {
+  min-width: 295px;
+  min-height: 24px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .features {
