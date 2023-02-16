@@ -1,0 +1,91 @@
+.testimonials {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.testimonials-list {
+  margin-top: 15px;
+  gap: 36px;
+}
+
+.testimonials-text {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+  color: var(--color-text-primary);
+}
+
+.testimonials-text-color {
+  color: var(--color-testimonials-job);
+}
+
+.testimonials-item {
+  gap: 18px;
+}
+
+.testimonials-social-list {
+  margin-top: 18px;
+  gap: 14px;
+}
+
+.testimonials-img {
+  margin-top: 10px;
+}
+
+.testimonials-text-description {
+  width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .testimonials-list {
+    padding: 29px 15px;
+    gap: 82px;
+  }
+
+  .testimonials-item {
+    gap: 28px;
+  }
+
+  .testimonials-text-description {
+    max-width: 200px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+  .testimonials-text {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-lg);
+  }
+
+  .testimonials-text-description {
+    max-width: 240px;
+  }
+
+  .testimonials-hr-item {
+    border-bottom: 1px solid #f6f6f6;
+    border-radius: 8px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials-list {
+    padding: 50px;
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .testimonials-item {
+    padding: 0 30px;
+  }
+
+  .testimonials-text-description {
+    max-width: 351px;
+  }
+
+  .testimonials-hr-item {
+    padding-bottom: 48px;
+  }
+}

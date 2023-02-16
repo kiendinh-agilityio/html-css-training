@@ -1,0 +1,127 @@
+.confession {
+  background-image: url("/hofmann-landing/src/assets/images/mobile/confession.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/confession.jpg") 2x
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 315px;
+}
+
+.confession-content {
+  padding: 32px 25px;
+  gap: 5px;
+}
+
+.confession-name {
+  font-size: var(--font-size-confession-name);
+  line-height: var(--line-height-lg);
+}
+
+.confession-job {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+.confession-info {
+  margin-top: 24px;
+}
+
+.confession-dot-list {
+  margin-top: 40px;
+  gap: 9px;
+}
+
+.confession-job {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+/* Medium devices (large desktops, 768px and up) */
+@media (min-width: 768px) {
+  .confession {
+    background-image: url("/hofmann-landing/src/assets/images/tablet/confession.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/confession.jpg") 2x
+    ); /* Safari */
+  }
+
+  .confession-content-empty {
+    width: 50%;
+  }
+
+  .confession-content {
+    padding: 0;
+    width: 50%;
+    min-height: 275px;
+  }
+
+  .confession-description {
+    max-width: 282px;
+  }
+
+  .confession-dot-list {
+    margin-top: 0;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .confession {
+    background-image: url("/hofmann-landing/src/assets/images/desktop/confession.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/confession.jpg") 2x
+    ); /* Safari */
+    min-height: 590px;
+  }
+
+  .confession-name {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-lg-confession-name);
+  }
+
+  .confession-job {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-lg-heading);
+  }
+
+  .confession-content {
+    min-height: 481px;
+  }
+
+  .confession-description {
+    max-width: 360px;
+  }
+
+  .confession-job {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-lg);
+  }
+
+  .confession-dot-list {
+    gap: 11px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .confession-content-empty {
+    width: calc(1048 * 100% / 1440);
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .confession-content-empty {
+    width: calc(1120 * 100% / 1440);
+  }
+
+  .confession-content {
+    min-height: 500px;
+  }
+
+  .confession-dot-list {
+    width: calc(110 * 100% / 1400);
+  }
+}

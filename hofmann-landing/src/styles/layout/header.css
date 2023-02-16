@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  min-height: 540px;
+  background-image: url("/hofmann-landing/src/assets/images/mobile/background.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/background.jpg") 2x
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.navbar {
+  padding: 21px 0;
+}
+
+.nav-social {
+  gap: 22px;
+}
+
+.navbar-nav {
+  gap: 38px;
+}
+
+.nav-item:hover {
+  color: var(--color-secondary);
+}
+
+.header-content {
+  font-family: var(--font-family-primary-bold);
+}
+
+.header-heading {
+  padding: 43px;
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-normal);
+}
+
+.button-player {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.down-arrow {
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-item {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-secondary-regular);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header {
+    background-image: url("/hofmann-landing/src/assets/images/tablet/background.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/background.jpg") 2x
+    ); /* Safari */
+    background-size: cover;
+    background-position: initial;
+  }
+
+  .navbar {
+    padding: 32px 0;
+  }
+
+  .header-heading {
+    max-width: 524px;
+    padding: 40px 0;
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-xl);
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    height: 768px;
+    background-image: url("/hofmann-landing/src/assets/images/desktop/background.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/background.jpg") 2x
+    ); /* Safari */
+  }
+
+  .nav-item {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-md);
+  }
+
+  .header-heading {
+    max-width: 650px;
+    padding: 50px 0;
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-4xl);
+    margin-top: 20px;
+  }
+
+  .nav-social {
+    gap: 43px;
+  }
+
+  .navbar-nav {
+    gap: 50px;
+  }
+
+  .header-social-icon {
+    width: 29px;
+    height: 24px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 47px 80px 0;
+  }
+}
