@@ -26,3 +26,11 @@ body {
     padding-right: var(--container-padding-lg);
   }
 }
+
+/* Large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .container-fluid {
+    padding-left: var(--container-padding-xl);
+    padding-right: var(--container-padding-xl);
+  }
+}

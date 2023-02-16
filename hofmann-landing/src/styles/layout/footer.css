@@ -55,7 +55,7 @@
   margin-bottom: 32px;
 }
 
-.footer-nav-list {
+.footer-nav-item {
   gap: 8px;
 }
 
@@ -164,5 +164,16 @@
 
   .footer-contact-tablet {
     width: calc(100% / 2 + 150px);
+  }
+}
+
+/* Extra large devices (large desktop, 1600px and up) */
+@media (min-width: 1600px) {
+  .footer-nav {
+    width: 0;
+  }
+
+  .footer-nav-item {
+    padding: 0 40px;
   }
 }

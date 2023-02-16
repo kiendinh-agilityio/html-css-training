@@ -2,6 +2,9 @@
   width: 100%;
   min-height: 540px;
   background-image: url("/hofmann-landing/src/assets/images/mobile/background.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/background.jpg") 2x
+  ); /* Safari */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: initial;
@@ -54,6 +57,9 @@
 @media (min-width: 768px) {
   .header {
     background-image: url("/hofmann-landing/src/assets/images/tablet/background.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/background.jpg") 2x
+    ); /* Safari */
     background-size: cover;
     background-position: initial;
   }
@@ -75,10 +81,9 @@
   .header {
     height: 768px;
     background-image: url("/hofmann-landing/src/assets/images/desktop/background.webp");
-  }
-
-  .navbar {
-    padding: 47px 80px 0;
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/background.jpg") 2x
+    ); /* Safari */
   }
 
   .nav-item {
@@ -105,5 +110,12 @@
   .header-social-icon {
     width: 29px;
     height: 24px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 47px 80px 0;
   }
 }

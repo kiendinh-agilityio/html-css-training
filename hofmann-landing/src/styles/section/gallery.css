@@ -3,7 +3,7 @@
 }
 
 .gallery-list {
-  margin: 20px 0 33px;
+  margin: 20px auto 33px;
 }
 
 .gallery-item {
@@ -24,10 +24,18 @@
   color: var(--color-secondary);
 }
 
+.gallery-list {
+  max-width: 290px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .gallery-item {
     height: 240px;
+  }
+
+  .gallery-list {
+    max-width: 720px;
   }
 }
 
@@ -38,14 +46,34 @@
   }
 
   .gallery-list {
-    margin: 54px 0 60px;
+    max-width: 850px;
+    margin: 54px auto 60px;
   }
 
   .gallery-item {
-    height: 380px;
+    height: 250px;
   }
 
   .pagination {
     font-size: var(--font-size-normal);
+  }
+
+  .gallery-img-small {
+    width: calc(1 / 3 * 100%);
+  }
+
+  .gallery-img-big {
+    width: calc(2 / 3 * 100%);
+  }
+}
+
+/* Large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .gallery-list {
+    max-width: 1140px;
+  }
+
+  .gallery-item {
+    height: 380px;
   }
 }

@@ -29,7 +29,7 @@
   color: var(--color-text);
 }
 
-.mg-auto {
+.margin-auto {
   margin: 0 auto;
 }
 
@@ -49,6 +49,10 @@
 
 .color-text-primary {
   color: var(--color-text-primary);
+}
+
+.color-text-secondary {
+  color: var(--color-secondary);
 }
 
 /* Medium devices (tablets, 768px and up) */

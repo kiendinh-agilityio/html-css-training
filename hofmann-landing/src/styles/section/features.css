@@ -59,6 +59,10 @@
     gap: 35px;
     width: calc(871 * 100% / 992);
   }
+
+  .features-heading {
+    margin-bottom: 30px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */

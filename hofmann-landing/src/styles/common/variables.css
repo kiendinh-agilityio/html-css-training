@@ -64,6 +64,7 @@
   --container-padding-sm: 15px;
   --container-padding-md: 24px;
   --container-padding-lg: 72px;
+  --container-padding-xl: 120px;
 
   /* border radius */
   --border-radius-tiny: 2px;
