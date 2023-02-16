@@ -84,6 +84,13 @@
   }
 
   .features-item {
-    max-width: 262px;
+    max-width: 340px;
+  }
+}
+
+/* Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px) {
+  .features-item {
+    max-width: none;
   }
 }

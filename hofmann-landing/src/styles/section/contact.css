@@ -146,12 +146,16 @@
     gap: 35px;
   }
 
+  .contact-information {
+    padding-bottom: 50px;
+  }
+
   .location {
     max-width: 234px;
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .contact-content {
     gap: 70px;
@@ -164,5 +168,17 @@
   .contact-information {
     gap: 30px;
     padding: 60px;
+    width: calc(1 / 3 * 100%);
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .contact-introduction {
+    padding: 0 60px;
+  }
+
+  .contact-form-group {
+    width: 360px;
   }
 }
