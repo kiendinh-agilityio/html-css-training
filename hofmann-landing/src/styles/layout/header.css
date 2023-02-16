@@ -75,6 +75,7 @@
     padding: 40px 0;
     font-size: var(--font-size-2xl);
     line-height: var(--line-height-xl);
+    margin: auto;
   }
 }
 
@@ -98,7 +99,7 @@
     padding: 50px 0;
     font-size: var(--font-size-4xl);
     line-height: var(--line-height-4xl);
-    margin-top: 20px;
+    margin: 20px auto 0;
   }
 
   .nav-social {
