@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Acme Regular";
+  font-style: "normal";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/hofmann-landing/src/assets/fonts/Acme-Regular.woff2")
+      format("woff2"),
+    url("/hofmann-landing/src/assets/fonts/Acme-Regular.ttf") format("ttf"),
+    url("/hofmann-landing/src/assets/fonts/Acme-Regular.otf") format("otf"),
+    url("/hofmann-landing/src/assets/fonts/Acme-Regular.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-style: "normal";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/hofmann-landing/src/assets/fonts/Montserrat-Regular.woff2")
+      format("woff2"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Regular.ttf")
+      format("ttf"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Regular.otf")
+      format("otf"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Regular.eot")
+      format("eot");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: "normal";
+  font-weight: 700;
+  font-display: swap;
+  src: url("/hofmann-landing/src/assets/fonts/Montserrat-Bold.woff2")
+      format("woff2"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Bold.ttf") format("ttf"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Bold.otf") format("otf"),
+    url("/hofmann-landing/src/assets/fonts/Montserrat-Bold.eot") format("eot");
+}

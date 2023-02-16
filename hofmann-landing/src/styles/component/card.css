@@ -1,0 +1,41 @@
+.card {
+  background: var(--bg-primary);
+  border: 1px solid var(--bg-primary);
+  border-radius: var(--border-radius-md);
+  width: 100%;
+  font-family: var(--font-family-secondary-regular);
+}
+
+.card-header {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-heading-card);
+  background-color: unset;
+  border-bottom: none;
+  padding: 12px 0 0;
+}
+
+.card-body {
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-normal);
+  flex: none;
+  padding: 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-header {
+    padding: 20px 0 0;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-header {
+    padding: 40px 0 0;
+    font-size: var(--font-size-normal);
+  }
+
+  .card-body {
+    font-size: var(--font-size-base);
+  }
+}
