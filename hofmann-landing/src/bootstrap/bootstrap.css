@@ -560,6 +560,11 @@ h2,
     justify-content: center !important;
   }
 
+  .justify-content-lg-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+
   .align-items-lg-center {
     -ms-flex-align: center !important;
     align-items: center !important;

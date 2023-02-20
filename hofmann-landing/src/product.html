@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Product Page</title>
   </head>
   <body>
@@ -103,19 +106,46 @@
             />
           </button>
         </nav>
-        <div class="header-product-content">
-          <div>
-            <p>RESPONSIVE UI KIT</p>
-            <h1 class="product-heading">HOFMANN</h1>
-            <p>We’re Bring It To The New Level</p>
-            <p>
-              Every new computer that’s brought home from the store has an
-              operating system installed onto it. But what most new computer
-              users don’t realize, is that without an operating system, that
-              computer would be a simple shell of possibilities.
-            </p>
+        <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-between justify-content-lg-center position-relative header-product-content">
+          <div class="d-flex flex-column justify-content-lg-between product-introduction">
+            <p class="product-introduction-heading">RESPONSIVE UI KIT</p>
+            <div>
+              <h1 class="product-heading">HOFMANN</h1>
+              <p>We’re Bring It To The New Level</p>
+              <p class="product-header-description">
+                Every new computer that’s brought home from the store has an
+                operating system installed onto it. But what most new computer
+                users don’t realize, is that without an operating system, that
+                computer would be a simple shell of possibilities.
+              </p>
+            </div>
+            <div class="d-none d-md-block">
+              <a href="#" class="btn-app-store" aria-label="App store">
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    width="135"
+                    height="40"
+                    srcset="./assets/images/desktop/product/app-store.svg"
+                    loading="lazy"
+                  />
+                  <img src="./assets/images/product/app-store.svg" width="68" height="20" alt="App store">
+                </picture>
+              </a>
+              <a href="#" class="btn-google-play" aria-label="Google play">
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    width="135"
+                    height="40"
+                    srcset="./assets/images/desktop/product/google-play.svg"
+                    loading="lazy"
+                  />
+                <img src="./assets/images/product/google-play.svg" width="68" height="20" alt="Google play">
+              </a>
+            </div>
           </div>
-          <picture>
+          <picture class="position-relative product-header-img">
             <source
               media="(min-width: 992px)"
               width="358"
@@ -134,13 +164,34 @@
               src="./assets/images/mobile/product/iphone.webp"
               width="225"
               height="110"
-              class="img-fluid"
+              class="img-iphone"
               alt="Iphone"
             />
           </picture>
-          <div>
-            <button class="btn-app-store"></button>
-            <button class="btn-google-play"></button>
+          <div class="d-md-none">
+            <a href="#" class="btn-app-store" aria-label="App store">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  width="135"
+                  height="40"
+                  srcset="./assets/images/desktop/product/app-store.svg"
+                  loading="lazy"
+                />
+                <img src="./assets/images/product/app-store.svg" width="68" height="20" alt="App store">
+              </picture>
+            </a>
+            <a href="#" class="btn-google-play" aria-label="Google play">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  width="135"
+                  height="40"
+                  srcset="./assets/images/desktop/product/google-play.svg"
+                  loading="lazy"
+                />
+              <img src="./assets/images/product/google-play.svg" width="68" height="20" alt="Google play">
+            </a>
           </div>
         </div>
       </div>

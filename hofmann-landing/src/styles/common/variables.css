@@ -55,6 +55,7 @@
   --line-height-3xl: 44px;
   --line-height-4xl: 48px;
   --line-height-5xl: 54px;
+  --line-height-7xl: 78px;
 
   --line-height-lg-btn: 19px;
   --line-height-lg-placeholder: 27px;
@@ -75,6 +76,7 @@
   /* border radius */
   --border-radius-tiny: 2px;
   --border-radius-md: 8px;
+  --border-radius-normal: 20px;
   --border-radius-lg: 48px;
   --border-radius-base: 50px;
 }
