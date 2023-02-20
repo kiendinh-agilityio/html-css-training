@@ -581,6 +581,11 @@ h2,
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
+
+  .justify-content-xl-around {
+    -ms-flex-pack: justify !important;
+    justify-content: space-around !important;
+  }
 }
 
 .position-relative {
