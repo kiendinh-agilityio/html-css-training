@@ -521,6 +521,14 @@ h2,
     -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
+
+  .flex-md-row-reverse {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+  }
+
   .flex-md-column {
     -ms-flex-direction: column !important;
     flex-direction: column !important;
