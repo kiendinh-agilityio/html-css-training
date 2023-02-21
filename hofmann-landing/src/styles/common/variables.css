@@ -50,6 +50,7 @@
   --font-size-placeholder-purchase-input: 14px;
   --font-size-testimonials-name: 24px;
   --font-size-dollar-lg: 24px;
+  --font-size-placeholder-md: 14px;
 
   /* line height */
   --line-height-tiny: 13px;
@@ -86,6 +87,7 @@
 
   /* border radius */
   --border-radius-tiny: 2px;
+  --border-radius-sm: 4px;
   --border-radius-md: 8px;
   --border-radius-normal: 20px;
   --border-radius-lg: 48px;

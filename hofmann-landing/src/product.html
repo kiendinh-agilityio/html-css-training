@@ -608,29 +608,35 @@
 
     <!-- Contact section start -->
     <section class="product-contact">
-      <div class="container-fluid">
-        <h2>Get in Touch</h2>
-        <form>
-          <input class="form-control" type="text" placeholder="Name*" />
-          <input class="form-control" type="email" placeholder="Email*" />
-          <textarea class="contact-textarea" placeholder="Message*"></textarea>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Most Urgent Question</label>
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="product-contact-heading">Get in Touch</h2>
+        <form class="product-contact-form">
+          <input class="product-form-control" type="text" placeholder="Name*" />
+          <input class="product-form-control" type="email" placeholder="Email*" />
+          <textarea class="product-form-control product-contact-textarea" placeholder="Message*"></textarea>
+          <div class="d-flex align-items-center justify-content-center form-check contact-form-check">
+            <input type="checkbox" class="form-check-input contact-check">
+            <label class="form-check-label contact-check-label">Most Urgent Question</label>
           </div>
-          <button class="btn">SUBMIT</button>
+          <button class="btn btn-submit">SUBMIT</button>
         </form>
-        <address>
-          <div>
-            <img src="./assets/images/product/location.svg" width="11" height="17" alt="Location">
+        <address class="d-flex flex-column flex-md-row product-contact-info">
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/location.svg" width="11" height="17" alt="Location">
+            </div>
             <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
           </div>
-          <div>
-            <img src="./assets/images/product/mail.svg" width="17" height="10" alt="Mail">
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/mail.svg" width="17" height="10" alt="Mail">
+            </div>
             <a href="mailto: contact@hofmannui.net" aria-label="Link to email: contact@hofmannui.net">contact@hofmannui.net</a>
           </div>
-          <div>
-            <img src="./assets/images/product/phone.svg" width="11" height="17" alt="Phone">
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/phone.svg" width="11" height="17" alt="Phone">
+            </div>
             <a href="tel:9527756021" aria-label="Link to phone: 952-775-6021">952-775-6021</a>
           </div>
         </address>

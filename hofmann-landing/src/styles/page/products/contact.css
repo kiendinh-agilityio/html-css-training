@@ -1,0 +1,177 @@
+.product-contact {
+  width: 100%;
+  padding: 66px 0 25px;
+  min-height: 668px;
+  background-image: url("/hofmann-landing/src/assets/images/mobile/product/contact.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/product/contact.jpg")
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.product-contact-heading {
+  font-family: var(--font-family-primary-bold);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-2xl);
+  margin-bottom: 38px;
+}
+
+.product-contact-form {
+  height: 370px;
+  padding: 34px 35px;
+  background: #999;
+  border-radius: var(--border-radius-md);
+}
+
+.product-form-control {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #999;
+  border-radius: var(--border-radius-sm);
+  padding: 12px 14px;
+  margin-bottom: 23px;
+}
+
+.product-form-control:focus {
+  outline: none;
+}
+
+.product-form-control::placeholder {
+  color: var(--color-tertiary);
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-tiny);
+  font-family: var(--font-family-secondary-regular);
+}
+
+.product-contact-textarea {
+  min-height: 92px;
+  resize: none;
+}
+
+.contact-check {
+  width: 17px;
+  height: 17px;
+}
+
+.contact-form-check {
+  gap: 10px;
+  font-family: var(--font-family-secondary-regular);
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-normal);
+  display: block;
+}
+
+.contact-check {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.contact-check-label {
+  position: relative;
+  cursor: pointer;
+}
+
+.contact-check-label::before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--bg-secondary);
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: var(--border-radius-sm);
+}
+
+.contact-check:checked,
+.contact-check-label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 7px;
+  height: 10px;
+  border: solid var(--bg-primary);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.product-contact-info {
+  padding: 42px 24px;
+  gap: 17px;
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-lg-heading);
+  font-family: var(--font-family-secondary-regular);
+}
+
+.product-contact-icon {
+  width: 17px;
+  height: 17px;
+  margin-right: 14px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-contact {
+    min-height: 668px;
+    background-image: url("/hofmann-landing/src/assets/images/tablet/product/contact.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/product/contact.jpg")
+    ); /* Safari */
+  }
+
+  .product-contact-form {
+    max-width: 290px;
+    height: 370px;
+    margin-bottom: 60px;
+  }
+
+  .product-contact-info {
+    gap: 38px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-contact {
+    padding: 68px 0 50px;
+    min-height: 683px;
+    background-image: url("/hofmann-landing/src/assets/images/desktop/product/contact.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/product/contact.jpg")
+    ); /* Safari */
+  }
+
+  .product-contact-heading {
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-4xl);
+    margin-bottom: 52px;
+  }
+
+  .product-contact-form {
+    max-width: 360px;
+    height: 396px;
+  }
+
+  .contact-check-label {
+    font-size: var(--font-size-base);
+  }
+
+  .product-form-control {
+    font-size: var(--font-size-placeholder-md);
+  }
+
+  .product-contact-info {
+    font-size: var(--font-size-normal);
+  }
+}
