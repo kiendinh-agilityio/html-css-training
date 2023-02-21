@@ -33,15 +33,28 @@
   color: var(--color-primary);
 }
 
+.btn-get-started {
+  width: 120px;
+  height: 32px;
+  padding: 9px 11px;
+  background: var(--bg-primary);
+  border: 2px solid var(--color-tertiary);
+  font-family: var(--font-family-primary-regular);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .btn {
     height: 40px;
     padding: 13px;
   }
+
+  .btn-get-started {
+    height: 32px;
+  }
 }
 
-/* Large devices (large desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .btn {
     width: 210px;
@@ -71,5 +84,20 @@
     padding: 15px 57px;
     font-size: var(--font-size-base);
     line-height: var(--line-height-lg-btn);
+  }
+
+  .btn-get-started {
+    width: 170px;
+    height: 48px;
+    padding: 15px 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .btn-get-started {
+    width: 200px;
+    height: 48px;
+    padding: 15px 27px;
   }
 }

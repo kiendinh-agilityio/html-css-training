@@ -49,6 +49,7 @@
   --font-description-client-saying: 24px;
   --font-size-placeholder-purchase-input: 14px;
   --font-size-testimonials-name: 24px;
+  --font-size-dollar-lg: 24px;
 
   /* line height */
   --line-height-tiny: 13px;
@@ -74,6 +75,8 @@
   --line-height-lg-confession-name: 42px;
   --line-height-wild-nature: 28px;
   --line-height-gallery-text: 42px;
+  --line-height-dollar-lg: 29px;
+  --line-height-description-card: 26px;
 
   /* container */
   --container-padding-sm: 15px;
