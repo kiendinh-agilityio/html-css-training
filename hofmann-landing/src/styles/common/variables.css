@@ -13,6 +13,7 @@
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
+  --bg-tertiary: #4b4b4b;
   --bg-pricing: #f6f6f6;
   --bg-btn-card: #4b4b4b;
   --bg-card-primary: #4b4b4b;
@@ -45,6 +46,7 @@
   --font-size-footer-logo: 24px;
   --font-size-gallery-text: 24px;
   --font-description-client-saying: 24px;
+  --font-size-placeholder-purchase-input: 14px;
 
   /* line height */
   --line-height-tiny: 13px;

@@ -1,0 +1,70 @@
+.product-purchase {
+  padding-top: 61px;
+  height: 360px;
+  background: var(--bg-secondary);
+}
+
+.purchase-input {
+  width: 220px;
+  height: 36px;
+  border: 1px solid var(--bg-secondary);
+  border-radius: 4px;
+  padding: 11px 14px;
+  margin: 20px 0 44px;
+}
+
+.purchase-input :focus {
+  outline: none;
+  border-color: var(--bg-secondary);
+  box-shadow: none;
+}
+
+.purchase-input::placeholder {
+  font-family: var(--font-family-secondary-regular);
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-tiny);
+  color: var(--color-text-primary);
+}
+
+.product-purchase-heading {
+  margin-bottom: 10px;
+}
+
+.product-purchase-description {
+  max-width: 213px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-purchase-description {
+    max-width: 100%;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-purchase {
+    padding: 90px 0 110px;
+    min-height: 500px;
+  }
+
+  .product-purchase-heading {
+    margin-bottom: 23px;
+  }
+
+  .product-purchase-description {
+    max-width: 286px;
+  }
+
+  .purchase-input {
+    width: 230px;
+    height: 43px;
+    margin: 30px 0 52px;
+    padding: 13px 25px;
+  }
+
+  .purchase-input::placeholder {
+    font-size: var(--font-size-placeholder-purchase-input);
+    line-height: var(--line-height-base);
+  }
+}
