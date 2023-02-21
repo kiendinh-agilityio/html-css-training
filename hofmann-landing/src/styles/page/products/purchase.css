@@ -44,12 +44,11 @@
 /* Large devices (large desktops, 992px and up) */
 @media (min-width: 992px) {
   .product-purchase {
-    padding: 90px 0 110px;
     min-height: 500px;
   }
 
   .product-purchase-heading {
-    margin-bottom: 23px;
+    padding: 30px 0 13px;
   }
 
   .product-purchase-description {
