@@ -475,14 +475,17 @@
 
     <!-- Testimonials section start -->
     <section class="product-testimonials">
-      <div class="container-fluid">
-        <h2>Testimonials</h2>
-        <div class="product-testimonials-list">
-          <div class="product-testimonials-item">
-            <p>It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.</p>
-            <p>Seneca the Younger</p>
-            <p>Editor in okodesign.net</p>
-            <picture>
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="heading">Testimonials</h2>
+        <div class="d-flex product-testimonials-list">
+          <div class="d-none d-md-block product-testimonials-item position-relative testimonials-seneca">
+            <p class="testimonials-quotes">“</p>
+            <div class="d-flex flex-column text-left">
+              <p class="testimonials-description">It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.</p>
+              <p class="testimonials-fullname testimonials-name-seneca">Seneca the Younger</p>
+              <p class="testimonials-job">Editor in okodesign.net</p>
+            </div>
+            <picture class="testimonials-avatar">
               <source
                 media="(min-width: 992px)"
                 width="128"
@@ -494,16 +497,19 @@
                 src="./assets/images/tablet/product/seneca.webp"
                 width="80"
                 height="80"
-                class="img-fluid"
+                class="img-fluid rounded-circle"
                 alt="Seneca"
               />
             </picture>
           </div>
-          <div class="product-testimonials-item">
-            <p>Attending a trade show can be a very effective method of promoting your company and its products.</p>
-            <p>Rachel Moreno</p>
-            <p>Lead Designer in okodesign.net</p>
-            <picture>
+          <div class="product-testimonials-item position-relative testimonials-rachel-moreno">
+            <p class="testimonials-quotes">“</p>
+            <div class="d-flex flex-column text-left">
+              <p class="testimonials-description">Attending a trade show can be a very effective method of promoting your company and its products.</p>
+              <p class="testimonials-fullname">Rachel Moreno</p>
+              <p class="testimonials-job">Lead Designer in okodesign.net</p>
+            </div>
+            <picture class="testimonials-avatar">
               <source
                 media="(min-width: 992px)"
                 width="128"
@@ -522,13 +528,20 @@
                 src="./assets/images/mobile/product/rachel-moreno.webp"
                 width="64"
                 height="64"
-                class="img-fluid"
+                class="img-fluid rounded-circle"
                 alt="Rachel moreno"
               />
             </picture>
           </div>
         </div>
-        <div class="dot-list"></div>
+        <ul class="d-flex product-dot-list">
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-list-active product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+        </ul>
       </div>
     </section>
     <!-- Testimonials section end -->

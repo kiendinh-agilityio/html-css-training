@@ -2,6 +2,7 @@
   /* color */
   --color-primary: #fff;
   --color-secondary: #ebcb80;
+  --color-tertiary: #4b4b4b;
   --color-text: #fff;
   --color-text-primary: #4b4b4b;
   --color-heading: #4b4b4b;
@@ -47,6 +48,7 @@
   --font-size-gallery-text: 24px;
   --font-description-client-saying: 24px;
   --font-size-placeholder-purchase-input: 14px;
+  --font-size-testimonials-name: 24px;
 
   /* line height */
   --line-height-tiny: 13px;

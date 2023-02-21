@@ -1,0 +1,148 @@
+.product-testimonials {
+  padding: 28px 40px 48px;
+}
+
+.product-testimonials-list {
+  margin-top: 28px;
+}
+
+.product-testimonials-item {
+  font-family: var(--font-family-secondary-regular);
+  width: 240px;
+  height: 280px;
+  border-radius: var(--border-radius-md);
+  padding: 22px 27px;
+}
+
+.testimonials-quotes {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-7xl);
+}
+
+.testimonials-rachel-moreno {
+  color: var(--color-text);
+  background: var(--bg-tertiary);
+}
+
+.testimonials-description {
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-base);
+  margin-bottom: 26px;
+}
+
+.testimonials-fullname {
+  font-size: var(--font-size-normal);
+  line-height: var(--line-height-md);
+  color: var(--color-secondary);
+}
+
+.testimonials-job {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg-heading);
+}
+
+.testimonials-avatar {
+  position: absolute;
+  bottom: -35px;
+  right: 82px;
+}
+
+.testimonials-seneca {
+  background: var(--bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.testimonials-name-seneca {
+  color: var(--color-text-primary);
+}
+
+.product-dot-item {
+  border: 2px solid var(--color-tertiary);
+}
+
+.product-dot-list {
+  margin-top: 60px;
+  gap: 23px;
+}
+
+.product-dot-list-active {
+  background: var(--bg-tertiary);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-testimonials {
+    padding: 40px 53px 48px;
+  }
+
+  .product-testimonials-list {
+    margin-top: 32px;
+    gap: 30px;
+  }
+
+  .product-testimonials-item {
+    width: 316px;
+    min-height: 280px;
+  }
+
+  .testimonials-avatar {
+    bottom: -42px;
+    right: 49px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-testimonials {
+    padding: 64px 53px 68px;
+  }
+
+  .product-testimonials-list {
+    margin-top: 76px;
+  }
+
+  .product-testimonials-item {
+    width: 350px;
+    height: 348px;
+  }
+
+  .testimonials-description {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-normal);
+    margin-bottom: 43px;
+  }
+
+  .testimonials-fullname {
+    font-size: var(--font-size-testimonials-name);
+    line-height: var(--line-height-lg-heading);
+  }
+
+  .testimonials-job {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-lg-heading);
+  }
+
+  .testimonials-avatar {
+    bottom: -65px;
+    right: 65px;
+  }
+
+  .product-dot-item {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .product-testimonials-item {
+    width: 550px;
+    height: 348px;
+    padding: 34px 65px;
+  }
+
+  .testimonials-rachel-moreno {
+    margin-top: 96px;
+    margin-bottom: 70px;
+  }
+}
