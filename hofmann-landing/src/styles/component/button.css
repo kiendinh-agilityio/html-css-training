@@ -17,14 +17,9 @@
   border: 2px solid var(--bg-btn-project);
   background: var(--bg-primary);
   color: var(--color-text-primary);
-  font-family: var(--font-family-primary-bold);
+  font-family: var(--font-family-primary-regular);
   text-transform: uppercase;
   margin-top: 20px;
-}
-
-.btn-project-active {
-  border: 2px solid var(--bg-secondary);
-  background: var(--bg-secondary);
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -52,5 +47,10 @@
     font-size: var(--font-size-base);
     line-height: var(--line-height-md);
     margin-top: 32px;
+  }
+
+  .btn-secondary-active {
+    border: 2px solid var(--bg-secondary);
+    background: var(--bg-secondary);
   }
 }

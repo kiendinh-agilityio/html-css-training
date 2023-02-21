@@ -25,6 +25,7 @@
 
 .project-item-description {
   max-width: 160px;
+  line-height: var(--line-height-base);
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -53,5 +54,25 @@
   .project-item-description {
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
+  }
+
+  .project-view {
+    bottom: -60px;
+    right: -10px;
+  }
+
+  .number-view {
+    font-family: var(--font-family-secondary-regular);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    color: var(--color-text);
+    margin-left: 10px;
+  }
+}
+
+/* Extra large devices (large desktop, 1200px and up) */
+@media (min-width: 1200px) {
+  .project-view {
+    bottom: -80px;
   }
 }
