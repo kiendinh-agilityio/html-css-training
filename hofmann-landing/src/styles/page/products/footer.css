@@ -40,6 +40,11 @@
   margin-top: 23px;
 }
 
+.footer-nav-item:hover,
+.nav-item-heading:hover {
+  color: var(--color-secondary);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .nav-item-heading {
@@ -80,6 +85,7 @@
   .footer-copyright {
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
+    gap: 0;
   }
 
   .nav-item-heading {
@@ -88,6 +94,7 @@
 
   .product-social-list {
     gap: 33px;
+    padding: 20px 2;
   }
 }
 
