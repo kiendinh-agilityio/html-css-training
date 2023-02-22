@@ -84,8 +84,13 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .product-advantages {
+    padding: 31px 0 36px;
+  }
+
   .product-advantages-list {
     gap: 70px;
+    margin-top: 26px;
   }
 
   .advantages-item:not(:last-child) {
@@ -121,6 +126,10 @@
   .advantages-conversion {
     margin-top: 21px;
   }
+
+  .advantages-item {
+    padding-bottom: 24px;
+  }
 }
 
 /* Large devices (desktops, 1400px and up) */
@@ -134,5 +143,7 @@
 @media (min-width: 1400px) {
   .product-advantages-list {
     gap: 0;
+    margin-top: 40px;
+    padding: 0 33px;
   }
 }

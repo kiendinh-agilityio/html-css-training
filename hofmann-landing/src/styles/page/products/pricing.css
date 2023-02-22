@@ -74,6 +74,7 @@
 
   .product-pricing-list {
     max-width: 100%;
+    gap: 29px;
     margin: 31px 0 0;
   }
 
@@ -84,6 +85,10 @@
 
   .product-card-header {
     height: 94px;
+  }
+
+  .product-card-body {
+    height: 98px;
   }
 
   .product-card-business,
@@ -105,11 +110,6 @@
 
   .pricing-enterprise {
     background-image: url("/hofmann-landing/src/assets/images/tablet/product/enterprise.webp");
-  }
-
-  .pricing-start-up-body,
-  .pricing-freemium-body {
-    padding-bottom: 26px;
   }
 }
 
@@ -142,13 +142,13 @@
   }
 
   .product-card-body {
-    padding-top: 17px 0;
+    padding-top: 17px;
     line-height: var(--line-height-description-card);
+    height: 138px;
   }
 
-  .pricing-start-up-body,
-  .pricing-freemium-body {
-    padding-bottom: 36px;
+  .product-pricing-heading {
+    padding: 11px 0 0;
   }
 }
 
@@ -176,10 +176,5 @@
   .dollar-up {
     font-size: var(--font-size-dollar-lg);
     line-height: var(--line-height-dollar-lg);
-  }
-
-  .pricing-start-up-body,
-  .pricing-freemium-body {
-    padding-bottom: 38px;
   }
 }

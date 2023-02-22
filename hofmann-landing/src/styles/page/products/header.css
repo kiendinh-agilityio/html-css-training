@@ -25,7 +25,7 @@
   margin: 14px 0 12px;
 }
 
-.img-iphone {
+.product-img {
   border-radius: var(--border-radius-normal);
   margin: 16px 0;
 }
@@ -38,9 +38,18 @@
   margin-right: 8px;
 }
 
+.product-header-description {
+  margin-top: 17px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .product-header {
+    min-height: 410px;
     background-image: url("/hofmann-landing/src/assets/images/tablet/product/background.webp");
     background-image: image-set(
       url("/hofmann-landing/src/assets/images/tablet/product/background.jpg")
@@ -50,7 +59,7 @@
   }
 
   .header-product-content {
-    padding: 0 70px;
+    padding: 0 62px;
   }
 
   .product-heading {
@@ -63,18 +72,26 @@
     bottom: -4px;
   }
 
-  .img-iphone {
+  .product-img {
     margin: 0;
     border-radius: 0;
   }
 
   .product-introduction {
     width: 50%;
-    min-height: 320px;
+    min-height: 333px;
   }
 
   .product-header-description {
-    margin: 16px 0 38px;
+    margin: 21px 0 48px;
+  }
+
+  .product-navbar {
+    padding-bottom: 20px;
+  }
+
+  .btn-app-store {
+    margin-right: 15px;
   }
 }
 
@@ -98,7 +115,7 @@
   }
 
   .product-header-img {
-    bottom: -81px;
+    bottom: -93px;
   }
 
   .header-product-content {
@@ -120,32 +137,51 @@
   .btn-app-store {
     margin-right: 30px;
   }
+
+  .product-sub-heading {
+    font-size: var(--font-size-sub-heading);
+    line-height: var(--line-height-xl);
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .product-header-img {
-    bottom: -98px;
+    bottom: -78px;
   }
 }
 
 /* Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .product-navbar {
+    padding-top: 33px;
+  }
+
+  .product-heading {
+    margin: 18px 0 31px;
+  }
+
   .header-product-content {
     max-width: 1200px;
-    padding: 40px 80px;
+    padding: 22px 80px;
   }
 
   .product-header-img {
-    right: -62px;
+    right: -87px;
+    bottom: -85px;
   }
 
   .product-introduction {
-    min-height: 500px;
+    min-height: 614px;
+    padding: 0 20px;
   }
 
   .product-header-description {
     margin-bottom: 0;
+  }
+
+  .product-introduction-heading {
+    padding: 30px 6px;
   }
 }
 

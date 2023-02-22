@@ -48,7 +48,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .circular-progress {
-    margin-bottom: 26px;
+    margin-bottom: 34px;
   }
 
   .circular-progress-circle {

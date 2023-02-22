@@ -40,6 +40,10 @@
   left: 105px;
 }
 
+.client-saying-text {
+  max-width: 240px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .product-testimonials-client {
@@ -70,6 +74,10 @@
   .testimonials-client-heading {
     max-width: 364px;
     text-align: center;
+  }
+
+  .client-saying-text {
+    max-width: 100%;
   }
 }
 
@@ -114,6 +122,10 @@
     top: -15px;
     left: 497px;
   }
+
+  .product-carousel-btn {
+    padding-top: 10px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -128,5 +140,16 @@
 
   .client-saying-description {
     margin-bottom: 46px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .client-saying-content {
+    max-width: 1200px;
+  }
+
+  .client-saying-description {
+    margin: 57px 0 65px;
   }
 }

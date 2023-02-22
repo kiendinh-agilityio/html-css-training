@@ -52,6 +52,7 @@
   --font-size-testimonials-name: 24px;
   --font-size-dollar-lg: 24px;
   --font-size-placeholder-md: 14px;
+  --font-size-sub-heading: 24px;
 
   /* line height */
   --line-height-tiny: 13px;
@@ -68,6 +69,7 @@
   --line-height-7xl: 78px;
   --line-height-8xl: 176px;
 
+  --line-height-placeholder-md: 18px;
   --line-height-lg-btn: 19px;
   --line-height-lg-placeholder: 27px;
   --line-height-heading-card: 27px;

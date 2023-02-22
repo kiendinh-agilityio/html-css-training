@@ -1,7 +1,7 @@
 .product-contact {
   width: 100%;
   padding: 66px 0 25px;
-  min-height: 668px;
+  height: 668px;
   background-image: url("/hofmann-landing/src/assets/images/mobile/product/contact.webp");
   background-image: image-set(
     url("/hofmann-landing/src/assets/images/mobile/product/contact.jpg")
@@ -21,14 +21,21 @@
 .product-contact-form {
   height: 370px;
   padding: 34px 35px;
-  background: #999;
+  background-image: linear-gradient(
+    224.09deg,
+    rgba(255, 255, 255, 0.7) 5.13%,
+    rgba(255, 255, 255, 7e-5) 90.88%
+  );
+  background-blend-mode: soft-light;
+  background-color: var(--bg-tertiary);
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 50%);
   border-radius: var(--border-radius-md);
 }
 
 .product-form-control {
   width: 100%;
   height: 35px;
-  border: 1px solid #999;
+  border: 1px solid var(--bg-tertiary);
   border-radius: var(--border-radius-sm);
   padding: 12px 14px;
   margin-bottom: 23px;
@@ -107,8 +114,7 @@
 }
 
 .product-contact-info {
-  padding: 42px 24px;
-  gap: 17px;
+  padding: 37px 24px;
   font-size: var(--font-size-tiny);
   line-height: var(--line-height-lg-heading);
   font-family: var(--font-family-secondary-regular);
@@ -120,24 +126,39 @@
   margin-right: 14px;
 }
 
+.contact-form-check {
+  width: 160px;
+  margin: auto;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .product-contact {
-    min-height: 668px;
+    height: 668px;
     background-image: url("/hofmann-landing/src/assets/images/tablet/product/contact.webp");
     background-image: image-set(
       url("/hofmann-landing/src/assets/images/tablet/product/contact.jpg")
     ); /* Safari */
   }
 
+  .product-contact-heading {
+    margin-bottom: 47px;
+  }
+
   .product-contact-form {
     max-width: 290px;
     height: 370px;
+    padding-top: 36px;
     margin-bottom: 60px;
   }
 
   .product-contact-info {
     gap: 38px;
+    padding: 5px;
+  }
+
+  .product-contact-textarea {
+    margin-bottom: 20px;
   }
 }
 
@@ -145,7 +166,7 @@
 @media (min-width: 992px) {
   .product-contact {
     padding: 68px 0 50px;
-    min-height: 683px;
+    height: 683px;
     background-image: url("/hofmann-landing/src/assets/images/desktop/product/contact.webp");
     background-image: image-set(
       url("/hofmann-landing/src/assets/images/desktop/product/contact.jpg")
@@ -161,6 +182,8 @@
   .product-contact-form {
     max-width: 360px;
     height: 396px;
+    padding: 51px;
+    margin-bottom: 38px;
   }
 
   .contact-check-label {
@@ -169,9 +192,26 @@
 
   .product-form-control {
     font-size: var(--font-size-placeholder-md);
+    margin-bottom: 25px;
   }
 
   .product-contact-info {
     font-size: var(--font-size-normal);
+    gap: 50px;
+  }
+
+  .product-contact-textarea {
+    margin-bottom: 20px;
+    padding-top: 8px;
+  }
+
+  .contact-form-check {
+    width: 170px;
+    margin-left: 28px;
+  }
+
+  .product-form-control::placeholder {
+    font-size: var(--font-size-placeholder-md);
+    line-height: var(--line-height-placeholder-md);
   }
 }

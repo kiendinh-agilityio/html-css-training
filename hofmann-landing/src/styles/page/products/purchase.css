@@ -36,8 +36,20 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .product-purchase {
+    height: 440px;
+  }
+
+  .product-purchase-heading {
+    padding: 26px 0 3px;
+  }
+
   .product-purchase-description {
     max-width: 100%;
+  }
+
+  .purchase-input {
+    margin: 35px 0 44px;
   }
 }
 

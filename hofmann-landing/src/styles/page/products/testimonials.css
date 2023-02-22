@@ -61,7 +61,7 @@
 }
 
 .product-dot-list {
-  margin-top: 60px;
+  margin-top: 70px;
   gap: 23px;
 }
 
@@ -83,22 +83,27 @@
   .product-testimonials-item {
     width: 316px;
     min-height: 280px;
+    padding: 15px 47px;
   }
 
   .testimonials-avatar {
     bottom: -42px;
     right: 49px;
   }
+
+  .testimonials-description {
+    margin-bottom: 22px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .product-testimonials {
-    padding: 64px 53px 68px;
+    padding: 39px 53px 68px;
   }
 
   .product-testimonials-list {
-    margin-top: 76px;
+    margin-top: 53px;
   }
 
   .product-testimonials-item {
@@ -130,6 +135,15 @@
   .product-dot-item {
     width: 14px;
     height: 14px;
+  }
+
+  .testimonials-people-heading {
+    max-width: 300px;
+  }
+
+  .product-dot-list {
+    margin-top: 37px;
+    gap: 17px;
   }
 }
 

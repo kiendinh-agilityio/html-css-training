@@ -13,7 +13,7 @@
     <!-- Header start -->
     <section class="product-header">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-md d-flex justify-content-between">
+        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar">
           <a href="./index.html" aria-label="Header logo">
             <picture>
               <source
@@ -44,21 +44,21 @@
             id="navbarSupportedContent"
           >
             <li class="nav-item">
-              <a aria-label="Navigation link to home" href="#HOME">HOME</a>
+              <a aria-label="Navigation link to home" href="./index.html">home</a>
             </li>
             <li class="nav-item">
               <a aria-label="Navigation link to product" href="./product.html"
-                >PRODUCT</a
+                >product</a
               >
             </li>
             <li class="nav-item">
-              <a aria-label="Navigation link to places" href="#PLACES"
-                >PLACES</a
+              <a aria-label="Navigation link to places" href="#places"
+                >palces</a
               >
             </li>
             <li class="nav-item">
-              <a aria-label="Navigation link to find more" href="#FIND MORE"
-                >FIND MORE</a
+              <a aria-label="Navigation link to find more" href="#find more"
+                >find more</a
               >
             </li>
           </ul>
@@ -111,7 +111,7 @@
             <p class="product-introduction-heading">RESPONSIVE UI KIT</p>
             <div>
               <h1 class="product-heading">HOFMANN</h1>
-              <p>We’re Bring It To The New Level</p>
+              <p class="product-sub-heading">We’re Bring It To The New Level</p>
               <p class="product-header-description">
                 Every new computer that’s brought home from the store has an
                 operating system installed onto it. But what most new computer
@@ -164,7 +164,7 @@
               src="./assets/images/mobile/product/iphone.webp"
               width="225"
               height="110"
-              class="img-iphone"
+              class="product-img"
               alt="Iphone"
             />
           </picture>
@@ -262,8 +262,8 @@
         <div class="d-flex flex-column align-items-center position-relative client-saying-content">
           <h2 class="d-md-flex heading text-color-light testimonials-client-heading">What Clients are saying</h2>
           <p class="quotes color-text-secondary">“</p>
-          <div class="d-flex align-items-center client-saying-description">
-            <a class="d-none d-md-block" href="#" aria-label="Prev">
+          <div class="d-flex justify-content-center client-saying-description">
+            <a class="d-none d-md-block product-carousel-btn" href="#" aria-label="Prev">
               <picture>
                 <source
                 media="(min-width: 992px)"
@@ -281,7 +281,7 @@
               </picture>
             </a>
             <p class="client-saying-text">Businesses at present had creatively generated effective advertising campaigns in the form of audio visual media that includes the television and radios and the print media that cover the newspaper and campaign materials like the posters, brochures, business cards, flyers and many more.</p>
-            <a class="d-none d-md-block" href="#" aria-label="Next">
+            <a class="d-none d-md-block product-carousel-btn" href="#" aria-label="Next">
               <picture>
                 <source
                 media="(min-width: 992px)"
@@ -358,7 +358,7 @@
             </picture>
             <p class="project-item-heading">APP MAINTENANCE</p>
             <p class="project-item-description">by</p>
-            <p class="project-item-description">Lida Morrison, Nettie Burke</p>
+            <p class="project-item-description project-item-info">Lida Morrison, Nettie Burke</p>
             <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
           </div>
           <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
@@ -396,7 +396,7 @@
             </div>
             <p class="project-item-heading">FTA KEYS</p>
             <p class="project-item-description">by</p>
-            <p class="project-item-description">Ivan Alexander, Steven Soto, Clifford Hammond</p>
+            <p class="project-item-description project-item-info">Ivan Alexander, Steven Soto, Clifford Hammond</p>
             <button class="d-flex align-items-center justify-content-center btn btn-project btn-secondary-active">Review</button>
           </div>
           <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
@@ -425,7 +425,7 @@
             </picture>
             <p class="project-item-heading">SMART WATCH</p>
             <p class="project-item-description">by</p>
-            <p class="project-item-description">Trevor James, Carl Stevenson</p>
+            <p class="project-item-description project-item-info">Trevor James, Carl Stevenson</p>
             <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
           </div>
           <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
@@ -454,7 +454,7 @@
             </picture>
             <p class="project-item-heading">WATCH APPS</p>
             <p class="project-item-description">by</p>
-            <p class="project-item-description">Glen Snyder, Andrew Goodwin, Lida Morrison</p>
+            <p class="project-item-description project-item-info">Glen Snyder, Andrew Goodwin, Lida Morrison</p>
             <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
           </div>
         </div>
@@ -476,7 +476,8 @@
     <!-- Testimonials section start -->
     <section class="product-testimonials">
       <div class="container-fluid d-flex flex-column align-items-center text-center">
-        <h2 class="heading">Testimonials</h2>
+        <h2 class="d-lg-none heading">Testimonials</h2>
+        <h2 class="d-none d-lg-block heading testimonials-people-heading">What People Say</h2>
         <div class="d-flex product-testimonials-list">
           <div class="d-none d-md-block product-testimonials-item position-relative testimonials-seneca">
             <p class="testimonials-quotes">“</p>
@@ -549,7 +550,7 @@
     <!-- Pricing section start -->
     <section class="product-pricing">
       <div class="container-fluid d-flex flex-column text-center">
-        <h2 class="heading">Subscribing Plans</h2>
+        <h2 class="heading product-pricing-heading">Subscribing Plans</h2>
         <div class="d-flex justify-content-center flex-wrap product-pricing-list">
           <div class="card align-items-center product-card-item">
             <div class="card-header product-card-header pricing-freemium">
@@ -653,22 +654,22 @@
               <li class="nav-item-heading">
                 <a href="#" aria-label="Company">COMPANY</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="News">News</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Blog">Blog</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Testimonials">Testimonials</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-itemm">
                 <a href="#" aria-label="About Us">About Us</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Press Kit">Press Kit</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Get in Touch">Get in Touch</a>
               </li>
             </ul>
@@ -676,16 +677,16 @@
               <li class="nav-item-heading">
                 <a href="#" aria-label="Products">PRODUCTS</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Press Kit">Press Kit</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Icons">Icons</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Wordpress Themes">Wordpress Themes</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Mock Ups">Mock-Ups</a>
               </li>
             </ul>
@@ -693,19 +694,19 @@
               <li class="nav-item-heading">
                 <a href="#" aria-label="Support">SUPPORT</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Community">Community</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Forum">Forum</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Distributors">Distributors</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Terms of Use">Terms of Use</a>
               </li>
             </ul>
@@ -713,16 +714,16 @@
               <li class="nav-item-heading">
                 <a href="#" aria-label="Customers">CUSTOMERS</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Documentation">Documentation</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Tools">Tools</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Downloads">Downloads</a>
               </li>
-              <li class="footer-nav-item">
+              <li class="product-footer-nav-item">
                 <a href="#" aria-label="Developer Center">Developer Center</a>
               </li>
             </ul>
