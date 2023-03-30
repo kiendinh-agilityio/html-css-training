@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Hofmann Landing" name="description" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Places Page</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header class="places-header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar">
+          <a href="./index.html" aria-label="Header logo">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="41"
+                height="44"
+                srcset="./assets/images/desktop/logo.svg"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="27"
+                height="29"
+                srcset="./assets/images/tablet/logo.svg"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/logo.svg"
+                width="20"
+                height="24"
+                class="img-fluid"
+                alt="Hofmann"
+              />
+            </picture>
+          </a>
+          <ul
+            class="collapse navbar-collapse justify-content-md-center navbar-nav"
+            id="navbarSupportedContent"
+          >
+            <li class="nav-item">
+              <a aria-label="Navigation link to home" href="./index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to product" href="./product.html"
+                >product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to places" href="./places.html"
+                >palces</a
+              >
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to find more" href="#find more"
+                >find more</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex nav-social">
+            <a href="#" aria-label="Twitter" class="social-item">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/twitter.svg"
+                width="20"
+                height="16"
+                alt="Twitter"
+              />
+            </a>
+            <a href="#" aria-label="Facebook">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/facebook.svg"
+                width="20"
+                height="16"
+                alt="Facebook"
+              />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/instagram.svg"
+                width="20"
+                height="16"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-label="Toggle navigation"
+          >
+            <img
+              src="./assets/images/header/hamburger.svg"
+              alt="Hamburger button"
+              width="16"
+              height="24"
+            />
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero section start -->
+    <section class="places-hero">
+      <div class="container-fluid">
+        <h1>Choosing The Right Boutique Hotel For You</h1>
+        <p>How To Fly A Private Jet On Your Next Trip</p>
+        <form>
+          <input class="purchase-input" type="email" placeholder="Your Email" />
+          <button class="btn">FIND NOW</button>
+        </form>
+        <div class="hero-list-icon">
+          <img width="25" height="25" loading="lazy" src="./assets/images/places/plane-icon.svg" alt="Plane icon">
+          <img width="25" height="25" loading="lazy" src="./assets/images/places/wallet-icon.svg" alt="Wallet icon">
+          <img width="25" height="25" loading="lazy" src="./assets/images/places/case-icon.svg" alt="Case icon">
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Our team section start -->
+    <section class="places-our-team">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading">Our Team</h2>
+        <div class="places-our-team-list">
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/craig-todd.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/craig-todd.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/craig-todd.png" alt="Avatar Craig Todd">
+            </picture>
+            <ul>
+              <li>Craig Todd</li>
+              <li>CEO</li>
+              <li>Like the majority of sales people, I visit a huge number of clients and prospects every month</li>
+            </ul>
+          </div>
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/jennie-graham.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/jennie-graham.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/jennie-graham.png" alt="Avatar Jennie Graham">
+            </picture>
+            <ul>
+              <li>Jennie Graham</li>
+              <li>UX/UI Designer</li>
+              <li>WordPress Version 2 0 3 Review</li>
+            </ul>
+          </div>
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/chase-meyer.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/chase-meyer.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/chase-meyer.png" alt="Avatar Chase Meyer">
+            </picture>
+            <ul>
+              <li>Chase Meyer</li>
+              <li>Front-end Developer</li>
+              <li>Search Engine Optimization And Advertising</li>
+            </ul>
+          </div>
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/vera-hopkins.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/vera-hopkins.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/vera-hopkins.png" alt="Avatar Vera Hopkins">
+            </picture>
+            <ul>
+              <li>Vera Hopkins</li>
+              <li>UX Lead</li>
+              <li>Differentiate Yourself And Attract More Attention Sales And Profits</li>
+            </ul>
+          </div>
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/eunice-wong.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/eunice-wong.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/eunice-wong.png" alt="Avatar Eunice Wong">
+            </picture>
+            <ul>
+              <li>Eunice Wong</li>
+              <li>Marketing consultant</li>
+              <li>Advertising Internet Online Opportunities To Explore</li>
+            </ul>
+          </div>
+          <div class="our-team-item">
+            <picture>
+              <source width="48" height="48" srcset="./assets/images/places/webp/eunice-wong.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/eunice-wong.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/johnny-vargas.png" alt="Avatar Johnny Vargas">
+            </picture>
+            <ul>
+              <li>Johnny Vargas</li>
+              <li>Back-end Developer</li>
+              <li>Maintain Your PC S Performance With PC Programs</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <!-- Our team section end -->
+
+    <!-- Pricing section start -->
+    <section class="places-pricing">
+      <div class="container-fluid">
+        <h2>Choose Your Plan</h2>
+        <div
+          class="d-flex flex-column align-items-center flex-md-row justify-content-center places-pricing-list"
+        >
+          <div class="card text-center pricing-item">
+            <div class="card-header">
+              <p class="color-text-secondary">SILVER</p>
+              <p class="price"><sup class="index-number">$</sup>49</p>
+              <p>YEAR</p>
+            </div>
+            <div class="card-body pricing-card-body">
+              <p>Personal Account</p>
+              <p>25 GB Discspace</p>
+              <p>50 Uploads per day</p>
+            </div>
+            <button class="btn btn-purchase margin-auto color-text-primary">
+              PURCHASE
+            </button>
+          </div>
+          <div class="card text-center pricing-item color-text-primary">
+            <div class="card-header">
+              <p>GOLD</p>
+              <p class="price"><sup class="index-number">$</sup>99</p>
+              <p>YEAR</p>
+            </div>
+            <div class="card-body pricing-card-body">
+              <p>Personal Account</p>
+              <p>50 GB Discspace</p>
+              <p>500 Uploads per day</p>
+            </div>
+            <button class="btn btn-purchase btn-active margin-auto">
+              PURCHASE
+            </button>
+          </div>
+          <div class="card text-center pricing-item">
+            <div class="card-header">
+              <p class="color-text-secondary">PLATINUM</p>
+              <p class="price"><sup class="index-number">$</sup>299</p>
+              <p>YEAR</p>
+            </div>
+            <div class="card-body pricing-card-body">
+              <p>Team Account</p>
+              <p>500 GB Discspace</p>
+              <p>Unlimited Uploads per day</p>
+            </div>
+            <button class="btn btn-purchase margin-auto">PURCHASE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing section end -->
+
+    <!-- Testimonials section start -->
+    <section class="places-testimonials">
+      <div class="container-fluid d-flex flex-column text-center">
+        <picture>
+          <source media="(max-width: 479px)" width="87" height="87" srcset="./assets/images/places/webp/ida-stephens-mobile-1x.webp 1x, ./assets/images/places/webp/ida-stephens-mobile-2x.webp 2x" type="image/webp">
+          <source media="(max-width: 991px)" width="108" height="108" srcset="./assets/images/places/webp/ida-stephens-tablet-1x.webp 1x, ./assets/images/places/webp/ida-stephens-tablet-2x.webp 2x" type="image/webp">
+          <source media="(min-width: 992px)" width="172" height="172" srcset="./assets/images/places/webp/ida-stephens-desktop.webp" type="image/webp">
+          <source srcset="./assets/images/places/png/ida-stephens-desktop.png" type="image/png">
+          <img loading="lazy" src="./assets/images/places/png/ida-stephens-desktop.png" alt="Avatar Ida Stephens">
+        </picture>
+        <ul>
+          <li>Ida Stephens — Noir Project</li>
+          <li>“Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in todays world. It’s often been the case were one party completely miscommunicates to another due to a misunderstanding between parties.”</li>
+        </ul>
+        <ul class="d-flex product-dot-list">
+          <li class="dot product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item product-dot-list-active rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonials section end -->
+
+    <!-- Advantages section start -->
+    <section class="places-advantages">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="heading">Advantages</h2>
+        <p class="description">One more thing! Any time we start something new it is exciting and we are very motivated and committed. </p>
+        <div class="places-advantages-list">
+          <div class="card text-center places-advantages-item">
+            <div class="card-header">
+              <p class="color-text-secondary">SECURE</p>
+              <img loading="lazy" width="50" height="50" src="./assets/images/places/secure-icon.svg" alt="Scure icon">
+            </div>
+            <ul class="card-body">
+              <li>YOUR DATA IS PROTECTED</li>
+              <li>No matter how far along you are in your sophistication as an amateur astronomer…</li>
+            </ul>
+            <button class="btn">
+              FIND MORE
+            </button>
+          </div>
+          <div class="card text-center places-advantages-item">
+            <div class="card-header">
+              <p class="color-text-secondary">AESTHETIC</p>
+              <img loading="lazy" width="50" height="50" src="./assets/images/places/aesthetic-icon.svg" alt="Aesthetic icon">
+            </div>
+            <ul class="card-body">
+              <li>UNIQUE DESIGN</li>
+              <li>Acres of Diamonds… you’ve read the famous story, or at least had it related to you.</li>
+            </ul>
+            <button class="btn">
+              FIND MORE
+            </button>
+          </div>
+          <div class="card text-center places-advantages-item">
+            <div class="card-header">
+              <p class="color-text-secondary">NEAT</p>
+              <img loading="lazy" width="50" height="50" src="./assets/images/places/neat-icon.svg" alt="Neat icon">
+            </div>
+            <ul class="card-body">
+              <li>ACCURATE IN DETAILS</li>
+              <li>Some days a motivational quote can provide a quick pick-me-up.</li>
+            </ul>
+            <button class="btn">
+              FIND MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Advantages section end -->
+
+    <!-- Places section start -->
+    <section class="places-gallery">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="heading">Places</h2>
+        <ul class="d-flex places-name-list">
+          <li>SAN FRANCISCO</li>
+          <li>SOUTH LILIANA</li>
+          <li>BLICKVIEW</li>
+          <li>NEW RAVEN</li>
+        </ul>
+        <ul class="d-flex d-flex flex-wrap justify-content-center gallery-list places-gallery-list">
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/project-image-mobile-one-1x.webp 1x, ./assets/images/places/webp/project-image-mobile-one-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-one-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-one-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-one.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-one.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-one.png" alt="Places image">
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/project-image-mobile-two-1x.webp 1x, ./assets/images/places/webp/project-image-mobile-two-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-two-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-two-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-two.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-two.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-two.png" alt="Places image">
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/project-image-mobile-three-1x.webp 1x, ./assets/images/places/webp/project-image-mobile-three-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-three-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-three-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-three.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-three.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-three.png" alt="Places image">
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/proj 1x, ./assets/images/places/webp/project-image-mobile-four-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-four-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-four-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-four.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-four.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-four.png" alt="Places image">
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/project-image-mobile-five-1x.webp 1x, ./assets/images/places/webp/project-image-mobile-five-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-five-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-five-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-five.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-five.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-five.png" alt="Places image">
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source media="(max-width: 479px)" width="116" height="116" srcset="./assets/images/places/webp/project-image-mobile-six-1x.webp 1x, ./assets/images/places/webp/project-image-mobile-six-2x.webp 2x" type="image/webp">
+              <source media="(max-width: 991px)" width="192" height="192" srcset="./assets/images/places/webp/project-image-tablet-six-1x.webp 1x, ./assets/images/places/webp/project-image-tablet-six-2x.webp 2x" type="image/webp">
+              <source media="(min-width: 992px)" width="300" height="300" srcset="./assets/images/places/webp/project-image-desktop-six.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/project-image-desktop-six.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/project-image-desktop-six.png" alt="Places image">
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Places section end -->
+
+    <!-- Create account section start -->
+    <section class="create-account-section">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="heading">Create An Account</h2>
+        <form class="create-account-form">
+          <input class="create-account-control" type="text" placeholder="Email" />
+          <input class="create-account-control" type="email" placeholder="Password" />
+          <input class="create-account-control" type="email" placeholder="Confirm Password" />
+          <a href="#">Already Have an account?</a>
+          <button class="btn btn-submit">SIGN UP</button>
+        </form>
+      </div>
+    </section>
+    <!-- Create account section end -->
+
+    <!-- Contact section start -->
+    <section class="contact">
+      <div class="container-fluid">
+        <div class="d-flex flex-column text-center contact-introduction">
+          <h2 class="heading">Contact Us</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-md-between justify-content-lg-center align-items-lg-center contact-content"
+          >
+            <form class="d-flex flex-column align-items-lg-center contact-form">
+              <div>
+                <div class="d-flex flex-row form-group contact-form-group">
+                  <label>Name:</label>
+                  <input class="form-control" type="text" placeholder="Letha Terry" />
+                </div>
+                <div class="d-flex flex-row form-group contact-form-group">
+                  <label>Email:</label>
+                  <input class="form-control" type="email" placeholder="letha.terry@ya" />
+                </div>
+              </div>
+              <div>
+                <label>Message:</label>
+                <textarea
+                class="contact-textarea"
+              ></textarea>
+              </div>
+              <button class="btn margin-auto">SUBMIT</button>
+            </form>
+            <address class="d-flex flex-column text-lg-left contact-form-info">
+              <h3>Get In Touch</h3>
+              <div class="d-flex flex-row contact-form-info-item">
+                <div class="d-flex align-items-center contact-form-info-icon">
+                    <img
+                      src="./assets/images/location.svg"
+                      width="11"
+                      height="17"
+                      alt="Location"
+                    />
+                </div>
+                <p class="description location">
+                  2300 W Arbutus Dr Citrus Springs, FL 34434, USA
+                </p>
+              </div>
+              <div class="d-flex flex-row contact-form-info-item">
+                  <div class="d-flex align-items-center contact-form-info-icon">
+                    <img
+                      src="./assets/images/mail.svg"
+                      width="17"
+                      height="10"
+                      alt="Mail"
+                    />
+                  </div>
+                  <a
+                    class="description"
+                    href="mailto: contact@hofmannui.net"
+                    aria-label="Link to email: contact@hofmannui.net"
+                    >contact@hofmannui.net</a
+                  >
+              </div>
+              <div class="d-flex flex-row contact-form-info-item">
+                  <div class="d-flex align-items-center contact-form-info-icon">
+                    <img
+                      src="./assets/images/phone.svg"
+                      width="12"
+                      height="17"
+                      alt="Phone"
+                    />
+                  </div>
+                  <a
+                    class="description"
+                    href="tel:7938917938, 9527756021"
+                    aria-label="Link to phone: 7938917938, 9527756021"
+                    >793-891-7938, 952-775-6021</a
+                  >
+              </div>
+            </address>
+            <div>
+              <h3>Credits</h3>
+              <p>In order to discuss the general function of the logo, we must firstly identify and define the environment where this will have to fulfill its function.</p>
+              <h3>Follow</h3>
+              <div
+                class="d-flex justify-content-between justify-content-md-start contact-social-list"
+              >
+                <a href="#" aria-label="Pinterest">
+                  <svg width="13" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#pinterest" xlink:href="./assets/images/places/social-icon-sprite.svg#pinterest"></use></svg>
+                </a>
+                <a href="#" aria-label="Linkedin">
+                  <svg width="13" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#linkedin" xlink:href="./assets/images/places/social-icon-sprite.svg#linkedin"></use></svg>
+                </a>
+                <a href="#" aria-label="Google">
+                  <svg width="19" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#google-plus" xlink:href="./assets/images/places/social-icon-sprite.svg#google-plus"></use></svg>
+                </a>
+                <a href="#" aria-label="Twitter">
+                  <svg width="16" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#twitter" xlink:href="./assets/images/places/social-icon-sprite.svg#twitter"></use></svg>
+                </a>
+                <a href="#" aria-label="Facebook">
+                  <svg width="13" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#facebook" xlink:href="./assets/images/places/social-icon-sprite.svg#facebook"></use></svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <svg width="13" height="13" loading="lazy"><use href="./assets/images/places/social-icon-sprite.svg#instagram" xlink:href="./assets/images/places/social-icon-sprite.svg#instagram"></use></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <picture class="contact-map">
+        <source
+          media="(min-width: 992px)"
+          width="100%"
+          height="400"
+          srcset="./assets/images/desktop/map.webp"
+          loading="lazy"
+        />
+        <source
+          media="(min-width: 768px)"
+          width="100%"
+          height="216"
+          srcset="./assets/images/tablet/map.webp"
+          loading="lazy"
+        />
+        <img
+          src="./assets/images/mobile/map.webp"
+          width="100%"
+          height="268"
+          class="img-fluid"
+          alt="Map"
+        />
+      </picture>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer class="places-footer">
+      <div class="container-fluid">
+        <div class="d-flex flex-column justify-content-center places-footer-introduction">
+          <div>
+            <h3>CONTACT US</h3>
+            <div>
+              <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+              <ul>
+                <li>+235 793-891-7938</li>
+                <li>contact@hofmannui.net</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h3>FOLLOW US</h3>
+            <ul>
+              <li>
+                <a href="#" aria-label="Pinterest">
+                  <img width="24" height="24" loading="lazy" src="./assets/images/places/pinterest.svg" alt="Pinterest icon">
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Twitter">
+                  <img width="29" height="24" loading="lazy" src="./assets/images/places/twitter.svg" alt="Twitter icon">
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Facebook">
+                  <img width="24" height="24" loading="lazy" src="./assets/images/places/facebook.svg" alt="Facebook icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>ABOUT US</h3>
+            <p>Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center text-center flex-md-row-reverse justify-content-md-between text-md-left places-footer-content">
+            <nav class="d-flex flex-wrap places-footer-nav">
+              <ul class="d-flex flex-column places-nav-list">
+                <li class="nav-item-heading">
+                  <a href="./index.html" aria-label="Home">HOME</a>
+                </li>
+                <li class="places-footer-nav-item">
+                  <a href="#" aria-label="Services">SERVICES</a>
+                </li>
+                <li class="places-footer-nav-item">
+                  <a href="#" aria-label="Team">TEAM</a>
+                </li>
+                <li class="places-footer-nav-item">
+                  <a href="#" aria-label="Portfolio">PORTFOLIO</a>
+                </li>
+                <li class="places-footer-nav-itemm">
+                  <a href="#" aria-label="Contact">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+            <p>© 2016 Hofmann UI Kit</p>
+            <div>
+              <label>To the Top</label>
+              <a href="#" class="input-group-prepend" aria-label="To the Top">
+                <source
+                  media="(min-width: 992px)"
+                  width="8"
+                  height="16"
+                  srcset="./assets/images/desktop/subscribe.webp"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/images/mobile/subscribe.svg"
+                  width="4"
+                  height="8"
+                  class="img-fluid"
+                  alt="Subscribe"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+</html>
