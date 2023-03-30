@@ -1,0 +1,155 @@
+.product-testimonials-client {
+  width: 100%;
+  min-height: 344px;
+  background-image: url("/hofmann-landing/src/assets/images/mobile/product/testimonials-client.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/product/testimonials-client.jpg")
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  padding: 28px 20px 36px;
+}
+
+.client-saying-content {
+  max-width: 290px;
+  margin: 0 auto;
+  font-family: var(--font-family-secondary-regular);
+}
+
+.client-saying-description {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+  margin-top: 56px;
+  margin-bottom: 24px;
+  z-index: 1;
+}
+
+.testimonials-client-user {
+  gap: 16px;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+.quotes {
+  font-family: var(--font-family-primary-bold);
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-7xl);
+  position: absolute;
+  top: 72px;
+  left: 105px;
+}
+
+.client-saying-text {
+  max-width: 240px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-testimonials-client {
+    height: 330px;
+    background-image: url("/hofmann-landing/src/assets/images/tablet/product/testimonials-client.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/product/testimonials-client.jpg")
+    ); /* Safari */
+    background-size: cover;
+    background-position: initial;
+  }
+
+  .client-saying-content {
+    max-width: 654px;
+  }
+
+  .client-saying-description {
+    gap: 53px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .quotes {
+    top: 88px;
+    left: 314px;
+  }
+
+  .testimonials-client-heading {
+    max-width: 364px;
+    text-align: center;
+  }
+
+  .client-saying-text {
+    max-width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-testimonials-client {
+    height: 620px;
+    background-image: url("/hofmann-landing/src/assets/images/desktop/product/testimonials-client.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/product/testimonials-client.jpg")
+    ); /* Safari */
+    padding: 91px 0 73px;
+  }
+
+  .client-saying-description {
+    font-size: var(--font-description-client-saying);
+    line-height: var(--line-height-xl);
+  }
+
+  .client-saying-content {
+    max-width: 1088px;
+  }
+
+  .testimonials-client-heading {
+    max-width: 550px;
+    z-index: 1;
+  }
+
+  .client-saying-description {
+    gap: 129px;
+  }
+
+  .testimonials-client-user {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-normal);
+    gap: 29px;
+  }
+
+  .quotes {
+    font-size: var(--font-size-6xl);
+    line-height: var(--line-height-8xl);
+    top: -15px;
+    left: 497px;
+  }
+
+  .product-carousel-btn {
+    padding-top: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .client-saying-text {
+    max-width: 750px;
+  }
+
+  .testimonials-client-heading {
+    margin-bottom: 70px;
+  }
+
+  .client-saying-description {
+    margin-bottom: 46px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .client-saying-content {
+    max-width: 1200px;
+  }
+
+  .client-saying-description {
+    margin: 57px 0 65px;
+  }
+}

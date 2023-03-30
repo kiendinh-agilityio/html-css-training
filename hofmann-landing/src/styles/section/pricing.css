@@ -98,13 +98,13 @@
   }
 
   .pricing-platinum {
-    background: var(--bg-card-primary);
+    background: rgba(0, 0, 0, 0.82);
     border: 1px solid var(--bg-card-primary);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   }
 
   .pricing-silver {
-    background: var(--bg-card-secondary);
+    background: rgba(0, 0, 0, 0.76);
     border: 1px solid var(--bg-card-secondary);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   }
@@ -157,5 +157,17 @@
     right: 0;
     font-size: var(--font-size-index-number-lg);
     line-height: var(--line-height-lg-heading);
+  }
+
+  .pricing-platinum {
+    background: rgba(0, 0, 0, 0.72);
+    border: 1px solid var(--bg-card-primary);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .pricing-silver {
+    background: var(--bg-card-secondary);
+    border: 1px solid var(--bg-card-secondary);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   }
 }

@@ -1,0 +1,149 @@
+.product-advantages {
+  padding: 28px 0 32px;
+}
+
+.advantages-description {
+  font-family: var(--font-family-secondary-regular);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+.text-small {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-md);
+}
+
+.product-advantages-list {
+  margin-top: 37px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-bottom: 29px;
+}
+
+.advantages-item-description {
+  max-width: 150px;
+}
+
+.product-advantages-heading {
+  margin-bottom: 7px;
+}
+
+.advantages-item-heading {
+  margin-bottom: 8px;
+}
+
+.segment-conversion-one {
+  transform: rotate(0deg) skew(0deg);
+}
+
+.segment-conversion-two {
+  transform: rotate(90deg) skew(0deg);
+}
+
+.segment-conversion-three {
+  transform: rotate(180deg) skew(0deg);
+}
+
+.segment-conversion-four {
+  transform: rotate(270deg) skew(90deg);
+}
+
+.segment-downoads-one {
+  transform: rotate(135deg) skew(0deg);
+}
+
+.segment-downoads-two {
+  transform: rotate(134deg) skew(0deg);
+}
+
+.segment-downoads-three {
+  transform: rotate(180deg) skew(0deg);
+}
+
+.segment-downoads-four {
+  transform: rotate(270deg) skew(90deg);
+}
+
+.segment-visitors-one {
+  transform: rotate(-38deg) skew(0deg);
+}
+
+.segment-visitors-two {
+  transform: rotate(52deg) skew(0deg);
+}
+
+.segment-visitors-three {
+  transform: rotate(142deg) skew(0deg);
+}
+
+.segment-visitors-four {
+  transform: rotate(230deg) skew(50deg);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-advantages {
+    padding: 31px 0 36px;
+  }
+
+  .product-advantages-list {
+    gap: 70px;
+    margin-top: 26px;
+  }
+
+  .advantages-item:not(:last-child) {
+    margin-bottom: 19px;
+  }
+
+  .product-advantages-heading {
+    margin-bottom: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-advantages {
+    padding: 70px 30px;
+  }
+
+  .advantages-description {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+  }
+
+  .text-small {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-normal);
+  }
+
+  .advantages-item-heading {
+    font-size: var(--font-size-normal);
+    margin-bottom: 20px;
+  }
+
+  .advantages-conversion {
+    margin-top: 21px;
+  }
+
+  .advantages-item {
+    padding-bottom: 24px;
+  }
+}
+
+/* Large devices (desktops, 1400px and up) */
+@media (min-width: 1200px) {
+  .advantages-item-description {
+    max-width: 262px;
+  }
+}
+
+/* Large devices (desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .product-advantages-list {
+    gap: 0;
+    margin-top: 40px;
+    padding: 0 33px;
+  }
+}
