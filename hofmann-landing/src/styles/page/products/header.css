@@ -1,0 +1,193 @@
+.product-header {
+  width: 100%;
+  min-height: 425px;
+  background-image: url("/hofmann-landing/src/assets/images/mobile/product/background.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/mobile/product/background.jpg")
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.header-product-content {
+  padding: 27px 36px;
+  font-family: var(--font-family-secondary-regular);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+.product-heading {
+  font-family: var(--font-family-primary-bold);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-2xl);
+  color: var(--color-secondary);
+  margin: 14px 0 12px;
+}
+
+.product-img {
+  border-radius: var(--border-radius-normal);
+  margin: 16px 0;
+}
+
+.product-header-img {
+  padding: 0 10px;
+}
+
+.btn-app-store {
+  margin-right: 8px;
+}
+
+.product-header-description {
+  margin-top: 17px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .product-header {
+    min-height: 410px;
+    background-image: url("/hofmann-landing/src/assets/images/tablet/product/background.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/tablet/product/background.jpg")
+    ); /* Safari */
+    background-size: cover;
+    background-position: initial;
+  }
+
+  .header-product-content {
+    padding: 0 62px;
+  }
+
+  .product-heading {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-3xl);
+    margin: 58px 0 11px;
+  }
+
+  .product-header-img {
+    bottom: -4px;
+  }
+
+  .product-img {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .product-introduction {
+    width: 50%;
+    min-height: 333px;
+  }
+
+  .product-header-description {
+    margin: 21px 0 48px;
+  }
+
+  .product-navbar {
+    padding-bottom: 20px;
+  }
+
+  .btn-app-store {
+    margin-right: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-header {
+    height: 768px;
+    background-image: url("/hofmann-landing/src/assets/images/desktop/product/background.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/desktop/product/background.jpg")
+    ); /* Safari */
+  }
+
+  .header-product-content {
+    padding: 40px 40px 0;
+  }
+
+  .product-heading {
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-7xl);
+  }
+
+  .product-header-img {
+    bottom: -93px;
+  }
+
+  .header-product-content {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-xl);
+  }
+
+  .product-introduction-heading {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-md);
+  }
+
+  .product-header-description {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    max-width: 459px;
+  }
+
+  .btn-app-store {
+    margin-right: 30px;
+  }
+
+  .product-sub-heading {
+    font-size: var(--font-size-sub-heading);
+    line-height: var(--line-height-xl);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .product-header-img {
+    bottom: -78px;
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .product-navbar {
+    padding-top: 33px;
+  }
+
+  .product-heading {
+    margin: 18px 0 31px;
+  }
+
+  .header-product-content {
+    max-width: 1200px;
+    padding: 22px 80px;
+  }
+
+  .product-header-img {
+    right: -87px;
+    bottom: -85px;
+  }
+
+  .product-introduction {
+    min-height: 614px;
+    padding: 0 20px;
+  }
+
+  .product-header-description {
+    margin-bottom: 0;
+  }
+
+  .product-introduction-heading {
+    padding: 30px 6px;
+  }
+}
+
+/* Extra large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .header-product-content {
+    max-width: 1600px;
+  }
+}

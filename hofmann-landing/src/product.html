@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <section class="product-header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar">
+          <a href="./index.html" aria-label="Header logo">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="41"
+                height="44"
+                srcset="./assets/images/desktop/logo.svg"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="27"
+                height="29"
+                srcset="./assets/images/tablet/logo.svg"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/logo.svg"
+                width="20"
+                height="24"
+                class="img-fluid"
+                alt="Hofmann"
+              />
+            </picture>
+          </a>
+          <ul
+            class="collapse navbar-collapse justify-content-md-center navbar-nav"
+            id="navbarSupportedContent"
+          >
+            <li class="nav-item">
+              <a aria-label="Navigation link to home" href="./index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to product" href="./product.html"
+                >product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to places" href="#places"
+                >palces</a
+              >
+            </li>
+            <li class="nav-item">
+              <a aria-label="Navigation link to find more" href="#find more"
+                >find more</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex nav-social">
+            <a href="#" aria-label="Twitter" class="social-item">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/twitter.svg"
+                width="20"
+                height="16"
+                alt="Twitter"
+              />
+            </a>
+            <a href="#" aria-label="Facebook">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/facebook.svg"
+                width="20"
+                height="16"
+                alt="Facebook"
+              />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img
+                class="header-social-icon"
+                src="./assets/images/header/instagram.svg"
+                width="20"
+                height="16"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-label="Toggle navigation"
+          >
+            <img
+              src="./assets/images/header/hamburger.svg"
+              alt="Hamburger button"
+              width="16"
+              height="24"
+            />
+          </button>
+        </nav>
+        <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-between justify-content-lg-center position-relative header-product-content">
+          <div class="d-flex flex-column justify-content-lg-between product-introduction">
+            <p class="product-introduction-heading">RESPONSIVE UI KIT</p>
+            <div>
+              <h1 class="product-heading">HOFMANN</h1>
+              <p class="product-sub-heading">We’re Bring It To The New Level</p>
+              <p class="product-header-description">
+                Every new computer that’s brought home from the store has an
+                operating system installed onto it. But what most new computer
+                users don’t realize, is that without an operating system, that
+                computer would be a simple shell of possibilities.
+              </p>
+            </div>
+            <div class="d-none d-md-block">
+              <a href="#" class="btn-app-store" aria-label="App store">
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    width="135"
+                    height="40"
+                    srcset="./assets/images/desktop/product/app-store.svg"
+                    loading="lazy"
+                  />
+                  <img src="./assets/images/product/app-store.svg" width="68" height="20" alt="App store">
+                </picture>
+              </a>
+              <a href="#" class="btn-google-play" aria-label="Google play">
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    width="135"
+                    height="40"
+                    srcset="./assets/images/desktop/product/google-play.svg"
+                    loading="lazy"
+                  />
+                <img src="./assets/images/product/google-play.svg" width="68" height="20" alt="Google play">
+              </a>
+            </div>
+          </div>
+          <picture class="position-relative product-header-img">
+            <source
+              media="(min-width: 992px)"
+              width="358"
+              height="551"
+              srcset="./assets/images/desktop/product/iphone.webp"
+              loading="lazy"
+            />
+            <source
+              media="(min-width: 768px)"
+              width="220"
+              height="337"
+              srcset="./assets/images/tablet/product/iphone.webp"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/mobile/product/iphone.webp"
+              width="225"
+              height="110"
+              class="product-img"
+              alt="Iphone"
+            />
+          </picture>
+          <div class="d-md-none">
+            <a href="#" class="btn-app-store" aria-label="App store">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  width="135"
+                  height="40"
+                  srcset="./assets/images/desktop/product/app-store.svg"
+                  loading="lazy"
+                />
+                <img src="./assets/images/product/app-store.svg" width="68" height="20" alt="App store">
+              </picture>
+            </a>
+            <a href="#" class="btn-google-play" aria-label="Google play">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  width="135"
+                  height="40"
+                  srcset="./assets/images/desktop/product/google-play.svg"
+                  loading="lazy"
+                />
+              <img src="./assets/images/product/google-play.svg" width="68" height="20" alt="Google play">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header end -->
+
+    <!-- Advantages section start -->
+    <section class="product-advantages">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading product-advantages-heading">Stunning Results</h2>
+        <p class="advantages-description">Just look to the statistics we have generate the past year.</p>
+        <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-center justify-content-xl-around advantages-description product-advantages-list">
+          <div class="d-flex flex-column align-items-center advantages-item advantages-conversion">
+            <div class="rounded-circle circular-progress">
+              <div class="rounded-circle circular-progress-circle">
+                <div class="segment segment-conversion-one"></div>
+                <div class="segment segment-conversion-two"></div>
+                <div class="segment segment-conversion-three"></div>
+                <div class="segment segment-conversion-four"></div>
+              </div>
+              <div class="rounded-circle circular-progress-inner"></div>
+              <p class="circular-progress-value">74<span class="text-small">,98</span></p>
+            </div>
+            <div class="advantages-item-description">
+              <p class="advantages-item-heading">TOTAL CONVERSION</p>
+              <p>The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-center advantages-item">
+            <div class="rounded-circle circular-progress">
+              <div class="circular-progress-circle">
+                <div class="segment segment-downoads-one"></div>
+                <div class="segment segment-downoads-two"></div>
+                <div class="segment segment-downoads-three"></div>
+                <div class="segment segment-downoads-four"></div>
+              </div>
+              <div class="rounded-circle circular-progress-inner"></div>
+              <p class="circular-progress-value">39<span class="text-small">,75</span></p>
+            </div>
+            <div class="advantages-item-description">
+              <p class="advantages-item-heading">FREE DOWNOADS</p>
+              <p>Can you imagine what we will be downloading in another twenty years?</p>
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-center advantages-item">
+            <div class="rounded-circle circular-progress">
+              <div class="circular-progress-circle">
+                <div class="segment segment-visitors-one"></div>
+                <div class="segment segment-visitors-two"></div>
+                <div class="segment segment-visitors-three"></div>
+                <div class="segment segment-visitors-four"></div>
+              </div>
+              <div class="rounded-circle circular-progress-inner"></div>
+              <p class="circular-progress-value">81<span class="text-small">,15</span></p>
+            </div>
+            <div class="advantages-item-description">
+              <p class="advantages-item-heading">UNIQUE VISITORS</p>
+              <p>WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Advantages section end -->
+
+    <!-- Testimonials Client section start -->
+    <section class="product-testimonials-client">
+      <div class="container-fluid">
+        <div class="d-flex flex-column align-items-center position-relative client-saying-content">
+          <h2 class="d-md-flex heading text-color-light testimonials-client-heading">What Clients are saying</h2>
+          <p class="quotes color-text-secondary">“</p>
+          <div class="d-flex justify-content-center client-saying-description">
+            <a class="d-none d-md-block product-carousel-btn" href="#" aria-label="Prev">
+              <picture>
+                <source
+                media="(min-width: 992px)"
+                width="64"
+                height="64"
+                srcset="./assets/images/desktop/product/prev.svg"
+                loading="lazy"
+                />
+                <img
+                  src="./assets/images/product/prev.svg"
+                  width="40"
+                  height="40"
+                  alt="Prev"
+                />
+              </picture>
+            </a>
+            <p class="client-saying-text">Businesses at present had creatively generated effective advertising campaigns in the form of audio visual media that includes the television and radios and the print media that cover the newspaper and campaign materials like the posters, brochures, business cards, flyers and many more.</p>
+            <a class="d-none d-md-block product-carousel-btn" href="#" aria-label="Next">
+              <picture>
+                <source
+                media="(min-width: 992px)"
+                width="64"
+                height="64"
+                srcset="./assets/images/desktop/product/next.svg"
+                loading="lazy"
+                />
+                <img
+                  src="./assets/images/product/next.svg"
+                  width="40"
+                  height="40"
+                  alt="Next"
+                />
+              </picture>
+            </a>
+          </div>
+          <div class="d-flex justify-content-center align-items-center testimonials-client-user">
+            <picture class="d-flex">
+              <source
+                media="(min-width: 992px)"
+                width="72"
+                height="72"
+                srcset="./assets/images/desktop/product/ophelia-holland.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/product/ophelia-holland.webp"
+                width="48"
+                height="48"
+                class="rounded-circle"
+                alt="Ophelia holland"
+              />
+            </picture>
+            <div>
+              <p class="color-text-secondary">Ophelia Holland</p>
+              <p>@ophelia_holland</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Client section end -->
+
+    <!-- Project section start -->
+    <section class="product-project">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading">Recent Products</h2>
+        <p class="description product-project-description">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner cartridge market. The market today is approximately a twenty billion dollar business.</p>
+        <div class="d-flex flex-column flex-md-row justify-content-md-center product-project-list">
+          <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="262"
+                height="262"
+                srcset="./assets/images/desktop/product/app-maintenance.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="160"
+                height="160"
+                srcset="./assets/images/tablet/product/app-maintenance.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/product/app-maintenance.webp"
+                width="120"
+                height="120"
+                class="img-fluid"
+                alt="App maintenance"
+              />
+            </picture>
+            <p class="project-item-heading">APP MAINTENANCE</p>
+            <p class="project-item-description">by</p>
+            <p class="project-item-description project-item-info">Lida Morrison, Nettie Burke</p>
+            <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
+          </div>
+          <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
+            <div class="d-flex align-items-center justify-content-center position-relative">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  width="262"
+                  height="262"
+                  srcset="./assets/images/desktop/product/fta-keys.webp"
+                  loading="lazy"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  width="160"
+                  height="160"
+                  srcset="./assets/images/tablet/product/fta-keys.webp"
+                  loading="lazy"
+                />
+                <img
+                  src="./assets/images/mobile/product/fta-keys.webp"
+                  width="120"
+                  height="120"
+                  class="img-fluid rounded-circle"
+                  alt="Fta keys"
+                />
+              </picture>
+              <div class="d-none d-lg-block position-absolute">
+                <img src="./assets/images/desktop/product/view.svg" width="40" height="22" alt="View">
+                <div class="d-flex flex-row align-items-center position-absolute project-view">
+                  <img src="./assets/images/desktop/product/view.svg" width="20" height="11" alt="View">
+                  <p class="number-view">91312</p>
+                </div>
+              </div>
+            </div>
+            <p class="project-item-heading">FTA KEYS</p>
+            <p class="project-item-description">by</p>
+            <p class="project-item-description project-item-info">Ivan Alexander, Steven Soto, Clifford Hammond</p>
+            <button class="d-flex align-items-center justify-content-center btn btn-project btn-secondary-active">Review</button>
+          </div>
+          <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="262"
+                height="262"
+                srcset="./assets/images/desktop/product/smart-watch.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="160"
+                height="160"
+                srcset="./assets/images/tablet/product/smart-watch.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/product/smart-watch.webp"
+                width="120"
+                height="120"
+                class="img-fluid"
+                alt="Smart watch"
+              />
+            </picture>
+            <p class="project-item-heading">SMART WATCH</p>
+            <p class="project-item-description">by</p>
+            <p class="project-item-description project-item-info">Trevor James, Carl Stevenson</p>
+            <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
+          </div>
+          <div class="d-flex flex-column align-items-center justify-content-md-between product-project-item">
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                width="262"
+                height="262"
+                srcset="./assets/images/desktop/product/watch-apps.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="160"
+                height="160"
+                srcset="./assets/images/tablet/product/watch-apps.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/product/watch-apps.webp"
+                width="120"
+                height="120"
+                class="img-fluid"
+                alt="Watch apps"
+              />
+            </picture>
+            <p class="project-item-heading">WATCH APPS</p>
+            <p class="project-item-description">by</p>
+            <p class="project-item-description project-item-info">Glen Snyder, Andrew Goodwin, Lida Morrison</p>
+            <button class="d-flex align-items-center justify-content-center btn btn-project">Review</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project section end -->
+
+    <!-- Purchase section start -->
+    <section class="product-purchase">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="heading product-purchase-heading">Start Selling Instantly</h2>
+        <p class="description product-purchase-description">Start Selling With Your Pre-paid account. No deposit needed.</p>
+        <input class="purchase-input" type="email" placeholder="Email" />
+        <button class="btn btn-register">REGISTER</button>
+      </div>
+    </section>
+    <!-- Purchase section end -->
+
+    <!-- Testimonials section start -->
+    <section class="product-testimonials">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="d-lg-none heading">Testimonials</h2>
+        <h2 class="d-none d-lg-block heading testimonials-people-heading">What People Say</h2>
+        <div class="d-flex product-testimonials-list">
+          <div class="d-none d-md-block product-testimonials-item position-relative testimonials-seneca">
+            <p class="testimonials-quotes">“</p>
+            <div class="d-flex flex-column text-left">
+              <p class="testimonials-description">It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.</p>
+              <p class="testimonials-fullname testimonials-name-seneca">Seneca the Younger</p>
+              <p class="testimonials-job">Editor in okodesign.net</p>
+            </div>
+            <picture class="testimonials-avatar">
+              <source
+                media="(min-width: 992px)"
+                width="128"
+                height="128"
+                srcset="./assets/images/desktop/product/seneca.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/tablet/product/seneca.webp"
+                width="80"
+                height="80"
+                class="img-fluid rounded-circle"
+                alt="Seneca"
+              />
+            </picture>
+          </div>
+          <div class="product-testimonials-item position-relative testimonials-rachel-moreno">
+            <p class="testimonials-quotes">“</p>
+            <div class="d-flex flex-column text-left">
+              <p class="testimonials-description">Attending a trade show can be a very effective method of promoting your company and its products.</p>
+              <p class="testimonials-fullname">Rachel Moreno</p>
+              <p class="testimonials-job">Lead Designer in okodesign.net</p>
+            </div>
+            <picture class="testimonials-avatar">
+              <source
+                media="(min-width: 992px)"
+                width="128"
+                height="128"
+                srcset="./assets/images/desktop/product/rachel-moreno.webp"
+                loading="lazy"
+              />
+              <source
+                media="(min-width: 768px)"
+                width="80"
+                height="80"
+                srcset="./assets/images/tablet/product/rachel-moreno.webp"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/mobile/product/rachel-moreno.webp"
+                width="64"
+                height="64"
+                class="img-fluid rounded-circle"
+                alt="Rachel moreno"
+              />
+            </picture>
+          </div>
+        </div>
+        <ul class="d-flex product-dot-list">
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-list-active product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-item d-md-none rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+          <li class="dot product-dot-item rounded-circle"></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonials section end -->
+
+    <!-- Pricing section start -->
+    <section class="product-pricing">
+      <div class="container-fluid d-flex flex-column text-center">
+        <h2 class="heading product-pricing-heading">Subscribing Plans</h2>
+        <div class="d-flex justify-content-center flex-wrap product-pricing-list">
+          <div class="card align-items-center product-card-item">
+            <div class="card-header product-card-header pricing-freemium">
+              <p>FREEMIUM</p>
+              <p class="product-price"><sup class="dollar-up">$</sup>0</p>
+            </div>
+            <ul class="card-body product-card-body pricing-freemium-body">
+              <li>Basic Collections</li>
+              <li>10 Messages</li>
+              <li>50 Images per Day</li>
+            </ul>
+            <button class="d-flex align-items-center justify-content-center btn btn-get-started">GET STARTED</button>
+          </div>
+          <div class="card align-items-center product-card-item">
+            <div class="card-header product-card-header pricing-start-up">
+              <p>START UP</p>
+              <p class="product-price"><sup class="dollar-up">$</sup>9</p>
+            </div>
+            <ul class="card-body product-card-body pricing-start-up-body">
+              <li>Multiple Collections</li>
+              <li>100 Messages</li>
+              <li>100 Images per Day</li>
+            </ul>
+            <button class="d-flex align-items-center justify-content-center btn btn-get-started">GET STARTED</button>
+          </div>
+          <div class="card align-items-center product-card-item product-card-business">
+            <div class="card-header product-card-header pricing-business">
+              <p>BUSINESS</p>
+              <p class="product-price"><sup class="dollar-up">$</sup>29</p>
+            </div>
+            <ul class="card-body product-card-body">
+              <li>Unlimited Collections</li>
+              <li>500 Messages</li>
+              <li>300 Images per Day</li>
+              <li>Project Reviews</li>
+            </ul>
+            <button class="d-flex align-items-center justify-content-center btn btn-get-started btn-secondary-active">GET STARTED</button>
+          </div>
+          <div class="card align-items-center product-card-item product-card-enterprise">
+            <div class="card-header product-card-header pricing-enterprise">
+              <p>ENTERPRISE</p>
+              <p class="product-price"><sup class="dollar-up">$</sup>49</p>
+            </div>
+            <ul class="card-body product-card-body">
+              <li>Unlimited Collections</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited Images per Day</li>
+              <li>Project Reviews</li>
+            </ul>
+            <button class="d-flex align-items-center justify-content-center btn btn-get-started">GET STARTED</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing section end -->
+
+    <!-- Contact section start -->
+    <section class="product-contact">
+      <div class="container-fluid d-flex flex-column align-items-center text-center">
+        <h2 class="product-contact-heading">Get in Touch</h2>
+        <form class="product-contact-form">
+          <input class="product-form-control" type="text" placeholder="Name*" />
+          <input class="product-form-control" type="email" placeholder="Email*" />
+          <textarea class="product-form-control product-contact-textarea" placeholder="Message*"></textarea>
+          <div class="d-flex align-items-center justify-content-center form-check contact-form-check">
+            <input type="checkbox" class="form-check-input contact-check">
+            <label class="form-check-label contact-check-label">Most Urgent Question</label>
+          </div>
+          <button class="btn btn-submit">SUBMIT</button>
+        </form>
+        <address class="d-flex flex-column flex-md-row product-contact-info">
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/location.svg" width="11" height="17" alt="Location">
+            </div>
+            <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/mail.svg" width="17" height="10" alt="Mail">
+            </div>
+            <a href="mailto: contact@hofmannui.net" aria-label="Link to email: contact@hofmannui.net">contact@hofmannui.net</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center product-contact-icon">
+              <img src="./assets/images/product/phone.svg" width="11" height="17" alt="Phone">
+            </div>
+            <a href="tel:9527756021" aria-label="Link to phone: 952-775-6021">952-775-6021</a>
+          </div>
+        </address>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer class="product-footer">
+      <div class="container-fluid">
+        <div class="d-flex flex-column justify-content-center product-footer-introduction">
+          <nav class="d-flex flex-wrap product-footer-nav">
+            <ul class="d-flex flex-column product-nav-list">
+              <li class="nav-item-heading">
+                <a href="#" aria-label="Company">COMPANY</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="News">News</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Blog">Blog</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Testimonials">Testimonials</a>
+              </li>
+              <li class="product-footer-nav-itemm">
+                <a href="#" aria-label="About Us">About Us</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Press Kit">Press Kit</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Get in Touch">Get in Touch</a>
+              </li>
+            </ul>
+            <ul class="d-flex flex-column product-nav-list">
+              <li class="nav-item-heading">
+                <a href="#" aria-label="Products">PRODUCTS</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Press Kit">Press Kit</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Icons">Icons</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Wordpress Themes">Wordpress Themes</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Mock Ups">Mock-Ups</a>
+              </li>
+            </ul>
+            <ul class="d-flex flex-column product-nav-list">
+              <li class="nav-item-heading">
+                <a href="#" aria-label="Support">SUPPORT</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Community">Community</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Forum">Forum</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Distributors">Distributors</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Terms of Use">Terms of Use</a>
+              </li>
+            </ul>
+            <ul class="d-flex flex-column product-nav-list">
+              <li class="nav-item-heading">
+                <a href="#" aria-label="Customers">CUSTOMERS</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Documentation">Documentation</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Tools">Tools</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Downloads">Downloads</a>
+              </li>
+              <li class="product-footer-nav-item">
+                <a href="#" aria-label="Developer Center">Developer Center</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="d-flex flex-column align-items-center text-center flex-md-row-reverse justify-content-md-between text-md-left product-footer-content">
+            <div class="d-flex flex-row product-social-list">
+              <a href="#" aria-label="Linkedin">
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/linkedin.svg"
+                  width="18"
+                  height="18"
+                  alt="Linkedin"
+                />
+              </a>
+              <a href="#" aria-label="Google">
+                <img
+                  class="footer-google-icon"
+                  src="./assets/images/google-plus.svg"
+                  width="26"
+                  height="18"
+                  alt="Google"
+                />
+              </a>
+              <a href="#" aria-label="Twitter">
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/twitter.svg"
+                  width="21"
+                  height="18"
+                  alt="Twitter"
+                />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/facebook.svg"
+                  width="18"
+                  height="18"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="#" aria-label="Instagram">
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/instagram.svg"
+                  width="18"
+                  height="18"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+            <div class="d-flex flex-column footer-copyright">
+              <p>© 2016 Hofmann UI Kit</p>
+              <p>Created by Goldenfox — okodesign.net</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+</html>

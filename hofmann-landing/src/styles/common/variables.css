@@ -2,6 +2,7 @@
   /* color */
   --color-primary: #fff;
   --color-secondary: #ebcb80;
+  --color-tertiary: #4b4b4b;
   --color-text: #fff;
   --color-text-primary: #4b4b4b;
   --color-heading: #4b4b4b;
@@ -9,14 +10,20 @@
   --color-hr-bottom: #f6f6f6;
   --color-border-input: #7d7d7d;
   --color-input: #7d7d7d;
+  --color-hr-border: #4b4b4b;
+  --color-hr-bottom: #7d7d7d;
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
+  --bg-tertiary: #4b4b4b;
   --bg-pricing: #f6f6f6;
   --bg-btn-card: #4b4b4b;
   --bg-card-primary: #4b4b4b;
   --bg-card-secondary: #7d7d7d;
   --bg-footer: #4b4b4b;
+  --bg-wild-nature: #f6f6f6;
+  --bg-hr-border: #4b4b4b;
+  --bg-btn-project: #4b4b4b;
 
   /* font family */
   --font-family-primary-regular: "Montserrat Regular";
@@ -34,10 +41,18 @@
   --font-size-3xl: 36px;
   --font-size-4xl: 44px;
   --font-size-5xl: 64px;
+  --font-size-6xl: 144px;
 
   --font-size-confession-name: 24px;
   --font-size-index-number-lg: 24px;
   --font-size-footer-logo: 24px;
+  --font-size-gallery-text: 24px;
+  --font-description-client-saying: 24px;
+  --font-size-placeholder-purchase-input: 14px;
+  --font-size-testimonials-name: 24px;
+  --font-size-dollar-lg: 24px;
+  --font-size-placeholder-md: 14px;
+  --font-size-sub-heading: 24px;
 
   /* line height */
   --line-height-tiny: 13px;
@@ -51,7 +66,10 @@
   --line-height-3xl: 44px;
   --line-height-4xl: 48px;
   --line-height-5xl: 54px;
+  --line-height-7xl: 78px;
+  --line-height-8xl: 176px;
 
+  --line-height-placeholder-md: 18px;
   --line-height-lg-btn: 19px;
   --line-height-lg-placeholder: 27px;
   --line-height-heading-card: 27px;
@@ -59,6 +77,10 @@
   --line-height-index-number-lg: 29px;
   --line-height-lg-heading: 30px;
   --line-height-lg-confession-name: 42px;
+  --line-height-wild-nature: 28px;
+  --line-height-gallery-text: 42px;
+  --line-height-dollar-lg: 29px;
+  --line-height-description-card: 26px;
 
   /* container */
   --container-padding-sm: 15px;
@@ -68,7 +90,9 @@
 
   /* border radius */
   --border-radius-tiny: 2px;
+  --border-radius-sm: 4px;
   --border-radius-md: 8px;
+  --border-radius-normal: 20px;
   --border-radius-lg: 48px;
   --border-radius-base: 50px;
 }
