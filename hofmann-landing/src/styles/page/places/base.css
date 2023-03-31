@@ -1,4 +1,4 @@
-body {
+.places-page {
   font-family: var(--font-family-secondary-regular);
   font-size: var(--font-size-sm);
   line-height: var(--line-height-base);
@@ -8,7 +8,7 @@ body {
 
 /* large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body {
+  .places-page {
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
   }

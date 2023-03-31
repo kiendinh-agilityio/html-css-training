@@ -1,13 +1,10 @@
-.navbar {
-  padding: 21px 15px;
-}
-
 .places-navbar {
   color: var(--color-primary);
   position: relative;
+  padding: 21px 15px;
 }
 
-.navbar-nav {
+.places-navbar-nav {
   position: absolute;
   top: 60px;
   z-index: 2;
@@ -22,22 +19,18 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar {
-    padding: 32px 24px;
-  }
-
   .places-navbar {
-    padding-bottom: 20px;
+    padding: 32px 20px;
   }
 
-  .navbar-nav {
+  .places-navbar-nav {
     position: static;
   }
 }
 
 /* large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .navbar {
+  .places-navbar {
     padding: 47px 72px;
   }
 }
