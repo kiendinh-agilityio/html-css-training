@@ -10,10 +10,10 @@
     <link rel="preload stylesheet" href="./styles/main.css" />
     <title>Places Page</title>
   </head>
-  <body>
+  <body class="places-page">
     <!-- Header start -->
     <header class="places-header">
-        <nav class="navbar navbar-expand-md d-flex justify-content-between places-navbar">
+      <nav class="navbar navbar-expand-md d-flex justify-content-between places-navbar">
           <a href="./index.html" aria-label="Header logo">
             <picture>
               <source
@@ -40,7 +40,7 @@
             </picture>
           </a>
           <ul
-            class="collapse navbar-collapse align-items-start justify-content-md-center navbar-nav"
+            class="collapse navbar-collapse align-items-start justify-content-md-center navbar-nav places-navbar-nav"
             id="navbarSupportedContent"
           >
             <li class="nav-item">
@@ -105,7 +105,7 @@
               height="24"
             />
           </button>
-        </nav>
+      </nav>
     </header>
     <!-- Header end -->
 
@@ -131,77 +131,77 @@
     <section class="places-our-team">
       <div class="container-fluid d-flex flex-column text-center">
         <h2 class="heading">Our Team</h2>
-        <div class="places-our-team-list">
-          <div class="our-team-item">
+        <div class="d-flex flex-column justify-content-center flex-md-row flex-md-wrap justify-content-md-between places-our-team-list">
+          <div class="d-flex text-left order-md-1 our-team-item">
             <picture>
               <source width="48" height="48" srcset="./assets/images/places/webp/craig-todd.webp" type="image/webp">
               <source srcset="./assets/images/places/png/craig-todd.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/craig-todd.png" alt="Avatar Craig Todd">
+              <img loading="lazy" src="./assets/images/places/png/craig-todd.png" alt="Avatar Craig Todd" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Craig Todd</li>
-              <li>CEO</li>
-              <li>Like the majority of sales people, I visit a huge number of clients and prospects every month</li>
+              <li class="our-team-name">Craig Todd</li>
+              <li class="our-team-job">CEO</li>
+              <li class="our-team-decscription">Like the majority of sales people, I visit a huge number of clients and prospects every month</li>
             </ul>
           </div>
-          <div class="our-team-item">
+          <div class="d-flex text-left order-md-3 our-team-item">
             <picture>
               <source width="48" height="48" srcset="./assets/images/places/webp/jennie-graham.webp" type="image/webp">
               <source srcset="./assets/images/places/png/jennie-graham.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/jennie-graham.png" alt="Avatar Jennie Graham">
+              <img loading="lazy" src="./assets/images/places/png/jennie-graham.png" alt="Avatar Jennie Graham" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Jennie Graham</li>
-              <li>UX/UI Designer</li>
-              <li>WordPress Version 2 0 3 Review</li>
+              <li class="our-team-name">Jennie Graham</li>
+              <li class="our-team-job">UX/UI Designer</li>
+              <li class="our-team-decscription">WordPress Version 2 0 3 Review</li>
             </ul>
           </div>
-          <div class="our-team-item">
+          <div class="d-flex text-left order-md-5 our-team-item">
             <picture>
               <source width="48" height="48" srcset="./assets/images/places/webp/chase-meyer.webp" type="image/webp">
               <source srcset="./assets/images/places/png/chase-meyer.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/chase-meyer.png" alt="Avatar Chase Meyer">
+              <img loading="lazy" src="./assets/images/places/png/chase-meyer.png" alt="Avatar Chase Meyer" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Chase Meyer</li>
-              <li>Front-end Developer</li>
-              <li>Search Engine Optimization And Advertising</li>
+              <li class="our-team-name">Chase Meyer</li>
+              <li class="our-team-job">Front-end Developer</li>
+              <li class="our-team-decscription">Search Engine Optimization And Advertising</li>
             </ul>
           </div>
-          <div class="our-team-item">
+          <div class="d-flex text-left order-md-2 our-team-item">
             <picture>
               <source width="48" height="48" srcset="./assets/images/places/webp/vera-hopkins.webp" type="image/webp">
               <source srcset="./assets/images/places/png/vera-hopkins.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/vera-hopkins.png" alt="Avatar Vera Hopkins">
+              <img loading="lazy" src="./assets/images/places/png/vera-hopkins.png" alt="Avatar Vera Hopkins" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Vera Hopkins</li>
-              <li>UX Lead</li>
-              <li>Differentiate Yourself And Attract More Attention Sales And Profits</li>
+              <li class="our-team-name">Vera Hopkins</li>
+              <li class="our-team-job">UX Lead</li>
+              <li class="our-team-decscription">Differentiate Yourself And Attract More Attention Sales And Profits</li>
             </ul>
           </div>
-          <div class="our-team-item">
+          <div class="d-flex text-left order-md-4 our-team-item">
             <picture>
               <source width="48" height="48" srcset="./assets/images/places/webp/eunice-wong.webp" type="image/webp">
               <source srcset="./assets/images/places/png/eunice-wong.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/eunice-wong.png" alt="Avatar Eunice Wong">
+              <img loading="lazy" src="./assets/images/places/png/eunice-wong.png" alt="Avatar Eunice Wong" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Eunice Wong</li>
-              <li>Marketing consultant</li>
-              <li>Advertising Internet Online Opportunities To Explore</li>
+              <li class="our-team-name">Eunice Wong</li>
+              <li class="our-team-job">Marketing consultant</li>
+              <li class="our-team-decscription">Advertising Internet Online Opportunities To Explore</li>
             </ul>
           </div>
-          <div class="our-team-item">
+          <div class="d-flex text-left order-md-6 our-team-item">
             <picture>
-              <source width="48" height="48" srcset="./assets/images/places/webp/eunice-wong.webp" type="image/webp">
-              <source srcset="./assets/images/places/png/eunice-wong.png" type="image/png">
-              <img loading="lazy" src="./assets/images/places/png/johnny-vargas.png" alt="Avatar Johnny Vargas">
+              <source width="48" height="48" srcset="./assets/images/places/webp/johnny-vargas.webp" type="image/webp">
+              <source srcset="./assets/images/places/png/johnny-vargas.png" type="image/png">
+              <img loading="lazy" src="./assets/images/places/png/johnny-vargas.png" alt="Avatar Johnny Vargas" class="our-team-avatar">
             </picture>
             <ul>
-              <li>Johnny Vargas</li>
-              <li>Back-end Developer</li>
-              <li>Maintain Your PC S Performance With PC Programs</li>
+              <li class="our-team-name">Johnny Vargas</li>
+              <li class="our-team-job">Back-end Developer</li>
+              <li class="our-team-decscription">Maintain Your PC S Performance With PC Programs</li>
             </ul>
           </div>
         </div>
