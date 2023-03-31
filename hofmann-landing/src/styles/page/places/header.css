@@ -13,10 +13,11 @@
   z-index: 2;
   width: 100%;
   background-color: var(--bg-tertiary);
+  left: -1px;
 }
 
 .nav-item {
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 /* Medium devices (tablets, 768px and up) */
