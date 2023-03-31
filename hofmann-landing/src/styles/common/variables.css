@@ -12,6 +12,7 @@
   --color-input: #7d7d7d;
   --color-hr-border: #4b4b4b;
   --color-hr-bottom: #7d7d7d;
+  --color-btn-hero: #3c3c3c;
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
@@ -95,4 +96,8 @@
   --border-radius-normal: 20px;
   --border-radius-lg: 48px;
   --border-radius-base: 50px;
+
+  /* opacity */
+  --opacity-sm: 0.5;
+  --opacity-md: 0.8;
 }
