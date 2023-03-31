@@ -1,0 +1,6 @@
+body {
+  font-family: var(--font-family-secondary-regular);
+  font-size: var(--font-size-sm);
+  color: var(--color-tertiary);
+  background-color: var(--bg-tertiary);
+}

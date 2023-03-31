@@ -520,6 +520,12 @@ h2,
   align-items: center !important;
 }
 
+.align-items-start {
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
 @media (min-width: 768px) {
   .flex-md-row {
     -ms-flex-direction: row !important;
