@@ -1,0 +1,69 @@
+.places-pricing {
+  padding: 52px 0 42px;
+}
+
+.places-pricing-list {
+  margin-top: 20px;
+}
+
+.places-pricing-item {
+  max-width: 220px;
+  height: 248px;
+  color: var(--color-primary);
+}
+
+.places-pricing-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.places-card-silver {
+  border: 1px solid var(--bg-tertiary);
+  background-image: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
+  background-blend-mode: soft-light;
+  background-color: var(--bg-tertiary);
+}
+
+.places-card-platinum {
+  border: 1px solid var(--bg-tertiary);
+  background-image: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+  background-blend-mode: multiply;
+  background-color: var(--bg-tertiary);
+}
+
+.btn-places-pricing {
+  color: var(--color-tertiary);
+  background-color: var(--bg-secondary);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .places-pricing {
+    padding: 56px 0 80px;
+  }
+
+  .places-pricing-list {
+    margin-top: 32px;
+    gap: 30px;
+  }
+
+  .places-pricing-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+  .places-pricing {
+    padding: 68px 0 95px;
+  }
+
+  .places-pricing-list {
+    margin-top: 52px;
+    gap: 28px;
+  }
+
+  .places-pricing-item {
+    max-width: 360px;
+    height: 396px;
+  }
+}
