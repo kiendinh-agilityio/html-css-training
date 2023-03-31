@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="Hofmann Landing" name="description" />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preload stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="preload stylesheet" href="./styles/main.css" />
     <title>Places Page</title>
   </head>
   <body>
     <!-- Header start -->
     <header class="places-header">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar">
+        <nav class="navbar navbar-expand-md d-flex justify-content-between places-navbar">
           <a href="./index.html" aria-label="Header logo">
             <picture>
               <source
@@ -41,7 +40,7 @@
             </picture>
           </a>
           <ul
-            class="collapse navbar-collapse justify-content-md-center navbar-nav"
+            class="collapse navbar-collapse align-items-start justify-content-md-center navbar-nav"
             id="navbarSupportedContent"
           >
             <li class="nav-item">
@@ -107,7 +106,6 @@
             />
           </button>
         </nav>
-      </div>
     </header>
     <!-- Header end -->
 
