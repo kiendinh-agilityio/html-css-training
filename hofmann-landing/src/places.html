@@ -265,25 +265,46 @@
 
     <!-- Testimonials section start -->
     <section class="places-testimonials">
-      <div class="container-fluid d-flex flex-column text-center">
-        <picture>
-          <source media="(max-width: 479px)" width="87" height="87" srcset="./assets/images/places/webp/ida-stephens-mobile-1x.webp 1x, ./assets/images/places/webp/ida-stephens-mobile-2x.webp 2x" type="image/webp">
-          <source media="(max-width: 991px)" width="108" height="108" srcset="./assets/images/places/webp/ida-stephens-tablet-1x.webp 1x, ./assets/images/places/webp/ida-stephens-tablet-2x.webp 2x" type="image/webp">
-          <source media="(min-width: 992px)" width="172" height="172" srcset="./assets/images/places/webp/ida-stephens-desktop.webp" type="image/webp">
-          <source srcset="./assets/images/places/png/ida-stephens-desktop.png" type="image/png">
-          <img loading="lazy" src="./assets/images/places/png/ida-stephens-desktop.png" alt="Avatar Ida Stephens">
-        </picture>
-        <ul>
-          <li>Ida Stephens — Noir Project</li>
-          <li>“Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in todays world. It’s often been the case were one party completely miscommunicates to another due to a misunderstanding between parties.”</li>
-        </ul>
-        <ul class="d-flex product-dot-list">
-          <li class="dot product-dot-item rounded-circle"></li>
-          <li class="dot product-dot-item rounded-circle"></li>
-          <li class="dot product-dot-item product-dot-list-active rounded-circle"></li>
-          <li class="dot product-dot-item rounded-circle"></li>
-          <li class="dot product-dot-item rounded-circle"></li>
-        </ul>
+      <div class="container-fluid d-flex align-items-lg-center justify-content-lg-between m-width-1100">
+        <a class="d-none d-lg-block" href="#" aria-label="Prev">
+          <img
+            loading="lazy"
+            src="./assets/images/places/carousel-icon.svg"
+            width="64"
+            height="64"
+            alt="Prev"
+          />
+        </a>
+        <div class="d-flex flex-column align-items-center text-center places-testimonials-content">
+          <picture class="d-flex justify-content-center align-items-center rounded-circle places-testimonials-avatar">
+            <source media="(max-width: 576px)" width="88" height="88" srcset="./assets/images/places/webp/ida-stephens-mobile-1x.webp 1x, ./assets/images/places/webp/ida-stephens-mobile-2x.webp 2x" type="image/webp">
+            <source media="(max-width: 991px)" width="108" height="108" srcset="./assets/images/places/webp/ida-stephens-tablet-1x.webp 1x, ./assets/images/places/webp/ida-stephens-tablet-2x.webp 2x" type="image/webp">
+            <source media="(min-width: 992px)" width="172" height="172" srcset="./assets/images/places/webp/ida-stephens-desktop.webp" type="image/webp">
+            <source srcset="./assets/images/places/png/ida-stephens-desktop.png" type="image/png">
+            <img loading="lazy" src="./assets/images/places/png/ida-stephens-desktop.png" alt="Avatar Ida Stephens">
+          </picture>
+          <ul>
+            <li class="places-testimonials-name">Ida Stephens — Noir Project</li>
+            <li class="places-testimonials-description">“Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in todays world. It’s often been the case were one party completely miscommunicates to another due to a misunderstanding between parties.”</li>
+          </ul>
+          <ul class="d-flex justify-content-center places-dot-list">
+            <li class="dot product-dot-item rounded-circle"></li>
+            <li class="dot product-dot-item rounded-circle"></li>
+            <li class="dot product-dot-item product-dot-list-active rounded-circle"></li>
+            <li class="dot product-dot-item rounded-circle"></li>
+            <li class="dot product-dot-item rounded-circle"></li>
+          </ul>
+        </div>
+        <a class="d-none d-lg-block" href="#" aria-label="Next">
+          <img
+            loading="lazy"
+            src="./assets/images/places/carousel-icon.svg"
+            width="64"
+            height="64"
+            alt="Next"
+            class="carousel-next-icon"
+          />
+        </a>
       </div>
     </section>
     <!-- Testimonials section end -->
