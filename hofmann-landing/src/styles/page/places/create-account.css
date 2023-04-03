@@ -1,0 +1,112 @@
+
+.create-account-section {
+  width: 100%;
+  min-height: 471px;
+  background-image: linear-gradient(0deg, rgba(75, 75, 75, 0.3), rgba(75, 75, 75, 0.3)), url("/hofmann-landing/src/assets/images/places/webp/bg-create-account-mobile.webp");
+  background-image: image-set(
+    url("/hofmann-landing/src/assets/images/places/png/bg-create-account-mobile.png")
+  ); /* Safari */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 44px 0 56px;
+  background-blend-mode: multiply, normal;
+}
+
+.create-account-form {
+  max-width: 263px;
+  height: 312px;
+  padding: 12px 21px 36px;
+  background-image: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
+  background-blend-mode: soft-light;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--border-radius-md);
+  margin-top: 20px;
+  color: var(--color-secondary);
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-normal);
+}
+
+.create-account-heading {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-heading);
+  margin-bottom: 16px;
+}
+
+.create-account-control {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 2px 14px;
+  color: var(--color-input);
+  border-radius: var(--border-radius-sm);
+  border: 1px;
+}
+
+.create-account-control:focus {
+  outline: none;
+}
+
+.btn-create-account {
+  font-family: var(--font-family-primary-regular);
+  margin-top: 15px;
+}
+
+.link-sign-in {
+  text-decoration: underline;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .create-account-section {
+    background-image: url("/hofmann-landing/src/assets/images/places/webp/bg-create-account-tablet.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/places/png//bg-create-account-tablet.png")
+    ); /* Safari */
+    padding: 40px 0 41px;
+  }
+
+  .create-account-form {
+    max-width: 279px;
+    height: 325px;
+    margin-top: 26px;
+    padding: 21px 29px 23px;
+  }
+
+  .create-account-control {
+    padding: 6px 14px;
+  }
+}
+
+/* large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .create-account-section {
+    min-height: 588px;
+    background-image: url("/hofmann-landing/src/assets/images/places/webp/bg-create-account-desktop.webp");
+    background-image: image-set(
+      url("/hofmann-landing/src/assets/images/places/png/bg-create-account-desktop.png")
+    ); /* Safari */
+    padding: 72px 0 49px;
+  }
+
+  .create-account-form {
+    margin-top: 36px;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    max-width: 360px;
+    height: 384px;
+    padding: 28px 52px 24px;
+  }
+
+  .create-account-control {
+    margin-bottom: 25px;
+  }
+
+  .btn-create-account {
+    margin-top: 19px;
+    width: 198px;
+  }
+
+  .create-account-heading {
+    font-size: var(--font-size-normal);
+  }
+}
