@@ -617,6 +617,11 @@ h2,
     flex-wrap: wrap !important;
   }
 
+  .flex-md-nowrap {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+  }
+
   .justify-content-md-start {
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
