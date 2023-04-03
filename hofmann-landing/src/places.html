@@ -579,44 +579,47 @@
     <footer class="places-footer">
       <div class="container-fluid">
         <div class="d-flex flex-column justify-content-center places-footer-introduction">
-          <div>
-            <h3>CONTACT US</h3>
-            <div>
-              <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
-              <ul>
-                <li>+235 793-891-7938</li>
-                <li>contact@hofmannui.net</li>
+          <div class="d-flex flex-wrap flex-md-nowrap justify-content-md-center">
+            <div class="places-footer-contact">
+              <h3 class="places-footer-heading">CONTACT US</h3>
+              <div class="d-md-flex ">
+                <p class="places-footer-description places-footer-location">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+                <ul class="places-footer-description">
+                  <li>+235 793-891-7938</li>
+                  <li>contact@hofmannui.net</li>
+                </ul>
+              </div>
+            </div>
+            <div class="places-footer-social">
+              <h3 class="places-footer-heading">FOLLOW US</h3>
+              <ul class="d-flex places-footer-social-list">
+                <li>
+                  <a href="#" aria-label="Pinterest">
+                    <img width="24" height="24" loading="lazy" src="./assets/images/places/pinterest.svg" alt="Pinterest icon" class="places-footer-social-icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Twitter">
+                    <img width="29" height="24" loading="lazy" src="./assets/images/places/twitter.svg" alt="Twitter icon" class="places-footer-social-icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Facebook">
+                    <img width="24" height="24" loading="lazy" src="./assets/images/places/facebook.svg" alt="Facebook icon" class="places-footer-social-icon">
+                  </a>
+                </li>
               </ul>
             </div>
+            <div class="places-footer-about">
+              <h3 class="places-footer-heading">ABOUT US</h3>
+              <p class="places-footer-description">Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.</p>
+            </div>
           </div>
-          <div>
-            <h3>FOLLOW US</h3>
-            <ul>
-              <li>
-                <a href="#" aria-label="Pinterest">
-                  <img width="24" height="24" loading="lazy" src="./assets/images/places/pinterest.svg" alt="Pinterest icon">
-                </a>
-              </li>
-              <li>
-                <a href="#" aria-label="Twitter">
-                  <img width="29" height="24" loading="lazy" src="./assets/images/places/twitter.svg" alt="Twitter icon">
-                </a>
-              </li>
-              <li>
-                <a href="#" aria-label="Facebook">
-                  <img width="24" height="24" loading="lazy" src="./assets/images/places/facebook.svg" alt="Facebook icon">
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>ABOUT US</h3>
-            <p>Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.</p>
-          </div>
-          <div class="d-flex flex-column align-items-center text-center flex-md-row-reverse justify-content-md-between text-md-left places-footer-content">
-            <nav class="d-flex flex-wrap places-footer-nav">
-              <ul class="d-flex flex-column places-nav-list">
-                <li class="nav-item-heading">
+          <span class="places-hr-footer"></span>
+          <div class="d-flex flex-row flex-wrap align-items-center flex-md-nowrap justify-content-md-between text-md-left places-footer-content">
+            <nav class="d-flex places-footer-nav order-md-2">
+              <ul class="d-flex justify-content-between justify-content-md-center places-nav-list">
+                <li class="places-footer-nav-item">
                   <a href="./index.html" aria-label="Home">HOME</a>
                 </li>
                 <li class="places-footer-nav-item">
@@ -633,23 +636,16 @@
                 </li>
               </ul>
             </nav>
-            <p>© 2016 Hofmann UI Kit</p>
-            <div>
-              <label>To the Top</label>
-              <a href="#" class="input-group-prepend" aria-label="To the Top">
-                <source
-                  media="(min-width: 992px)"
-                  width="8"
-                  height="16"
-                  srcset="./assets/images/desktop/subscribe.webp"
-                  loading="lazy"
-                />
+            <p class="places-copyright order-md-1">© 2016 Hofmann UI Kit</p>
+            <div class="d-flex justify-content-end align-items-center places-footer-group order-md-3">
+              <label class="d-md-none to-the-top">To the Top</label>
+              <a href="#" class="d-flex align-items-center justify-content-center input-group-prepend places-input-group-prepend" aria-label="To the Top">
                 <img
                   src="./assets/images/mobile/subscribe.svg"
-                  width="4"
-                  height="8"
-                  class="img-fluid"
-                  alt="Subscribe"
+                  width="8"
+                  height="10"
+                  alt="To the top"
+                  class="places-arrow-icon"
                 />
               </a>
             </div>
