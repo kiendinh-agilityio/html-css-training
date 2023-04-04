@@ -14,7 +14,7 @@
 .places-contact-group {
   gap: 6px;
   margin-bottom: 13px;
-  width: calc(100% / 2);
+  width: calc(100% / 2 - 6px);  /* 100% / 2 - 6px is the distance between name and email */
 }
 
 .places-form-control {
