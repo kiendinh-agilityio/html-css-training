@@ -13,7 +13,7 @@
   left: -1px;
 }
 
-.nav-item {
+.places-nav-item {
   padding: 20px 15px;
 }
 
@@ -25,6 +25,10 @@
 
   .places-navbar-nav {
     position: static;
+  }
+
+  .places-nav-item {
+    padding: 0;
   }
 }
 
