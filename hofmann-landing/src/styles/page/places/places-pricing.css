@@ -35,6 +35,10 @@
   background-color: var(--bg-secondary);
 }
 
+.places-price {
+  font-family: var(--font-family-primary-regular);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .places-pricing {
