@@ -71,6 +71,10 @@
   gap: 16px;
 }
 
+.places-footer-nav-item:hover {
+  color: var(--color-secondary);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .places-footer {
