@@ -36,7 +36,7 @@
 .places-footer-social-icon,
 .places-footer-description {
   mix-blend-mode: normal;
-  opacity: 0.5;
+  opacity: var(--opacity-sm);
 }
 
 .places-nav-list,
