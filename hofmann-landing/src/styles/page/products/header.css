@@ -46,6 +46,19 @@
   text-transform: uppercase;
 }
 
+.product-navbar-nav {
+  position: absolute;
+  background: var(--bg-dark);
+  z-index: 2;
+  width: 100%;
+  top: 52px;
+}
+
+.product-nav-item {
+  padding: 20px 0
+}
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .product-header {
@@ -93,6 +106,14 @@
   .btn-app-store {
     margin-right: 15px;
   }
+
+  .product-navbar-nav {
+    position: static;
+  }
+
+  .product-nav-item {
+    padding: 0;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -115,7 +136,8 @@
   }
 
   .product-header-img {
-    bottom: -63px;
+    bottom: -13px;
+    right: -35px;
   }
 
   .header-product-content {
@@ -141,13 +163,6 @@
   .product-sub-heading {
     font-size: var(--font-size-sub-heading);
     line-height: var(--line-height-xl);
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .product-header-img {
-    bottom: -48px;
   }
 }
 
