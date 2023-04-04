@@ -61,7 +61,6 @@
   height: 50px;
   border: 1px solid var(--bg-tertiary);
   background-color: var(--bg-tertiary);
-  border-radius: 50%;
 }
 
 /* Medium devices (tablets, 768px and up) */
