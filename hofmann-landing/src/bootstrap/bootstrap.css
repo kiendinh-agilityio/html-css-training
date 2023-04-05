@@ -660,6 +660,12 @@ h2,
     -ms-flex-align: center !important;
     align-items: center !important;
   }
+
+  .align-items-lg-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
 }
 
 @media (min-width: 1200px) {
