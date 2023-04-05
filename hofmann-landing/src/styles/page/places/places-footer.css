@@ -180,7 +180,7 @@
   }
 
   .places-footer-introduction {
-    max-width: calc(1440px - 150px);
+    max-width: calc(1440px - 150px); /* Container Width = 1440px - left-right margin = 150px */
     margin: auto;
   }
 }
