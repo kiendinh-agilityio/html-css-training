@@ -69,6 +69,7 @@
   }
 }
 
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .testimonials-list {
     padding: 50px;
@@ -87,5 +88,13 @@
 
   .testimonials-hr-item {
     padding-bottom: 48px;
+  }
+}
+
+/* Extra large devices (large desktops, 200-px and up) */
+@media (min-width: 2000px) {
+  .testimonials-list {
+    margin: 15px auto 0;
+    width: calc(1760 * 100% / 2000 - 120px); /* Width container = 1760 * 100% / width screen 2000px - padding-left and right = 120px */
   }
 }
