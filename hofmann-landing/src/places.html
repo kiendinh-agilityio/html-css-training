@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="Hofmann Landing" name="description" />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <link rel="preload stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="preload stylesheet" href="./styles/main.css" />
+    <link href="./bootstrap/bootstrap.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/main.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/page/places/places.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
     <title>Places Page</title>
   </head>
   <body class="places-page">
@@ -21,14 +22,12 @@
                 width="41"
                 height="44"
                 srcset="./assets/images/desktop/logo.svg"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="27"
                 height="29"
                 srcset="./assets/images/tablet/logo.svg"
-                loading="lazy"
               />
               <img
                 src="./assets/images/mobile/logo.svg"
