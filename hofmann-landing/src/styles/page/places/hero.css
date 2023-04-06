@@ -15,8 +15,11 @@
   font-family: var(--font-family-primary-bold);
   font-size: var(--font-size-lg);
   line-height: var(--line-height-normal);
-  max-width: 190px;
+  min-width: 190px;
   margin: 15px auto;
+  min-height: 72px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .places-hero-input {
@@ -63,6 +66,24 @@
   background-color: var(--bg-tertiary);
 }
 
+.places-sub-heading {
+  min-width: 360px;
+  min-height: 16px;
+}
+
+.places-our-team-heading {
+  min-width: 360px;
+  height: 40px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .places-heading {
+    width: 400px;
+    padding: 0;
+  }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .places-hero {
@@ -82,8 +103,8 @@
   .places-heading {
     font-size: var(--font-size-2xl);
     line-height: var(--line-height-xl);
-    max-width: 405px;
-    padding-top: 60px;
+    width: 405px;
+    padding: 60px 0 0;
   }
 
   .places-hero-input {
@@ -140,7 +161,7 @@
   .places-heading {
     font-size: var(--font-size-4xl);
     line-height: var(--line-height-4xl);
-    max-width: 100%;
+    width: 100%;
     padding-top: 85px;
     margin: 66px auto 21px;
   }
