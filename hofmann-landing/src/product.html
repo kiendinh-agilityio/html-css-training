@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Hofmann Landing" name="description" />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link href="./bootstrap/bootstrap.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/main.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/page/products/products.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
     <title>Product Page</title>
   </head>
   <body>
@@ -21,14 +23,12 @@
                 width="41"
                 height="44"
                 srcset="./assets/images/desktop/logo.svg"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="27"
                 height="29"
                 srcset="./assets/images/tablet/logo.svg"
-                loading="lazy"
               />
               <img
                 src="./assets/images/mobile/logo.svg"
@@ -200,10 +200,10 @@
 
     <!-- Advantages section start -->
     <section class="product-advantages">
-      <div class="container-fluid d-flex flex-column text-center">
-        <h2 class="heading product-advantages-heading">Stunning Results</h2>
-        <p class="advantages-description">Just look to the statistics we have generate the past year.</p>
-        <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-center justify-content-xl-around advantages-description product-advantages-list">
+      <div class="container-fluid d-flex flex-column">
+        <h2 class="d-flex justify-content-center heading product-advantages-heading">Stunning Results</h2>
+        <p class="d-flex justify-content-center advantages-description">Just look to the statistics we have generate the past year.</p>
+        <div class="d-flex flex-column text-center align-items-center flex-md-row justify-content-md-center justify-content-xl-around advantages-description product-advantages-list">
           <div class="d-flex flex-column align-items-center advantages-item advantages-conversion">
             <div class="rounded-circle circular-progress">
               <div class="rounded-circle circular-progress-circle">
@@ -339,16 +339,16 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/app-maintenance.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/app-maintenance.webp"
-                loading="lazy"
               />
+              <source srcset="./assets/images/mobile/product/app-maintenance.png" type="image/png">
               <img
+                loading="lazy"
                 src="./assets/images/mobile/product/app-maintenance.webp"
                 width="120"
                 height="120"
@@ -366,19 +366,19 @@
               <picture>
                 <source
                   media="(min-width: 992px)"
-                  width="262"
-                  height="262"
+                  width="282"
+                  height="282"
                   srcset="./assets/images/desktop/product/fta-keys.webp"
-                  loading="lazy"
                 />
                 <source
                   media="(min-width: 768px)"
                   width="160"
                   height="160"
                   srcset="./assets/images/tablet/product/fta-keys.webp"
-                  loading="lazy"
                 />
+                <source srcset="./assets/images/mobile/product/fta-keys.png" type="image/png">
                 <img
+                  loading="lazy"
                   src="./assets/images/mobile/product/fta-keys.webp"
                   width="120"
                   height="120"
@@ -406,16 +406,16 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/smart-watch.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/smart-watch.webp"
-                loading="lazy"
               />
+              <source srcset="./assets/images/mobile/product/smart-watch.png" type="image/png">
               <img
+                loading="lazy"
                 src="./assets/images/mobile/product/smart-watch.webp"
                 width="120"
                 height="120"
@@ -435,16 +435,16 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/watch-apps.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/watch-apps.webp"
-                loading="lazy"
               />
+              <source srcset="./assets/images/mobile/product/watch-apps.png" type="image/png">
               <img
+                loading="lazy"
                 src="./assets/images/mobile/product/watch-apps.webp"
                 width="120"
                 height="120"

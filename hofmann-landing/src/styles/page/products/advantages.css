@@ -1,6 +1,8 @@
 .product-advantages {
   padding: 28px 0 32px;
   background: var(--bg-primary);
+  min-width: 390px;
+  min-height: 828px;
 }
 
 .advantages-description {
@@ -87,6 +89,8 @@
 @media (min-width: 768px) {
   .product-advantages {
     padding: 31px 0 36px;
+    min-width: 768px;
+    min-height: 376px;
   }
 
   .product-advantages-list {
@@ -107,11 +111,17 @@
 @media (min-width: 992px) {
   .product-advantages {
     padding: 70px 30px;
+    min-width: 992px;
+    min-height: 714px;
+    position: relative;
+    z-index: 2;
   }
 
   .advantages-description {
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
+    min-width: 788px;
+    min-height: 24px;
   }
 
   .text-small {
@@ -130,6 +140,8 @@
 
   .advantages-item {
     padding-bottom: 24px;
+    min-width: 204px;
+    min-height: 426px;
   }
 }
 

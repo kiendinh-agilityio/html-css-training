@@ -54,6 +54,7 @@
   font-size: var(--font-size-sm);
   font-family: var(--font-family-secondary-regular);
   padding: 20px 15px;
+  text-transform: uppercase;
 }
 
 .hofmann-navbar-nav {
