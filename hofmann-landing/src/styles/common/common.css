@@ -55,6 +55,10 @@
   color: var(--color-secondary);
 }
 
+.p-5 {
+  padding: 5px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .heading {
