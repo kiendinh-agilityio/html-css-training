@@ -1,10 +1,7 @@
 .header {
   width: 100%;
   min-height: 540px;
-  background-image: url("/hofmann-landing/src/assets/images/mobile/background.webp");
-  background-image: image-set(
-    url("/hofmann-landing/src/assets/images/mobile/background.jpg")
-  ); /* Safari */
+  background-image: url("/hofmann-landing/src/assets/images/mobile/background.webp"), url("/hofmann-landing/src/assets/images/mobile/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: initial;
