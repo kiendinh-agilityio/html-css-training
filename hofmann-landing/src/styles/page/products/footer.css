@@ -102,6 +102,8 @@
 @media (min-width: 1400px) {
   .product-footer-introduction {
     padding: 0 80px;
+    max-width: 1440px;
+    margin: auto;
   }
 
   .nav-item-heading {
