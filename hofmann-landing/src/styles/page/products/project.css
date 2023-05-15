@@ -1,5 +1,6 @@
 .product-project {
   padding: 29px 0 56px;
+  background: var(--bg-primary);
 }
 
 .product-project-list {
@@ -31,8 +32,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .product-project {
-    padding: 35px 0 17px;
-    margin-bottom: 38px;
+    padding: 35px 0 48px;
   }
 
   .product-project-description {
@@ -52,7 +52,7 @@
 /* Large devices (desktop, 992px and up) */
 @media (min-width: 992px) {
   .product-project {
-    padding: 67px 0 40px;
+    padding: 67px 0 75px;
   }
 
   .project-item-heading {

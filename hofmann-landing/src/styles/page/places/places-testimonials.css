@@ -1,0 +1,79 @@
+.places-testimonials {
+  background-color: var(--bg-primary);
+  padding: 32px 0 52px;
+}
+
+.places-testimonials-name {
+  margin: 10px 0 16px;
+}
+
+.places-dot-list {
+  margin-top: 20px;
+  gap: 23px;
+}
+
+.places-testimonials-description {
+  padding: 0 42px;
+}
+
+.places-testimonials-avatar {
+  width: 92px;
+  height: 92px;
+  border: 5px solid var(--color-secondary);
+}
+
+.carousel-next-icon {
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .places-testimonials {
+    padding: 60px 56px;
+  }
+
+  .places-testimonials-avatar {
+    width: 112px;
+    height: 112px;
+  }
+
+  .places-testimonials-name {
+    margin: 14px 0 16px;
+  }
+
+  .places-dot-list {
+    margin-top: 25px;
+  }
+}
+
+/* Large devices (desktop, 992px and up) */
+@media (min-width: 992px) {
+  .places-testimonials {
+    padding: 100px 83px;
+  }
+
+  .places-testimonials-avatar {
+    width: 180px;
+    height: 180px;
+  }
+
+  .places-testimonials-name {
+    margin: 32px 0 23px;
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-heading);
+  }
+
+  .places-dot-list {
+    margin-top: 53px;
+    gap: 16px;
+  }
+
+  .places-testimonials-description {
+    max-width: 555px;
+    padding: 0;
+  }
+}

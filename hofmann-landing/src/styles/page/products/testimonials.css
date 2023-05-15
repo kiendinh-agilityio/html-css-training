@@ -1,5 +1,6 @@
 .product-testimonials {
   padding: 28px 40px 48px;
+  background: var(--bg-primary);
 }
 
 .product-testimonials-list {

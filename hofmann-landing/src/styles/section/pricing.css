@@ -98,15 +98,21 @@
   }
 
   .pricing-platinum {
-    background: rgba(0, 0, 0, 0.82);
-    border: 1px solid var(--bg-card-primary);
+    background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.4001) 6.85%, rgba(0, 0, 0, 0.501127) 96.5%);
+    background-blend-mode: multiply;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--bg-tertiary);
   }
 
   .pricing-silver {
-    background: rgba(0, 0, 0, 0.76);
-    border: 1px solid var(--bg-card-secondary);
+    background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+    background-blend-mode: soft-light;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--bg-tertiary);
   }
 
   .btn-purchase {
@@ -160,14 +166,16 @@
   }
 
   .pricing-platinum {
-    background: rgba(0, 0, 0, 0.72);
+    background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
     border: 1px solid var(--bg-card-primary);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background: var(--bg-tertiary);
   }
 
   .pricing-silver {
-    background: var(--bg-card-secondary);
-    border: 1px solid var(--bg-card-secondary);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
+    border: 1px solid var(--bg-tertiary);
+    background-blend-mode: soft-light;
+    background-color: var(--bg-tertiary);
   }
 }
