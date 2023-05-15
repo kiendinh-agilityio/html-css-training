@@ -6,107 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="Hofmann Landing" name="description" />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link href="./bootstrap/bootstrap.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/main.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
     <title>Hofmann</title>
   </head>
   <body>
     <!-- Header start -->
-    <section class="header position-relative">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-md d-flex justify-content-between">
-          <a href="./index.html" aria-label="Header logo">
-            <picture>
-              <source
-                media="(min-width: 992px)"
-                width="41"
-                height="44"
-                srcset="./assets/images/desktop/logo.svg"
-                loading="lazy"
-              />
-              <source
-                media="(min-width: 768px)"
-                width="27"
-                height="29"
-                srcset="./assets/images/tablet/logo.svg"
-                loading="lazy"
-              />
-              <img
-                src="./assets/images/mobile/logo.svg"
-                width="20"
-                height="24"
-                class="img-fluid"
-                alt="Hofmann"
-              />
-            </picture>
-          </a>
-          <ul
-            class="collapse navbar-collapse justify-content-md-center navbar-nav"
-            id="navbarSupportedContent"
-          >
-            <li class="nav-item">
-              <a aria-label="Navigation link to home" href="#HOME">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a aria-label="Navigation link to product" href="./product.html"
-                >PRODUCT</a
-              >
-            </li>
-            <li class="nav-item">
-              <a aria-label="Navigation link to places" href="#PLACES"
-                >PLACES</a
-              >
-            </li>
-            <li class="nav-item">
-              <a aria-label="Navigation link to find more" href="#FIND MORE"
-                >FIND MORE</a
-              >
-            </li>
-          </ul>
-          <div class="d-flex nav-social">
-            <a href="#" aria-label="Twitter" class="social-item">
-              <img
-                class="header-social-icon"
-                src="./assets/images/header/twitter.svg"
-                width="20"
-                height="16"
-                alt="Twitter"
-              />
-            </a>
-            <a href="#" aria-label="Facebook">
-              <img
-                class="header-social-icon"
-                src="./assets/images/header/facebook.svg"
-                width="20"
-                height="16"
-                alt="Facebook"
-              />
-            </a>
-            <a href="#" aria-label="Instagram">
-              <img
-                class="header-social-icon"
-                src="./assets/images/header/instagram.svg"
-                width="20"
-                height="16"
-                alt="Instagram"
-              />
-            </a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-label="Toggle navigation"
-          >
-            <img
-              src="./assets/images/header/hamburger.svg"
-              alt="Hamburger button"
-              width="16"
-              height="24"
+    <header class="header position-relative">
+      <nav class="navbar navbar-expand-md d-flex justify-content-between position-relative hoffman-navbar">
+        <a href="./index.html" aria-label="Header logo">
+          <picture>
+            <source
+              media="(min-width: 992px)"
+              width="41"
+              height="44"
+              srcset="./assets/images/desktop/logo.svg"
             />
-          </button>
-        </nav>
+            <source
+              media="(min-width: 768px)"
+              width="27"
+              height="29"
+              srcset="./assets/images/tablet/logo.svg"
+            />
+            <img
+              src="./assets/images/mobile/logo.svg"
+              width="20"
+              height="24"
+              class="img-fluid"
+              alt="Hofmann"
+            />
+          </picture>
+        </a>
+        <ul
+          class="collapse navbar-collapse align-items-start justify-content-md-center navbar-nav hofmann-navbar-nav"
+          id="navbarSupportedContent"
+        >
+          <li class="nav-item">
+            <a aria-label="Navigation link to home" href="./index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a aria-label="Navigation link to product" href="./product.html"
+              >product</a
+            >
+          </li>
+          <li class="nav-item">
+            <a aria-label="Navigation link to places" href="./places.html"
+              >places</a
+            >
+          </li>
+          <li class="nav-item">
+            <a aria-label="Navigation link to find more" href="#FIND MORE"
+              >find more</a
+            >
+          </li>
+        </ul>
+        <div class="d-flex nav-social">
+          <a href="#" aria-label="Twitter" class="social-item">
+            <img
+              class="header-social-icon"
+              src="./assets/images/header/twitter.svg"
+              width="20"
+              height="16"
+              alt="Twitter"
+            />
+          </a>
+          <a href="#" aria-label="Facebook">
+            <img
+              class="header-social-icon"
+              src="./assets/images/header/facebook.svg"
+              width="20"
+              height="16"
+              alt="Facebook"
+            />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img
+              class="header-social-icon"
+              src="./assets/images/header/instagram.svg"
+              width="20"
+              height="16"
+              alt="Instagram"
+            />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-label="Toggle navigation"
+        >
+          <img
+            src="./assets/images/header/hamburger.svg"
+            alt="Hamburger button"
+            width="16"
+            height="24"
+          />
+        </button>
+      </nav>
+      <div class="container-fluid">
         <div class="d-flex flex-column text-center header-content">
           <h1 class="header-heading">
             See The Unmatched Beauty Of The Great Lakes
@@ -162,7 +160,7 @@
           alt="Arrow down"
         />
       </a>
-    </section>
+    </header>
     <!-- Header end -->
 
     <!-- Features section start -->
@@ -176,7 +174,7 @@
           <div
             class="d-flex flex-column flex-md-row position-relative features-content"
           >
-            <div class="d-flex flex-column features-list">
+            <div class="d-flex flex-column align-items-lg-start features-list">
               <div
                 class="d-flex flex-row text-left justify-content-lg-center features-item"
               >
@@ -292,19 +290,19 @@
             <picture class="testimonials-img">
               <source
                 media="(min-width: 992px)"
-                width="96"
-                height="204"
-                srcset="./assets/images/desktop/lulu-hoffman.webp"
-                loading="lazy"
+                width="100"
+                height="207"
+                srcset="./assets/images/desktop/lulu-hoffman-1x.webp 1x, ./assets/images/desktop/lulu-hoffman-2x.webp 2x"
+                type="image/webp"
               />
               <source
                 media="(min-width: 768px)"
                 width="71"
                 height="121"
                 srcset="./assets/images/tablet/lulu-hoffman.webp"
-                loading="lazy"
               />
               <img
+                loading="lazy"
                 src="./assets/images/mobile/lulu-hoffman.webp"
                 width="65"
                 height="111"
@@ -356,19 +354,19 @@
             <picture class="testimonials-img">
               <source
                 media="(min-width: 992px)"
-                width="96"
-                height="204"
-                srcset="./assets/images/desktop/elsie-dunkan.webp"
-                loading="lazy"
+                width="100"
+                height="207"
+                srcset="./assets/images/desktop/elsie-dunkan-1x.webp 1x, ./assets/images/desktop/elsie-dunkan-2x.webp 2x"
+                type="image/webp"
               />
               <source
                 media="(min-width: 768px)"
                 width="71"
                 height="121"
                 srcset="./assets/images/tablet/elsie-dunkan.webp"
-                loading="lazy"
               />
               <img
+                loading="lazy"
                 src="./assets/images/mobile/elsie-dunkan.webp"
                 width="65"
                 height="111"
@@ -412,19 +410,19 @@
             <picture class="testimonials-img">
               <source
                 media="(min-width: 992px)"
-                width="96"
-                height="204"
-                srcset="./assets/images/desktop/dustin-gonzales.webp"
-                loading="lazy"
-              />
+                width="101"
+                height="206"
+                srcset="./assets/images/desktop/dustin-gonzales-1x.webp 1x, ./assets/images/desktop/dustin-gonzales-2x.webp"
+                type="image/webp"
+                />
               <source
                 media="(min-width: 768px)"
                 width="71"
                 height="121"
                 srcset="./assets/images/tablet/dustin-gonzales.webp"
-                loading="lazy"
               />
               <img
+                loading="lazy"
                 src="./assets/images/mobile/dustin-gonzales.webp"
                 width="65"
                 height="111"
@@ -477,19 +475,19 @@
             <picture class="testimonials-img">
               <source
                 media="(min-width: 992px)"
-                width="96"
-                height="204"
-                srcset="./assets/images/desktop/laura-parks.webp"
-                loading="lazy"
-              />
+                width="101"
+                height="206"
+                srcset="./assets/images/desktop/laura-parks-1x.webp 1x, ./assets/images/desktop/laura-parks-2x.webp 2x"
+                type="image/webp"
+                />
               <source
                 media="(min-width: 768px)"
                 width="71"
                 height="121"
                 srcset="./assets/images/tablet/laura-parks.webp"
-                loading="lazy"
               />
               <img
+                loading="lazy"
                 src="./assets/images/mobile/laura-parks.webp"
                 width="65"
                 height="111"
@@ -702,7 +700,7 @@
               <article
                 class="d-flex flex-column text-left blue-mountais-content"
               >
-                <h4 class="gallery-item-heading">Blue Mountains</h4>
+                <h3 class="gallery-item-heading">Blue Mountains</h3>
                 <p class="gallery-item-text">17 Apr 2016</p>
                 <p
                   class="description text-color-light blue-mountains-description"
@@ -824,7 +822,7 @@
           <li
             class="order-md-6 gallery-item d-flex flex-column text-left gallery-wild-nature gallery-img-small color-text-primary"
           >
-            <h4 class="gallery-item-heading">Scenery Photos</h4>
+            <h3 class="gallery-item-heading">Scenery Photos</h3>
             <p class="gallery-item-text wild-nature-text">BY EVGENY METILAN</p>
             <p class="wild-nature">Wild Nature</p>
           </li>
@@ -1088,8 +1086,8 @@
                   />
                   <img
                     src="./assets/images/mobile/subscribe.svg"
-                    width="4"
-                    height="8"
+                    width="8"
+                    height="11"
                     class="img-fluid"
                     alt="Subscribe"
                   />
@@ -1100,7 +1098,7 @@
               class="d-flex justify-content-center justify-content-xl-between font-secondary-regular footer-nav"
             >
               <ul class="d-flex flex-column footer-nav-item">
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#About Us"
@@ -1108,7 +1106,7 @@
                     >About Us</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Explore"
@@ -1116,7 +1114,7 @@
                     >Explore</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Contact"
@@ -1126,7 +1124,7 @@
                 </li>
               </ul>
               <ul class="d-flex flex-column footer-nav-item">
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Testimonials"
@@ -1134,7 +1132,7 @@
                     >Testimonials</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Blog"
@@ -1142,7 +1140,7 @@
                     >Blog</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#News"
@@ -1152,7 +1150,7 @@
                 </li>
               </ul>
               <ul class="d-flex flex-column footer-nav-item">
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Documentation"
@@ -1160,7 +1158,7 @@
                     >Documentation</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Help"
@@ -1168,7 +1166,7 @@
                     >Help</a
                   >
                 </li>
-                <li>
+                <li class="p-5">
                   <a
                     class="footer-text"
                     href="#Privacy"
@@ -1192,7 +1190,7 @@
                   class="form-control footer-form-control"
                   placeholder="Your Email"
                 />
-                <a href="#" class="input-group-prepend" aria-label="Subscribe">
+                <a href="#" class="align-items-center input-group-prepend" aria-label="Subscribe">
                   <picture>
                     <source
                       media="(min-width: 992px)"
@@ -1203,8 +1201,8 @@
                     />
                     <img
                       src="./assets/images/mobile/subscribe.svg"
-                      width="4"
-                      height="8"
+                      width="8"
+                      height="11"
                       class="img-fluid"
                       alt="Subscribe"
                     />

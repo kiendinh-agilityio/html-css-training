@@ -55,6 +55,10 @@
   color: var(--color-secondary);
 }
 
+.p-5 {
+  padding: 5px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .heading {
@@ -91,5 +95,12 @@
 
   .z-index-1 {
     z-index: -1;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .m-width-1100 {
+    max-width: 1100px;
   }
 }
