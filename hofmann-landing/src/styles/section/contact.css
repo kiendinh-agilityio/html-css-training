@@ -175,6 +175,8 @@
 @media (min-width: 1400px) {
   .contact-introduction {
     padding: 0 60px;
+    max-width: 1400px;
+    margin: auto;
   }
 
   .contact-form-group {
