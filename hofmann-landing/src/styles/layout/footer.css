@@ -152,6 +152,8 @@
 @media (min-width: 1200px) {
   .footer-content {
     padding: 20px 75px;
+    max-width: 1500px;
+    margin: auto;
   }
 
   .footer-info {
@@ -170,10 +172,10 @@
 /* Extra large devices (large desktop, 1600px and up) */
 @media (min-width: 1600px) {
   .footer-nav {
-    width: 0;
+    width: 50%;
   }
 
   .footer-nav-item {
-    padding: 0 40px;
+    padding: 0 25px;
   }
 }
