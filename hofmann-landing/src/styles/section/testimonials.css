@@ -63,12 +63,13 @@
   }
 
   .testimonials-hr-item {
-    border-bottom: 1px solid #f6f6f6;
+    border-bottom: 1px solid var(--color-hr-bottom);
     border-radius: 8px;
     padding-bottom: 48px;
   }
 }
 
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .testimonials-list {
     padding: 50px;
@@ -87,5 +88,13 @@
 
   .testimonials-hr-item {
     padding-bottom: 48px;
+  }
+}
+
+/* Extra large devices (large desktops, 200-px and up) */
+@media (min-width: 2000px) {
+  .testimonials-list {
+    margin: 15px auto 0;
+    width: calc(1760px - 240px); /* Width container = 1760 on screen 2000px - padding-left + right = 120px */
   }
 }

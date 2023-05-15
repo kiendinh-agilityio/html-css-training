@@ -12,6 +12,9 @@
   --color-input: #7d7d7d;
   --color-hr-border: #4b4b4b;
   --color-hr-bottom: #7d7d7d;
+  --color-btn-hero: #3c3c3c;
+  --color-border-input-places: #999;
+  --color-border-form-places: #e6e6e6;
 
   --bg-primary: #fff;
   --bg-secondary: #ebcb80;
@@ -24,6 +27,7 @@
   --bg-wild-nature: #f6f6f6;
   --bg-hr-border: #4b4b4b;
   --bg-btn-project: #4b4b4b;
+  --bg-dark: #000;
 
   /* font family */
   --font-family-primary-regular: "Montserrat Regular";
@@ -81,6 +85,9 @@
   --line-height-gallery-text: 42px;
   --line-height-dollar-lg: 29px;
   --line-height-description-card: 26px;
+  --line-height-our-team-job: 26px;
+  --line-height-heading: 27px;
+  --line-height-btn-places-advantages: 20px;
 
   /* container */
   --container-padding-sm: 15px;
@@ -95,4 +102,8 @@
   --border-radius-normal: 20px;
   --border-radius-lg: 48px;
   --border-radius-base: 50px;
+
+  /* opacity */
+  --opacity-sm: 0.5;
+  --opacity-md: 0.8;
 }

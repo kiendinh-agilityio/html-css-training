@@ -53,6 +53,22 @@
 .nav-item {
   font-size: var(--font-size-sm);
   font-family: var(--font-family-secondary-regular);
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+
+.hofmann-navbar-nav {
+  position: absolute;
+  top: 55px;
+  z-index: 2;
+  background: #536d7a;
+  width: 100%;
+  right: 0;
+}
+
+.hoffman-navbar {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -76,6 +92,20 @@
     font-size: var(--font-size-2xl);
     line-height: var(--line-height-xl);
     margin: auto;
+  }
+
+  .hofmann-navbar-nav {
+    position: static;
+    background: none;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .hoffman-navbar {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -113,6 +143,11 @@
   .header-social-icon {
     width: 29px;
     height: 24px;
+  }
+
+  .hoffman-navbar {
+    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 

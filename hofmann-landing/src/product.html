@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Hofmann Landing" name="description" />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link href="./bootstrap/bootstrap.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/main.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
+    <link href="./styles/page/products/products.css" rel="preload stylesheet" as="style" onload="this.onload=null" />
     <title>Product Page</title>
   </head>
   <body>
     <!-- Header start -->
-    <section class="product-header">
+    <header class="product-header">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar">
+        <nav class="navbar navbar-expand-md d-flex justify-content-between product-navbar position-relative">
           <a href="./index.html" aria-label="Header logo">
             <picture>
               <source
@@ -21,14 +23,12 @@
                 width="41"
                 height="44"
                 srcset="./assets/images/desktop/logo.svg"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="27"
                 height="29"
                 srcset="./assets/images/tablet/logo.svg"
-                loading="lazy"
               />
               <img
                 src="./assets/images/mobile/logo.svg"
@@ -40,23 +40,23 @@
             </picture>
           </a>
           <ul
-            class="collapse navbar-collapse justify-content-md-center navbar-nav"
+            class="collapse navbar-collapse align-items-start justify-content-md-center navbar-nav product-navbar-nav"
             id="navbarSupportedContent"
           >
-            <li class="nav-item">
+            <li class="nav-item product-nav-item">
               <a aria-label="Navigation link to home" href="./index.html">home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item product-nav-item">
               <a aria-label="Navigation link to product" href="./product.html"
                 >product</a
               >
             </li>
-            <li class="nav-item">
-              <a aria-label="Navigation link to places" href="#places"
+            <li class="nav-item product-nav-item">
+              <a aria-label="Navigation link to places" href="./places.html"
                 >palces</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item product-nav-item">
               <a aria-label="Navigation link to find more" href="#find more"
                 >find more</a
               >
@@ -200,10 +200,10 @@
 
     <!-- Advantages section start -->
     <section class="product-advantages">
-      <div class="container-fluid d-flex flex-column text-center">
-        <h2 class="heading product-advantages-heading">Stunning Results</h2>
-        <p class="advantages-description">Just look to the statistics we have generate the past year.</p>
-        <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-center justify-content-xl-around advantages-description product-advantages-list">
+      <div class="container-fluid d-flex flex-column">
+        <h2 class="d-flex justify-content-center heading product-advantages-heading">Stunning Results</h2>
+        <p class="d-flex justify-content-center advantages-description">Just look to the statistics we have generate the past year.</p>
+        <div class="d-flex flex-column text-center align-items-center flex-md-row justify-content-md-center justify-content-xl-around advantages-description product-advantages-list">
           <div class="d-flex flex-column align-items-center advantages-item advantages-conversion">
             <div class="rounded-circle circular-progress">
               <div class="rounded-circle circular-progress-circle">
@@ -339,19 +339,18 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/app-maintenance.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/app-maintenance.webp"
-                loading="lazy"
               />
+              <source width="120" height="120" srcset="./assets/images/mobile/product/app-maintenance.webp" type="image/webp">
+              <source srcset="./assets/images/mobile/product/app-maintenance.png" type="image/png">
               <img
-                src="./assets/images/mobile/product/app-maintenance.webp"
-                width="120"
-                height="120"
+                loading="lazy"
+                src="./assets/images/mobile/product/app-maintenance.png"
                 class="img-fluid"
                 alt="App maintenance"
               />
@@ -366,22 +365,21 @@
               <picture>
                 <source
                   media="(min-width: 992px)"
-                  width="262"
-                  height="262"
+                  width="282"
+                  height="282"
                   srcset="./assets/images/desktop/product/fta-keys.webp"
-                  loading="lazy"
                 />
                 <source
                   media="(min-width: 768px)"
                   width="160"
                   height="160"
                   srcset="./assets/images/tablet/product/fta-keys.webp"
-                  loading="lazy"
                 />
+                <source width="120" height="120" srcset="./assets/images/mobile/product/fta-keys.webp" type="image/webp">
+                <source srcset="./assets/images/mobile/product/fta-keys.png" type="image/png">
                 <img
-                  src="./assets/images/mobile/product/fta-keys.webp"
-                  width="120"
-                  height="120"
+                  loading="lazy"
+                  src="./assets/images/mobile/product/fta-keys.png"
                   class="img-fluid rounded-circle"
                   alt="Fta keys"
                 />
@@ -406,19 +404,18 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/smart-watch.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/smart-watch.webp"
-                loading="lazy"
               />
+              <source width="120" height="120" srcset="./assets/images/mobile/product/smart-watch.webp" type="image/webp">
+              <source srcset="./assets/images/mobile/product/smart-watch.png" type="image/png">
               <img
-                src="./assets/images/mobile/product/smart-watch.webp"
-                width="120"
-                height="120"
+                loading="lazy"
+                src="./assets/images/mobile/product//smart-watch.png"
                 class="img-fluid"
                 alt="Smart watch"
               />
@@ -435,19 +432,18 @@
                 width="262"
                 height="262"
                 srcset="./assets/images/desktop/product/watch-apps.webp"
-                loading="lazy"
               />
               <source
                 media="(min-width: 768px)"
                 width="160"
                 height="160"
                 srcset="./assets/images/tablet/product/watch-apps.webp"
-                loading="lazy"
               />
+              <source width="120" height="120" srcset="./assets/images/mobile/product/watch-apps.webp" type="image/webp">
+              <source srcset="./assets/images/mobile/product/watch-apps.png" type="image/png">
               <img
-                src="./assets/images/mobile/product/watch-apps.webp"
-                width="120"
-                height="120"
+                loading="lazy"
+                src="./assets/images/mobile/product/watch-apps.png"
                 class="img-fluid"
                 alt="Watch apps"
               />
@@ -626,19 +622,19 @@
             <div class="d-flex align-items-center product-contact-icon">
               <img src="./assets/images/product/location.svg" width="11" height="17" alt="Location">
             </div>
-            <p>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+            <p class="p-5">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
           </div>
           <div class="d-flex align-items-center">
             <div class="d-flex align-items-center product-contact-icon">
               <img src="./assets/images/product/mail.svg" width="17" height="10" alt="Mail">
             </div>
-            <a href="mailto: contact@hofmannui.net" aria-label="Link to email: contact@hofmannui.net">contact@hofmannui.net</a>
+            <a class="p-5" href="mailto: contact@hofmannui.net" aria-label="Link to email: contact@hofmannui.net">contact@hofmannui.net</a>
           </div>
           <div class="d-flex align-items-center">
             <div class="d-flex align-items-center product-contact-icon">
               <img src="./assets/images/product/phone.svg" width="11" height="17" alt="Phone">
             </div>
-            <a href="tel:9527756021" aria-label="Link to phone: 952-775-6021">952-775-6021</a>
+            <a class="p-5" href="tel:9527756021" aria-label="Link to phone: 952-775-6021">952-775-6021</a>
           </div>
         </address>
       </div>

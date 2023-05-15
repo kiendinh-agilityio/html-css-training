@@ -1,0 +1,93 @@
+.places-our-team {
+  background-color: var(--bg-primary);
+  padding: 40px 0 71px;
+}
+
+.places-our-team-list {
+  margin-top: 8px;
+}
+
+.our-team-item {
+  margin-bottom: 36px;
+}
+
+.our-team-avatar {
+  margin-right: 21px;
+}
+
+.our-team-job {
+  margin: 2px 0 9px;
+}
+
+.our-team-decscription {
+  width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .places-our-team {
+    padding: 40px 0 49px;
+  }
+
+  .places-our-team-list {
+    margin: 23px auto 0;
+    max-width: 768px;
+  }
+
+  .our-team-item {
+    width: 50%;
+    padding: 0 30px;
+  }
+
+  .our-team-avatar {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+/* Large devices (desktop, 992px and up) */
+@media (min-width: 992px) {
+  .places-our-team-list {
+    max-width: 900px;
+  }
+
+  .our-team-item {
+    width: calc(100% / 3);
+    padding: 0px 10px;
+  }
+
+  .our-team-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .our-team-name {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-our-team-job);
+  }
+
+  .our-team-job,
+  .our-team-decscription {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+  }
+}
+
+/* Extra Large devices (large desktop, 1200px and up) */
+@media (min-width: 1200px) {
+  .places-our-team {
+    padding-bottom: 90px;
+  }
+
+  .places-our-team-list {
+    max-width: 1200px;
+  }
+
+  .places-our-team-list {
+    margin-top: 57px;
+  }
+
+  .our-team-item {
+    padding: 0 25px;
+  }
+}
