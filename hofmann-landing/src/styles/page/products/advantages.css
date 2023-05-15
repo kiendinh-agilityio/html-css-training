@@ -135,13 +135,16 @@
   }
 
   .advantages-conversion {
-    margin-top: 21px;
+    margin-top: 0;
   }
 
   .advantages-item {
     padding-bottom: 24px;
     min-width: 204px;
     min-height: 426px;
+  }
+  .advantages-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
@@ -155,8 +158,9 @@
 /* Large devices (desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .product-advantages-list {
-    gap: 0;
-    margin-top: 40px;
+    gap: 150px;
+    margin: 40px auto 0;
     padding: 0 33px;
+    max-width: 2000px;
   }
 }
