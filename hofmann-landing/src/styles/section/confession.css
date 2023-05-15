@@ -1,8 +1,5 @@
 .confession {
-  background-image: url("/hofmann-landing/src/assets/images/mobile/confession.webp");
-  background-image: image-set(
-    url("/hofmann-landing/src/assets/images/mobile/confession.jpg") 2x
-  ); /* Safari */
+  background-image: url("/hofmann-landing/src/assets/images/mobile/confession.webp"), url("/hofmann-landing/src/assets/images/mobile/confession.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,10 +38,7 @@
 /* Medium devices (large desktops, 768px and up) */
 @media (min-width: 768px) {
   .confession {
-    background-image: url("/hofmann-landing/src/assets/images/tablet/confession.webp");
-    background-image: image-set(
-      url("/hofmann-landing/src/assets/images/tablet/confession.jpg") 2x
-    ); /* Safari */
+    background-image: url("/hofmann-landing/src/assets/images/tablet/confession.webp"), url("/hofmann-landing/src/assets/images/tablet/confession.jpg");
   }
 
   .confession-content-empty {
@@ -69,10 +63,7 @@
 /* Large devices (large desktops, 992px and up) */
 @media (min-width: 992px) {
   .confession {
-    background-image: url("/hofmann-landing/src/assets/images/desktop/confession.webp");
-    background-image: image-set(
-      url("/hofmann-landing/src/assets/images/desktop/confession.jpg") 2x
-    ); /* Safari */
+    background-image: url("/hofmann-landing/src/assets/images/desktop/confession.webp"), url("/hofmann-landing/src/assets/images/desktop/confession.jpg");
     min-height: 590px;
   }
 
